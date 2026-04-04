@@ -1,0 +1,128 @@
+{
+  "page_id": "230fca84-6eab-4639-bbff-0ce4cf692d72",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        600
+      ],
+      "description": "Medium shot: Alice standing in a surreal, magical forest, holding her hand to the top of her head, eyes looking upward to check her size, soft ethereal lighting.",
+      "shot_type": "medium",
+      "characters": [
+        "Alice"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "Alice",
+          "text": "Which way?",
+          "type": "speech",
+          "bbox": [
+            50,
+            50,
+            400,
+            150
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_2"
+      ],
+      "bbox": [
+        10,
+        620,
+        1790,
+        1200
+      ],
+      "description": "Close up: Alice's face, eyes wide with genuine surprise, brow slightly furrowed, realization that she hasn't changed size, focus on expression, cinematic lighting.",
+      "shot_type": "close_up",
+      "characters": [
+        "Alice"
+      ],
+      "bubbles": []
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_3",
+        "beat_4",
+        "beat_5"
+      ],
+      "bbox": [
+        10,
+        1220,
+        890,
+        2390
+      ],
+      "description": "Medium close up: Alice looking around at the strange, shifting environment, expression of growing bewilderment and wonder.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Alice"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "Alice",
+          "text": "Curiouser and curiouser!",
+          "type": "speech",
+          "bbox": [
+            50,
+            1250,
+            800,
+            1400
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_6",
+        "beat_7",
+        "beat_8",
+        "beat_9",
+        "beat_10",
+        "beat_11",
+        "beat_12",
+        "beat_13",
+        "beat_14",
+        "beat_15",
+        "beat_16",
+        "beat_17"
+      ],
+      "bbox": [
+        910,
+        1220,
+        1790,
+        2390
+      ],
+      "description": "Wide shot: Alice standing in the middle of a swirling, abstract dreamscape, looking small and fragile against the vast, confusing environment, colors vibrant and shifting.",
+      "shot_type": "wide",
+      "characters": [
+        "Alice"
+      ],
+      "bubbles": []
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "curiosity",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4"
+  ]
+}

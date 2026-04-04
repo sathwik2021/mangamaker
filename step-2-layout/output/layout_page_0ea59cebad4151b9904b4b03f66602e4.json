@@ -1,0 +1,179 @@
+{
+  "page_id": "0ea59cebad4151b9904b4b03f66602e4",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_3"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        580
+      ],
+      "description": "Medium shot: Mina Murray sitting at a tidy wooden desk in a sunlit classroom, ink quill in hand, focused and determined expression, piles of student papers and a chalkboard in the background.",
+      "shot_type": "medium",
+      "characters": [
+        "Mina Murray"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "Mina Murray",
+          "text": "My dearest Lucy, I long to be with you. Being an assistant schoolmistress is noble, but I hope to be useful to Jonathan in ways beyond these walls.",
+          "type": "narration",
+          "bbox": [
+            50,
+            50,
+            800,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_4",
+        "beat_5"
+      ],
+      "bbox": [
+        10,
+        590,
+        1790,
+        1170
+      ],
+      "description": "Medium close-up: Mina practicing shorthand in a notebook, soft side-lighting, stack of books nearby, thoughtful expression as she visualizes her future as a chronicler.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Mina Murray"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "Mina Murray",
+          "text": "I am mastering shorthand. I want to keep a diary—to capture every conversation, every detail, so nothing precious is ever forgotten.",
+          "type": "narration",
+          "bbox": [
+            900,
+            650,
+            1700,
+            800
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_2",
+        "beat_6"
+      ],
+      "bbox": [
+        10,
+        1180,
+        890,
+        1780
+      ],
+      "description": "Close-up: Lucy Westenra in a lush Victorian garden, pouting playfully at a letter in her hand, vibrant flowers blurred in the background.",
+      "shot_type": "close_up",
+      "characters": [
+        "Lucy Westenra"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "Lucy Westenra",
+          "text": "My dearest Mina! Your letters are so rare. If only you could see this handsome, curly-haired stranger the town is whispering about.",
+          "type": "speech",
+          "bbox": [
+            50,
+            1250,
+            800,
+            1450
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_7",
+        "beat_8"
+      ],
+      "bbox": [
+        900,
+        1180,
+        1790,
+        1780
+      ],
+      "description": "Medium shot: Lucy strolling through a sunny park, holding a parasol, looking excited as she talks to a companion off-screen about a potential suitor for Mina.",
+      "shot_type": "medium",
+      "characters": [
+        "Lucy Westenra"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "Lucy Westenra",
+          "text": "Town is lovely today. I must tell you—I met a man, and he is just the sort of refined, intelligent match I have been hoping for you.",
+          "type": "speech",
+          "bbox": [
+            950,
+            1250,
+            1700,
+            1450
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_9",
+        "beat_10",
+        "beat_11"
+      ],
+      "bbox": [
+        10,
+        1790,
+        1790,
+        2390
+      ],
+      "description": "Close-up: Lucy looking into a decorative mirror, expression filled with sudden, intense realization, soft dramatic lighting capturing her reflection.",
+      "shot_type": "close_up",
+      "characters": [
+        "Lucy Westenra"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "Lucy Westenra",
+          "text": "He works at a lunatic asylum, yet his demeanor is so remarkably calm—as if he reads souls. I find myself looking into my own reflection, wondering if I am so easily deciphered.",
+          "type": "speech",
+          "bbox": [
+            100,
+            1850,
+            1600,
+            2050
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "curiosity",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

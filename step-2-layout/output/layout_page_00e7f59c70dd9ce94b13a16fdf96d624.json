@@ -1,0 +1,211 @@
+{
+  "page_id": "00e7f59c70dd9ce94b13a16fdf96d624",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1"
+      ],
+      "bbox": [
+        0,
+        0,
+        1800,
+        500
+      ],
+      "description": "Medium close shot: John Silver, a weathered pirate with a sinister grin and a crutch tucked under his arm, glares directly at the viewer (Tom's perspective), his face displaying an intense, defiant expression. He stands on a desolate beach, sparse vegetation in the background. Dramatic shadows emphasize his menacing presence under an overcast sky.",
+      "shot_type": "medium_close",
+      "characters": [
+        "John Silver"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1_1",
+          "character": "John Silver",
+          "text": "Then rest his soul for a true seaman! And as for you, John Silver, long you've been a mate of mine, but you're mate of mine no more. If I die like a dog, I'll die in my dooty. You've killed Alan, have you? Kill me too, if you can. But I defies you.",
+          "type": "speech",
+          "bbox": [
+            50,
+            50,
+            1750,
+            450
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_2",
+        "beat_3",
+        "beat_4"
+      ],
+      "bbox": [
+        0,
+        510,
+        895,
+        960
+      ],
+      "description": "Dynamic medium shot: John Silver, turning his back sharply, his face contorted in a furious scowl, whips his crutch from his armpit. His one powerful leg is firmly planted on the sandy beach. The heavy, gnarled crutch is captured mid-air, hurtling with immense force towards Tom, who is partially visible in the distance, his back turned and unsuspecting. Action lines convey the brutal speed. The sky is a heavy, ominous grey.",
+      "shot_type": "medium",
+      "characters": [
+        "John Silver",
+        "Tom"
+      ],
+      "bubbles": []
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_5",
+        "beat_6"
+      ],
+      "bbox": [
+        905,
+        510,
+        1800,
+        960
+      ],
+      "description": "Brutal medium shot: Tom's back is violently impacted by the crutch, visible as a blurred point of contact. His face is distorted in a silent gasp of agonizing pain and disbelief. Overlaying this, John Silver, agile and merciless, is already upon him, knife glinting sinisterly as he plunges it into Tom's defenseless body. Dynamic angles and heavy shadows intensify the sudden, shocking violence.",
+      "shot_type": "medium",
+      "characters": [
+        "Tom",
+        "John Silver"
+      ],
+      "bubbles": []
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_7",
+        "beat_8",
+        "beat_9"
+      ],
+      "bbox": [
+        0,
+        970,
+        1800,
+        1470
+      ],
+      "description": "Disorienting wide shot, reflecting the narrator's fading consciousness: The scene is slightly blurred and warped. In the foreground, Tom lies motionless upon the sward, a dark stain spreading on his clothes. In the mid-ground, John Silver, with a chillingly calm expression, cleanses his blood-stained knife on a wisp of grass, his back partially to the viewer. The distant Spy-glass hilltop is visible, swirling slightly in the background, implying the narrator's dizziness and horror. Dark, muted colors and heavy shadows cast over the brutal aftermath.",
+      "shot_type": "wide",
+      "characters": [
+        "John Silver",
+        "Tom"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4_1",
+          "character": "narration",
+          "text": "The whole world swam away from before me in a whirling mist; Silver and the birds, and the tall Spy-glass hilltop, going round and round and topsy-turvy before my eyes...",
+          "type": "narration",
+          "bbox": [
+            50,
+            1000,
+            1750,
+            1420
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_10",
+        "beat_11"
+      ],
+      "bbox": [
+        0,
+        1480,
+        895,
+        1930
+      ],
+      "description": "Tense medium shot: A calloused hand, presumably John Silver's, is raised, blowing a sharp, urgent signal (perhaps a whistle or a cupped mouth creating a sound) against a backdrop of dense jungle. The sound waves are visually depicted. The narrator (Jim Hawkins), hidden amongst the shadowy thicket, is seen in the foreground, clutching his chest, his eyes wide with dawning terror. His facial expression morphs from fear to a frantic, panicking look as the signal's meaning dawns on him.",
+      "shot_type": "medium",
+      "characters": [
+        "John Silver",
+        "Jim Hawkins (narrator)"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5_1",
+          "character": "narration",
+          "text": "I could not tell the meaning of the signal, but it instantly awoke my fears. Fear grew and grew upon me until it turned into a kind of frenzy.",
+          "type": "narration",
+          "bbox": [
+            50,
+            1500,
+            845,
+            1880
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_6",
+      "beat_ids": [
+        "beat_12",
+        "beat_13",
+        "beat_16"
+      ],
+      "bbox": [
+        905,
+        1480,
+        1800,
+        1930
+      ],
+      "description": "Dynamic wide shot from a low angle: Jim Hawkins, a young boy with frantic, wild eyes and disheveled hair, bursts from the thicket, sprinting desperately across the sandy beach. His body is contorted with panic and exhaustion, mouth open in a silent scream. Speed lines emanate from his form, emphasizing his blurring speed. The dense jungle looms menacingly behind him, while the vast, open beach offers no immediate comfort or safety. The sky above is dark and ominous, mirroring his fear.",
+      "shot_type": "wide",
+      "characters": [
+        "Jim Hawkins (narrator)"
+      ],
+      "bubbles": []
+    },
+    {
+      "id": "panel_7",
+      "beat_ids": [
+        "beat_14",
+        "beat_15"
+      ],
+      "bbox": [
+        0,
+        1940,
+        1800,
+        2400
+      ],
+      "description": "Poignant medium_close shot: Jim Hawkins, the narrator, is slumped against a rough tree trunk or a weathered rock on the beach. His head is bowed slightly, eyes reflecting a mix of utter exhaustion, deep despair, and a flicker of grim determination. Sweat streaks his grimy face. His expression conveys the heavy weight of his realization, a sense of being completely lost and facing dire choices. Soft, desperate lighting emphasizes his predicament.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Jim Hawkins (narrator)"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_7_1",
+          "character": "narration",
+          "text": "Indeed, could anyone be more entirely lost than I? Good-bye to the HISPANIOLA; good-bye to the squire, the doctor, and the captain! There was nothing left for me but death by starvation or death by the hands of the mutineers.",
+          "type": "narration",
+          "bbox": [
+            50,
+            1990,
+            1750,
+            2350
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "Violence, Fear, Desperation",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5",
+    "panel_6",
+    "panel_7"
+  ]
+}

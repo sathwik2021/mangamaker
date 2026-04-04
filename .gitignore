@@ -1,0 +1,34 @@
+# 🧬 MangaMaker Master .gitignore
+
+# Virtual Environments (DO NOT UPLOAD)
+venv_gpu/
+venv*/
+Step-1/venv*/
+
+# Datasets (Large Binary Folders)
+step-3/dataset/
+webapp/web_output/
+
+# LoRA Results (ALLOWED)
+# Specifically allowing .safetensors (LoRA models)
+!step-3/results/**/*.safetensors
+
+# Exclude temp renders and individual result folders
+step-3/results/output*/
+step-3/results/panels/
+step-3/results/output_real/
+
+# Massive Archives
+step-3.zip
+
+# Output & Temp Files
+web_output/results/
+test_output/
+*.log
+*.ipynb
+*.txt
+.env
+
+# Python Cache
+__pycache__/
+*.py[cod]

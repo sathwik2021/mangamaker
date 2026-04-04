@@ -1,0 +1,145 @@
+{
+  "page_id": "1f73ed13b4501db1dd059d7c2b68b344",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        600
+      ],
+      "description": "Wide shot: A group of weary soldiers and pack camels struggling up a steep, rocky mountain path covered in loose shale. The atmosphere is tense with exertion, dramatic lighting capturing the dust kicked up by their boots, dynamic perspective showing the slope's incline.",
+      "shot_type": "wide",
+      "characters": [
+        "The narrator",
+        "The companions",
+        "The commissariat camels"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "The narrator",
+          "text": "As we scramble up the hill, the path lost in rolling stones, we push forward. It's our delight on a mountain height, with a leg or two to spare!",
+          "type": "narration",
+          "bbox": [
+            50,
+            50,
+            600,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_2"
+      ],
+      "bbox": [
+        10,
+        620,
+        1790,
+        1100
+      ],
+      "description": "Medium shot: A battle-worn sergeant gesturing forward with a frustrated expression, looking back at the struggling column. Harsh shadows emphasize his lined face.",
+      "shot_type": "medium",
+      "characters": [
+        "The sergeant"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "The sergeant",
+          "text": "Good luck to every sergeant that lets us pick our road; Bad luck to all the driver-men that cannot pack a load!",
+          "type": "speech",
+          "bbox": [
+            50,
+            660,
+            800,
+            850
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_3"
+      ],
+      "bbox": [
+        10,
+        1120,
+        1790,
+        1700
+      ],
+      "description": "Medium close-up: A line of camels with long, wrinkled necks, mid-bray, looking exhausted. Dust swirls in the air. The feeling is one of chaotic, rhythmic frustration.",
+      "shot_type": "medium_close",
+      "characters": [
+        "The commissariat camels"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "The commissariat camels",
+          "text": "Can't! Don't! Sha'n't! Won't! Urr! Yarrh! Grr! Arrh!",
+          "type": "shout",
+          "bbox": [
+            1000,
+            1150,
+            1700,
+            1400
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_4"
+      ],
+      "bbox": [
+        10,
+        1720,
+        1790,
+        2390
+      ],
+      "description": "Wide panoramic shot: The massive, snake-like caravan of camels and weary men stretching across the vast, barren plain toward a distant horizon. Low, desaturated lighting, high-angle view showing the collective scale of their suffering and resolve.",
+      "shot_type": "wide",
+      "characters": [
+        "The companions",
+        "The commissariat camels",
+        "The children of the camp"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "The narrator",
+          "text": "Children of the Camp are we... Serving each in his degree. While men that walk beside, dusty and heavy-eyed, march and suffer day by day.",
+          "type": "narration",
+          "bbox": [
+            100,
+            1760,
+            900,
+            2000
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "resolve",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4"
+  ]
+}

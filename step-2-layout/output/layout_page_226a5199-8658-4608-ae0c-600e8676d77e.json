@@ -1,0 +1,185 @@
+{
+  "page_id": "226a5199-8658-4608-ae0c-600e8676d77e",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        580
+      ],
+      "description": "Medium shot: Machua Appa stands before a crowd, gesturing proudly toward young Toomai, who looks modest but resolute. Jungle clearing at twilight, warm golden light on Toomai's face.",
+      "shot_type": "medium",
+      "characters": [
+        "Toomai",
+        "Machua Appa"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "Machua Appa",
+          "text": "This little one shall be Toomai of the Elephants! He shall be greater than I.",
+          "type": "speech",
+          "bbox": [
+            100,
+            50,
+            800,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_3",
+        "beat_4",
+        "beat_5"
+      ],
+      "bbox": [
+        10,
+        590,
+        890,
+        1190
+      ],
+      "description": "Low angle medium shot: Toomai standing confidently in front of a massive, chained bull elephant. The elephant looks down at the boy with intelligent, recognizing eyes.",
+      "shot_type": "medium",
+      "characters": [
+        "Toomai"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "Toomai",
+          "text": "Aihai! My lords in the chains. Here is the one who saw your hidden dances!",
+          "type": "speech",
+          "bbox": [
+            50,
+            620,
+            850,
+            800
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_6",
+        "beat_7",
+        "beat_8",
+        "beat_9"
+      ],
+      "bbox": [
+        900,
+        590,
+        1790,
+        1190
+      ],
+      "description": "Medium close-up: Toomai raises his hand in a command gesture. High intensity mood, sharp shadows, forest canopy light filtering down.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Toomai"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "Toomai",
+          "text": "Salaam karo! Give him honor! Barrao!",
+          "type": "shout",
+          "bbox": [
+            950,
+            650,
+            1700,
+            800
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_10",
+        "beat_11"
+      ],
+      "bbox": [
+        10,
+        1200,
+        1790,
+        1790
+      ],
+      "description": "Wide action shot: The entire line of elephants in the keddah raising their trunks in a synchronized, majestic salute to Toomai. Dramatic dust particles in the air, cinematic scale.",
+      "shot_type": "wide",
+      "characters": [
+        "Toomai"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": null,
+          "text": "A crashing trumpet-peal that only the Viceroy hears—The Salaamut of the Keddah.",
+          "type": "narration",
+          "bbox": [
+            50,
+            1600,
+            1750,
+            1750
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_15",
+        "beat_16",
+        "beat_17",
+        "beat_18"
+      ],
+      "bbox": [
+        10,
+        1800,
+        1790,
+        2390
+      ],
+      "description": "Mythological sequence: Parbati and Shiva sitting on a cosmic cloud, Parbati revealing a tiny grasshopper. Ethereal, soft lighting, stylistic shift to ancient folklore depiction.",
+      "shot_type": "wide",
+      "characters": [
+        "Shiv",
+        "Parbati"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "Shiv",
+          "text": "All have had their part, even the little one hidden 'neath thy heart.",
+          "type": "speech",
+          "bbox": [
+            100,
+            1850,
+            900,
+            2050
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "Awe",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

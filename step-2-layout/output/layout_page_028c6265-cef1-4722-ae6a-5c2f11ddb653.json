@@ -1,0 +1,182 @@
+{
+  "page_id": "028c6265-cef1-4722-ae6a-5c2f11ddb653",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        10,
+        10,
+        895,
+        790
+      ],
+      "description": "Wide shot: A haggard, wild-eyed man in torn clothes stumbles through a desolate, debris-strewn street in St. John's Wood under a bleak, overcast sky. Two sympathetic, elderly people gently approach and offer him support, their faces full of concern. Overcast, somber lighting, hints of distant destruction visible in the background.",
+      "shot_type": "wide",
+      "characters": [
+        "demented man",
+        "kind people"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "narration",
+          "text": "Across the Channel, across the Irish Sea, across the Atlantic, corn, bread, and meat were tearing to our relief. All the shipping in the world seemed going Londonward in those days. But of all this I have no memory. I drifted—a demented man. I found myself in a house of kindly people, who had found me on the third day wandering, weeping, and raving through the streets of St. John's Wood.",
+          "type": "narration",
+          "bbox": [
+            30,
+            30,
+            875,
+            280
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_3"
+      ],
+      "bbox": [
+        905,
+        10,
+        1790,
+        790
+      ],
+      "description": "Medium shot: Inside a modestly furnished, warm sitting room. The narrator, looking less disheveled but still weary, sits in an armchair. A kind, middle-aged woman offers him a cup of tea, her expression gentle and caring. Soft, inviting lamplight casts comforting shadows on the cozy interior.",
+      "shot_type": "medium",
+      "characters": [
+        "demented man",
+        "kind people"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "narration",
+          "text": "Troubled as they were with their own affairs, these people, whose name, much as I would like to express my gratitude, I may not even give here, nevertheless cumbered themselves with me, sheltered me, and protected me from myself.",
+          "type": "narration",
+          "bbox": [
+            925,
+            30,
+            1770,
+            280
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_4",
+        "beat_5"
+      ],
+      "bbox": [
+        10,
+        800,
+        895,
+        1590
+      ],
+      "description": "Medium close-up: The narrator's face contorted in a mix of shock and profound sorrow, eyes wide and unfocused. He holds his hands to his face in disbelief. In the background, out of focus, a kind man gently gestures towards a window, implying distant destruction. Heavy, dramatic shadows across the narrator's face. A faint, red glow from the window suggests a Martian-ravaged landscape.",
+      "shot_type": "medium_close",
+      "characters": [
+        "demented man",
+        "kind people"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "narration",
+          "text": "Very gently, when my mind was assured again, did they break to me what they had learned of the fate of Leatherhead. Two days after I was imprisoned it had been destroyed, with every soul in it, by a Martian. He had swept it out of existence, as it seemed, without any provocation, as a boy might crush an ant hill, in the mere wantonness of power.",
+          "type": "narration",
+          "bbox": [
+            30,
+            820,
+            875,
+            1070
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_6",
+        "beat_8",
+        "beat_9"
+      ],
+      "bbox": [
+        905,
+        800,
+        1790,
+        1590
+      ],
+      "description": "Medium close-up: The narrator, dressed in slightly better but still simple clothes, stands by a window, gazing out with a deep, melancholic expression. His face is illuminated by a dim, grey light from outside. His shoulders are slumped, conveying profound loneliness and introspection. The window shows a blurred, desolate landscape, emphasizing his isolation.",
+      "shot_type": "medium_close",
+      "characters": [
+        "demented man"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "narration",
+          "text": "I was a lonely man and a sad one, and they bore with me. All that time I felt a vague, a growing craving to look once more on whatever remained of the little life that seemed so happy and bright in my past. It was a mere hopeless desire to feast upon my misery.",
+          "type": "narration",
+          "bbox": [
+            925,
+            820,
+            1770,
+            1070
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_10",
+        "beat_11"
+      ],
+      "bbox": [
+        10,
+        1600,
+        1790,
+        2390
+      ],
+      "description": "Medium shot: The narrator, now resolute but with a tear tracing his cheek, stands at the threshold of the kind people's home, holding a small satchel. The kind people stand behind him, their faces filled with worry and gentle understanding. They reach out as if in a final farewell gesture. Early morning light, muted and slightly hazy, signaling the start of a somber pilgrimage.",
+      "shot_type": "medium",
+      "characters": [
+        "demented man",
+        "kind people"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "narration",
+          "text": "They dissuaded me. They did all they could to divert me from this morbidity. But at last I could resist the impulse no longer, and, promising faithfully to return to them, and parting, as I will confess, from these four-day friends with tears, I went out again on my melancholy pilgrimage to the little house at Woking.",
+          "type": "narration",
+          "bbox": [
+            30,
+            1620,
+            1770,
+            1870
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "calm",
+  "dominant_emotion": "melancholy",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

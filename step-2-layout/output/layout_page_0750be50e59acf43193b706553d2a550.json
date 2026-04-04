@@ -1,0 +1,320 @@
+{
+  "page_id": "0750be50e59acf43193b706553d2a550",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2",
+        "beat_3"
+      ],
+      "bbox": [
+        50,
+        50,
+        1750,
+        620
+      ],
+      "description": "Wide shot: Chaotic scene in a dimly lit parlour. I (a young boy) is stumbling near a broken glass and a tipped-over tap, trying to move. In the foreground, the Captain lies sprawled on the wooden floor, unmoving. Mother's silhouette is visible rushing down the stairs in the background. Dust motes hang in the air, conveying sudden disruption. Low key lighting.",
+      "shot_type": "wide",
+      "characters": [
+        "I",
+        "captain",
+        "mother"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "narration",
+          "text": "Rum! Rum!",
+          "type": "narration",
+          "bbox": [
+            80,
+            80,
+            350,
+            120
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_4",
+        "beat_5",
+        "beat_6"
+      ],
+      "bbox": [
+        50,
+        640,
+        1750,
+        1120
+      ],
+      "description": "Medium shot: Close focus on I and Mother kneeling beside the Captain's head on the floor. Mother looks frantic and concerned, supporting the Captain's head. I looks terrified. Strong contrast between their pale faces and the dark wood floor.",
+      "shot_type": "medium",
+      "characters": [
+        "mother",
+        "I",
+        "captain"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "mother",
+          "text": "Dear, deary me,",
+          "type": "speech",
+          "bbox": [
+            1350,
+            650,
+            1700,
+            700
+          ]
+        },
+        {
+          "id": "bubble_3",
+          "character": "mother",
+          "text": "what a disgrace upon the house! And your poor father sick!",
+          "type": "speech",
+          "bbox": [
+            1350,
+            710,
+            1700,
+            790
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_7",
+        "beat_8",
+        "beat_9"
+      ],
+      "bbox": [
+        50,
+        1140,
+        890,
+        1620
+      ],
+      "description": "Medium close-up: I is intensely focused on forcing a small cup of liquid (rum) towards the Captain's locked jaw. The Captain's face is tight, purple-tinged, showing severe distress or unconsciousness. Tense atmosphere, dark shadows.",
+      "shot_type": "medium_close",
+      "characters": [
+        "I",
+        "captain"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "narration",
+          "text": "In the meantime, we had no idea what to do to help the captain, nor any other thought but that he had got his death-hurt in the scuffle with the stranger.",
+          "type": "narration",
+          "bbox": [
+            80,
+            1150,
+            840,
+            1270
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_10",
+        "beat_11",
+        "beat_12"
+      ],
+      "bbox": [
+        910,
+        1140,
+        1750,
+        1620
+      ],
+      "description": "Close up on the Captain's mouth area and I's hand struggling to administer the liquid. Focus on the tension in the Captain's jaw, teeth clenched tight against the bottle neck. Frustration and urgency on I's face.",
+      "shot_type": "close_up",
+      "characters": [
+        "I",
+        "captain"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "I",
+          "text": "Rum, rum!",
+          "type": "shout",
+          "bbox": [
+            1370,
+            1480,
+            1690,
+            1540
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_13"
+      ],
+      "bbox": [
+        50,
+        1640,
+        1750,
+        2000
+      ],
+      "description": "Wide shot: The parlour door bursts open, silhouetting Doctor Livesey dramatically framed in the doorway. He is holding a small medical bag. I and Mother look up from the floor towards the entrance with immense relief. Bright light streams in from the hall.",
+      "shot_type": "wide",
+      "characters": [
+        "Doctor Livesey",
+        "I",
+        "mother"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_6",
+          "character": "narration",
+          "text": "It was a happy relief for us when the door opened and Doctor Livesey came in, on his visit to my father.",
+          "type": "narration",
+          "bbox": [
+            80,
+            1650,
+            1700,
+            1750
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_6",
+      "beat_ids": [
+        "beat_14",
+        "beat_15"
+      ],
+      "bbox": [
+        50,
+        2020,
+        890,
+        2350
+      ],
+      "description": "Medium close-up: Mother looks pleadingly at Doctor Livesey, her expression a mix of desperation and hope. Doctor Livesey stands authoritatively, looking down towards the Captain on the floor.",
+      "shot_type": "medium_close",
+      "characters": [
+        "mother",
+        "Doctor Livesey"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_7",
+          "character": "mother",
+          "text": "Oh, doctor,",
+          "type": "speech",
+          "bbox": [
+            100,
+            2030,
+            350,
+            2080
+          ]
+        },
+        {
+          "id": "bubble_8",
+          "character": "mother",
+          "text": "What shall we do? Where is he wounded?",
+          "type": "speech",
+          "bbox": [
+            100,
+            2090,
+            450,
+            2150
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_7",
+      "beat_ids": [
+        "beat_16",
+        "beat_17",
+        "beat_18",
+        "beat_19"
+      ],
+      "bbox": [
+        910,
+        2020,
+        1750,
+        2350
+      ],
+      "description": "Medium shot: Doctor Livesey, calm and in control, gestures dismissively with one hand while holding his medical bag firmly with the other. He looks sternly at Mother and I, asserting his medical opinion. Lighting highlights his confident posture.",
+      "shot_type": "medium",
+      "characters": [
+        "Doctor Livesey",
+        "mother",
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_9",
+          "character": "Doctor Livesey",
+          "text": "Wounded? A fiddle-stick's end!",
+          "type": "speech",
+          "bbox": [
+            1000,
+            2030,
+            1700,
+            2080
+          ]
+        },
+        {
+          "id": "bubble_10",
+          "character": "Doctor Livesey",
+          "text": "The man has had a stroke, as I warned him.",
+          "type": "speech",
+          "bbox": [
+            1000,
+            2090,
+            1700,
+            2140
+          ]
+        },
+        {
+          "id": "bubble_11",
+          "character": "Doctor Livesey",
+          "text": "Now, Mrs. Hawkins, just run upstairs to your husband, if you can, and tell him nothing of it, if you can.",
+          "type": "speech",
+          "bbox": [
+            1000,
+            2150,
+            1700,
+            2250
+          ]
+        },
+        {
+          "id": "bubble_12",
+          "character": "Doctor Livesey",
+          "text": "For my part, I must do my best to save this fellow's trebly worthless life.",
+          "type": "speech",
+          "bbox": [
+            1000,
+            2260,
+            1700,
+            2340
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "panic_turning_to_relief",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5",
+    "panel_6",
+    "panel_7"
+  ]
+}

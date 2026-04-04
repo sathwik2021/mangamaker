@@ -1,0 +1,138 @@
+{
+  "page_id": "06c393673a36f0182d5e7a6d8e04cd28",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_2"
+      ],
+      "bbox": [
+        50,
+        50,
+        1750,
+        572
+      ],
+      "description": "Wide shot: Bennet, dressed formally in a study, leans over a large mahogany desk, signing a document with a quill pen. He looks resigned but focused. Soft, diffused light from a nearby window. The room is richly paneled in dark wood.",
+      "shot_type": "wide",
+      "characters": [
+        "Bennet"
+      ],
+      "bubbles": []
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_4"
+      ],
+      "bbox": [
+        50,
+        602,
+        1750,
+        1124
+      ],
+      "description": "Medium close-up: Bennet, still at the desk, looks away from the document towards the viewer/off-panel right, a faint, almost invisible hint of satisfaction mixed with world-weariness on his face. The light catches the texture of his formal attire.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Bennet"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "Bennet",
+          "text": "In terms of grateful acknowledgment for the kindness of his brother, though expressed most concisely, he then delivered on paper his perfect approbation of all that was done, and his willingness to fulfil the engagements that had been made for him.",
+          "type": "speech",
+          "bbox": [
+            200,
+            620,
+            1550,
+            1050
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_6"
+      ],
+      "bbox": [
+        50,
+        1154,
+        1750,
+        1676
+      ],
+      "description": "Medium shot: Focus on Bennet's hand, now holding the sealed letter. His grip is firm but careful. The background is blurred, suggesting the internal focus on the finality of the action. Dramatic side lighting emphasizes the importance of the document.",
+      "shot_type": "medium",
+      "characters": [
+        "Bennet"
+      ],
+      "bubbles": []
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_7",
+        "beat_8",
+        "beat_9"
+      ],
+      "bbox": [
+        925,
+        1706,
+        1750,
+        2348
+      ],
+      "description": "Close-up: A very brief, internal thought bubble of Mr. Bennet's quiet realization about the surprisingly convenient arrangement regarding Wickham. Soft, reflective mood.",
+      "shot_type": "close_up",
+      "characters": [
+        "Bennet"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "Bennet (Thought)",
+          "text": "Never thought it would be this convenient...",
+          "type": "whisper",
+          "bbox": [
+            1000,
+            1750,
+            1700,
+            2100
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_10",
+        "beat_11",
+        "beat_12"
+      ],
+      "bbox": [
+        50,
+        1706,
+        850,
+        2348
+      ],
+      "description": "Wide shot: Establishing shot of the exterior of Longbourn manor house under a slightly overcast, yet calm, sky. The architecture suggests stability and tradition. A faint sense of resolution hangs over the scene.",
+      "shot_type": "wide",
+      "characters": [
+        "Longbourn"
+      ],
+      "bubbles": []
+    }
+  ],
+  "layout_style": "calm",
+  "dominant_emotion": "resignation",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

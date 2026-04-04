@@ -1,0 +1,288 @@
+{
+  "page_id": "03e3702c314922e011a0ee4a4ff37e65",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2",
+        "beat_3"
+      ],
+      "bbox": [
+        0,
+        0,
+        1800,
+        500
+      ],
+      "description": "Wide angle action shot: The smoke-filled yard of the log house. In the foreground, Gray stands over a fallen boatswain with a cutlass. To the left, a pirate lies in agony by a loophole, a smoking pistol near his hand. In the background, the Doctor delivers a decisive blow to another attacker. Gritty textures, debris flying, high contrast lighting.",
+      "shot_type": "wide",
+      "characters": [
+        "Gray",
+        "doctor"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "none",
+          "text": "The yard was a scene of carnage; Gray and the Doctor moved with lethal efficiency, cutting down the boarders before they could recover.",
+          "type": "narration",
+          "bbox": [
+            50,
+            50,
+            600,
+            150
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_4",
+        "beat_7"
+      ],
+      "bbox": [
+        0,
+        510,
+        895,
+        1000
+      ],
+      "description": "Medium shot: The last surviving pirate, eyes wide with the fear of death, clambers desperately over the wooden palisade. His cutlass lies forgotten on the grass behind him. He is fleeing toward the dark line of the woods.",
+      "shot_type": "medium",
+      "characters": [
+        "unnamed pirate"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "none",
+          "text": "One only remained, scrambling for his life, leaving his steel behind.",
+          "type": "narration",
+          "bbox": [
+            50,
+            560,
+            400,
+            700
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_5",
+        "beat_6"
+      ],
+      "bbox": [
+        905,
+        510,
+        1800,
+        1000
+      ],
+      "description": "Medium shot: Inside the log house, a defender's face is illuminated by a flash of light through a loophole. He is shouting orders, face strained with urgency. Dust and gunpowder smoke swirl around him.",
+      "shot_type": "medium",
+      "characters": [
+        "Captain Smollett"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "Captain Smollett",
+          "text": "Fire--fire from the house!",
+          "type": "shout",
+          "bbox": [
+            1000,
+            550,
+            1400,
+            650
+          ]
+        },
+        {
+          "id": "bubble_4",
+          "character": "Captain Smollett",
+          "text": "And you, lads, back into cover.",
+          "type": "shout",
+          "bbox": [
+            1100,
+            700,
+            1700,
+            800
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_9",
+        "beat_11"
+      ],
+      "bbox": [
+        0,
+        1010,
+        1800,
+        1450
+      ],
+      "description": "Wide shot: Jim, the Doctor, and Gray sprint across the threshold of the blockhouse, seeking shelter. The air inside is thick with clearing white smoke. They look back toward the palisade, their expressions a mix of adrenaline and dread.",
+      "shot_type": "wide",
+      "characters": [
+        "Gray",
+        "doctor",
+        "Jim"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "none",
+          "text": "We ran for the shelter of the house, the smoke clearing just enough to show the price of our victory.",
+          "type": "narration",
+          "bbox": [
+            50,
+            1060,
+            600,
+            1160
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_12",
+        "beat_13"
+      ],
+      "bbox": [
+        0,
+        1460,
+        1800,
+        1900
+      ],
+      "description": "Medium shot: The grim interior of the blockhouse. Joyce lies motionless on the floor. In the center, the Squire, pale as a ghost, kneels and supports Captain Smollett, who is wounded and clutching his side. Hunter lies stunned nearby. Dramatic shadows fall across the scene.",
+      "shot_type": "medium",
+      "characters": [
+        "Hunter",
+        "Squire",
+        "Captain Smollett"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_6",
+          "character": "Squire",
+          "text": "The captain's wounded,",
+          "type": "speech",
+          "bbox": [
+            1200,
+            1500,
+            1600,
+            1600
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_6",
+      "beat_ids": [
+        "beat_14",
+        "beat_15",
+        "beat_16"
+      ],
+      "bbox": [
+        0,
+        1910,
+        895,
+        2400
+      ],
+      "description": "Medium close-up: The Doctor, his face dirty and clothes blood-stained, looks down at the Captain while checking his medical bag. He looks weary but speaks with firm resolve. Soft lighting from the loopholes hits his face.",
+      "shot_type": "medium_close",
+      "characters": [
+        "doctor",
+        "Captain Smollett"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_7",
+          "character": "Captain Smollett",
+          "text": "Have they run?",
+          "type": "speech",
+          "bbox": [
+            50,
+            1950,
+            350,
+            2050
+          ]
+        },
+        {
+          "id": "bubble_8",
+          "character": "doctor",
+          "text": "All that could, you may be bound; but there's five of them will never run again.",
+          "type": "speech",
+          "bbox": [
+            100,
+            2100,
+            800,
+            2300
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_7",
+      "beat_ids": [
+        "beat_17",
+        "beat_18"
+      ],
+      "bbox": [
+        905,
+        1910,
+        1800,
+        2400
+      ],
+      "description": "Close-up: Captain Smollett’s face, etched with pain but showing a sharp, calculating glint in his eyes. He gives a grim, determined smile. The lighting is low and moody, focusing on his expression of renewed hope.",
+      "shot_type": "close_up",
+      "characters": [
+        "Captain Smollett"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_9",
+          "character": "Captain Smollett",
+          "text": "Five!",
+          "type": "shout",
+          "bbox": [
+            1000,
+            1950,
+            1200,
+            2050
+          ]
+        },
+        {
+          "id": "bubble_10",
+          "character": "Captain Smollett",
+          "text": "Come, that's better. Five against three leaves us four to nine. That's better odds than we had at starting.",
+          "type": "speech",
+          "bbox": [
+            1100,
+            2100,
+            1750,
+            2350
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "tense relief",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5",
+    "panel_6",
+    "panel_7"
+  ]
+}

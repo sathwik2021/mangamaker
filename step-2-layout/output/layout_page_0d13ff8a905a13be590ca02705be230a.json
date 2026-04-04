@@ -1,0 +1,145 @@
+{
+  "page_id": "0d13ff8a905a13be590ca02705be230a",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        600
+      ],
+      "description": "Wide shot: A man in a strait-jacket, eyes wild and furious, thrashing against padded walls in a dark, grimy asylum cell. High intensity, dramatic shadows, chaotic composition.",
+      "shot_type": "wide",
+      "characters": [
+        "He"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": null,
+          "text": "He fought like a tiger... a paroxysm of rage unlike anything I've ever seen.",
+          "type": "narration",
+          "bbox": [
+            50,
+            50,
+            800,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_3",
+        "beat_4"
+      ],
+      "bbox": [
+        10,
+        610,
+        1790,
+        1100
+      ],
+      "description": "Medium shot: The man is now slumped against the wall, chained securely. He looks exhausted but still menacing. A cold, clinical observation angle.",
+      "shot_type": "medium",
+      "characters": [
+        "He"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": null,
+          "text": "He's chained now. Not even Jack Sheppard could escape this, but his potential for violence remains.",
+          "type": "narration",
+          "bbox": [
+            950,
+            650,
+            1750,
+            900
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_5",
+        "beat_6"
+      ],
+      "bbox": [
+        10,
+        1110,
+        1790,
+        1700
+      ],
+      "description": "Close-up: The man's face peering through the gloom, eyes burning with a dark, prophetic fervor, lips curled into a sinister smile.",
+      "shot_type": "close_up",
+      "characters": [
+        "He"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "He",
+          "text": "I shall be patient, Master. It is coming--coming--coming!",
+          "type": "speech",
+          "bbox": [
+            100,
+            1200,
+            800,
+            1400
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_7",
+        "beat_8"
+      ],
+      "bbox": [
+        10,
+        1710,
+        1790,
+        2390
+      ],
+      "description": "Medium close-up: Mina Harker sitting by a small desk in a dimly lit room, writing intently in her diary, a letter to Lucy lying open beside her.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Mina Harker"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "Mina Harker",
+          "text": "My dearest Lucy, I know you will be anxious to hear all that has happened...",
+          "type": "narration",
+          "bbox": [
+            850,
+            1800,
+            1750,
+            2300
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "tense",
+  "dominant_emotion": "Unease",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4"
+  ]
+}

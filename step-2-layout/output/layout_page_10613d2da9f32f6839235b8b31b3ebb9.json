@@ -1,0 +1,196 @@
+{
+  "page_id": "10613d2da9f32f6839235b8b31b3ebb9",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        470
+      ],
+      "description": "Close up of the protagonist's face, eyes wide with distress and confusion, lips parched, beads of sweat, high-contrast lighting.",
+      "shot_type": "close_up",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "I",
+          "text": "I scarce knew whether to be glad or sorry... I could do nothing but stare and wonder.",
+          "type": "narration",
+          "bbox": [
+            50,
+            50,
+            800,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_2",
+        "beat_3"
+      ],
+      "bbox": [
+        10,
+        490,
+        1790,
+        960
+      ],
+      "description": "Wide shot of the Hispaniola schooner on a sunny, shimmering ocean. Her sails are pristine white and full, catching the sun like silver.",
+      "shot_type": "wide",
+      "characters": [
+        "HISPANIOLA"
+      ],
+      "bubbles": []
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_4",
+        "beat_5"
+      ],
+      "bbox": [
+        10,
+        980,
+        1790,
+        1450
+      ],
+      "description": "Medium shot of the ship in chaos, sails shivering and snapping violently as it catches the wind dead-on, erratic movement, dramatic perspective.",
+      "shot_type": "medium",
+      "characters": [
+        "HISPANIOLA"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "I",
+          "text": "Why is she stalling? Is she in chase?",
+          "type": "speech",
+          "bbox": [
+            100,
+            1050,
+            600,
+            1200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_8",
+        "beat_9"
+      ],
+      "bbox": [
+        10,
+        1470,
+        890,
+        1930
+      ],
+      "description": "Medium shot looking up at the empty, spinning wheel of the ship. The deck is clearly deserted, no sailors in sight, sun glaring off brass fittings.",
+      "shot_type": "medium_close",
+      "characters": [],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "I",
+          "text": "Nobody... nobody is steering.",
+          "type": "narration",
+          "bbox": [
+            50,
+            1500,
+            400,
+            1700
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_11",
+        "beat_12"
+      ],
+      "bbox": [
+        910,
+        1470,
+        1790,
+        1930
+      ],
+      "description": "The protagonist's perspective from the small coracle, looking at the looming, ghost-like silhouette of the Hispaniola against the horizon.",
+      "shot_type": "medium",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "I",
+          "text": "Are they dead drunk? Or have they deserted her?",
+          "type": "speech",
+          "bbox": [
+            950,
+            1500,
+            1700,
+            1750
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_6",
+      "beat_ids": [
+        "beat_15",
+        "beat_18",
+        "beat_19"
+      ],
+      "bbox": [
+        10,
+        1950,
+        1790,
+        2390
+      ],
+      "description": "Action shot: The small coracle boat is caught in the wake of the schooner. The brass tiller is swinging wildly. Sea spray and foam flying, intense, chaotic energy.",
+      "shot_type": "wide",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "I",
+          "text": "She's yawing... she's pulling me right in!",
+          "type": "shout",
+          "bbox": [
+            100,
+            2000,
+            700,
+            2200
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "surprise",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5",
+    "panel_6"
+  ]
+}

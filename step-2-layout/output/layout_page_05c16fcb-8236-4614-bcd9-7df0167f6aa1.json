@@ -1,0 +1,284 @@
+{
+  "page_id": "05c16fcb-8236-4614-bcd9-7df0167f6aa1",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        0,
+        0,
+        1800,
+        450
+      ],
+      "description": "Medium shot: An exhausted Artilleryman in a tattered, dusty Victorian uniform sits against a damp wall. He looks down at his hands, his face shadowed and grim. The lighting is dim, coming from a high, small window. Victorian cellar background.",
+      "shot_type": "medium",
+      "characters": [
+        "artilleryman"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "artilleryman",
+          "text": "They will. But—— It will relieve things over here a bit. And besides——",
+          "type": "speech",
+          "bbox": [
+            50,
+            50,
+            800,
+            200
+          ]
+        },
+        {
+          "id": "bubble_2",
+          "character": "artilleryman",
+          "text": "Aren't you satisfied it is up with humanity? I am. We're down; we're beat.",
+          "type": "speech",
+          "bbox": [
+            1000,
+            100,
+            1750,
+            350
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_3",
+        "beat_4"
+      ],
+      "bbox": [
+        0,
+        460,
+        895,
+        950
+      ],
+      "description": "Close-up: The Narrator (I), a man in his 30s with a disheveled intellectual appearance, stares blankly into space. His eyes are wide with the shock of a sudden, dark realization. Heavy dramatic shadows highlight his gaunt features.",
+      "shot_type": "close_up",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "I",
+          "text": "I stared. Strange as it may seem, I had not arrived at this fact—a fact perfectly obvious so soon as he spoke.",
+          "type": "narration",
+          "bbox": [
+            50,
+            510,
+            450,
+            750
+          ]
+        },
+        {
+          "id": "bubble_4",
+          "character": "artilleryman",
+          "text": "We're beat.",
+          "type": "speech",
+          "bbox": [
+            500,
+            750,
+            845,
+            900
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_5",
+        "beat_6"
+      ],
+      "bbox": [
+        905,
+        460,
+        1800,
+        950
+      ],
+      "description": "Medium shot: The Artilleryman leans forward, gesturing with a hand toward the ceiling as if pointing at the stars. His expression is one of absolute, terrifying conviction. The Narrator is visible in the foreground, back to camera, silent and defeated.",
+      "shot_type": "medium",
+      "characters": [
+        "artilleryman",
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "artilleryman",
+          "text": "It's all over. They've lost one—just one. And they've made their footing good and crippled the greatest power in the world. We're under! We're beat!",
+          "type": "speech",
+          "bbox": [
+            955,
+            510,
+            1750,
+            850
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_7",
+        "beat_8",
+        "beat_9"
+      ],
+      "bbox": [
+        0,
+        960,
+        1800,
+        1350
+      ],
+      "description": "Medium shot: The Narrator leans in, a spark of thought returning to his eyes. He is explaining something, his hands moving to illustrate a point. The Artilleryman watches him, head tilted, listening intently in the gloom.",
+      "shot_type": "medium",
+      "characters": [
+        "artilleryman",
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_6",
+          "character": "I",
+          "text": "After the tenth shot they fired no more—at least, until the first cylinder came.",
+          "type": "speech",
+          "bbox": [
+            100,
+            1010,
+            800,
+            1250
+          ]
+        },
+        {
+          "id": "bubble_7",
+          "character": "I",
+          "text": "I explained. He thought.",
+          "type": "narration",
+          "bbox": [
+            1300,
+            1100,
+            1750,
+            1300
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_10"
+      ],
+      "bbox": [
+        0,
+        1360,
+        895,
+        1850
+      ],
+      "description": "Close-up: The Artilleryman's face. He has a cynical, cold smile. The lighting is harsh from one side, leaving half his face in pitch black. He looks like a man who has accepted a brutal new world order.",
+      "shot_type": "close_up",
+      "characters": [
+        "artilleryman"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_8",
+          "character": "artilleryman",
+          "text": "Something wrong with the gun. But what if there is? It's just men and ants. The men want them out of the way, and then they go out of the way.",
+          "type": "speech",
+          "bbox": [
+            50,
+            1410,
+            845,
+            1750
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_6",
+      "beat_ids": [
+        "beat_11",
+        "beat_12"
+      ],
+      "bbox": [
+        905,
+        1360,
+        1800,
+        1850
+      ],
+      "description": "Wide shot: The two men sit opposite each other in the ruined, debris-strewn space. They are small figures in a large, dark environment. They stare at one another, a heavy silence hanging between them.",
+      "shot_type": "wide",
+      "characters": [
+        "artilleryman",
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_9",
+          "character": "I",
+          "text": "And what will they do with us?",
+          "type": "speech",
+          "bbox": [
+            1100,
+            1550,
+            1750,
+            1750
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_7",
+      "beat_ids": [
+        "beat_13",
+        "beat_14",
+        "beat_15"
+      ],
+      "bbox": [
+        0,
+        1860,
+        1800,
+        2400
+      ],
+      "description": "Medium shot: The Artilleryman leans in very close, his eyes burning with a desperate intelligence. He looks fierce and determined. The background is a blur of darkness, focusing all attention on his intense expression.",
+      "shot_type": "medium",
+      "characters": [
+        "artilleryman"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_10",
+          "character": "artilleryman",
+          "text": "I've been thinking—'The man who keeps on thinking keeps on surviving.' I'm not an officerly man... but death—it's just death. And it's the man who keeps on thinking who comes through.",
+          "type": "speech",
+          "bbox": [
+            100,
+            1910,
+            1700,
+            2350
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "tense",
+  "dominant_emotion": "resignation",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5",
+    "panel_6",
+    "panel_7"
+  ]
+}

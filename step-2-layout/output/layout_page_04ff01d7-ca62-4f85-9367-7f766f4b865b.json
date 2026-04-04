@@ -1,0 +1,322 @@
+{
+  "page_id": "04ff01d7-ca62-4f85-9367-7f766f4b865b",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1"
+      ],
+      "bbox": [
+        0,
+        0,
+        1800,
+        330
+      ],
+      "description": "Wide shot: A giant mushroom in a hazy, dreamlike forest. The Caterpillar sits atop it, smoking a hookah. Alice stands below, looking up respectfully. Soft, diffused lighting.",
+      "shot_type": "wide",
+      "characters": [
+        "Alice",
+        "Caterpillar"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "Caterpillar",
+          "text": "Repeat, 'You are old, Father William,' said the Caterpillar.",
+          "type": "speech",
+          "bbox": [
+            1000,
+            50,
+            1750,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_2",
+        "beat_3"
+      ],
+      "bbox": [
+        0,
+        340,
+        895,
+        840
+      ],
+      "description": "Medium shot: A surreal imagination bubble or vignette. Father William, an old man with bushy white hair and Victorian clothes, is balancing perfectly on his head on a stone path. Alice is visible in the corner, reciting with a confused look.",
+      "shot_type": "medium",
+      "characters": [
+        "Alice",
+        "Father William"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "Alice",
+          "text": "You are old, Father William, And your hair has become very white; And yet you incessantly stand on your head— Do you think, at your age, it is right?",
+          "type": "speech",
+          "bbox": [
+            50,
+            380,
+            450,
+            600
+          ]
+        },
+        {
+          "id": "bubble_3",
+          "character": "Father William",
+          "text": "In my youth, I feared it might injure the brain; But, now that I'm perfectly sure I have none, Why, I do it again and again.",
+          "type": "speech",
+          "bbox": [
+            480,
+            650,
+            850,
+            820
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_4",
+        "beat_5"
+      ],
+      "bbox": [
+        905,
+        340,
+        1800,
+        840
+      ],
+      "description": "Medium shot: Father William, despite his stout frame, performs a graceful back-somersault through a cottage doorway. In the second half of the panel, he holds up a small, ornate tin box of ointment toward the viewer.",
+      "shot_type": "medium",
+      "characters": [
+        "Alice",
+        "Father William"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "Alice",
+          "text": "You are old, as I mentioned before, And have grown most uncommonly fat; Yet you turned a back-somersault in at the door— Pray, what is the reason of that?",
+          "type": "speech",
+          "bbox": [
+            950,
+            380,
+            1350,
+            600
+          ]
+        },
+        {
+          "id": "bubble_5",
+          "character": "Father William",
+          "text": "In my youth, I kept all my limbs very supple By the use of this ointment—one shilling the box—Allow me to sell you a couple?",
+          "type": "speech",
+          "bbox": [
+            1380,
+            650,
+            1750,
+            820
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_6",
+        "beat_7"
+      ],
+      "bbox": [
+        0,
+        850,
+        895,
+        1350
+      ],
+      "description": "Medium close shot: Father William is shown with his mouth wide open, mid-bite into a whole roasted goose, bones and all. His jaw looks unnaturally strong and defined. A law-court setting is faintly visible in the background background.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Alice",
+        "Father William"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_6",
+          "character": "Alice",
+          "text": "You are old, and your jaws are too weak For anything tougher than suet; Yet you finished the goose, with the bones and the beak— Pray, how did you manage to do it?",
+          "type": "speech",
+          "bbox": [
+            50,
+            890,
+            450,
+            1150
+          ]
+        },
+        {
+          "id": "bubble_7",
+          "character": "Father William",
+          "text": "In my youth, I took to the law, And argued each case with my wife; And the muscular strength, which it gave to my jaw, Has lasted the rest of my life.",
+          "type": "speech",
+          "bbox": [
+            480,
+            1150,
+            850,
+            1330
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_8",
+        "beat_9"
+      ],
+      "bbox": [
+        905,
+        850,
+        1800,
+        1350
+      ],
+      "description": "Close up: A split panel. On one side, Father William balances a long, slippery eel on his nose with an intense focus. On the other side, he looks incredibly annoyed, pointing a finger aggressively toward the exit.",
+      "shot_type": "close_up",
+      "characters": [
+        "Alice",
+        "Father William"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_8",
+          "character": "Alice",
+          "text": "You are old, one would hardly suppose Your eye was as steady as ever; Yet you balanced an eel on the end of your nose— What made you so awfully clever?",
+          "type": "speech",
+          "bbox": [
+            950,
+            890,
+            1350,
+            1150
+          ]
+        },
+        {
+          "id": "bubble_9",
+          "character": "Father William",
+          "text": "I have answered three questions, and that is enough! Don't give yourself airs! Be off, or I'll kick you down stairs!",
+          "type": "shout",
+          "bbox": [
+            1380,
+            1120,
+            1750,
+            1330
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_6",
+      "beat_ids": [
+        "beat_10",
+        "beat_11"
+      ],
+      "bbox": [
+        0,
+        1360,
+        1800,
+        1875
+      ],
+      "description": "Medium shot: Back in the woods. The Caterpillar looks down at Alice through a cloud of smoke. Alice looks a bit flustered, smoothing her apron and looking up at the mushroom top.",
+      "shot_type": "medium",
+      "characters": [
+        "Caterpillar",
+        "Alice"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_10",
+          "character": "Caterpillar",
+          "text": "What size do you want to be?",
+          "type": "speech",
+          "bbox": [
+            100,
+            1400,
+            600,
+            1550
+          ]
+        },
+        {
+          "id": "bubble_11",
+          "character": "Alice",
+          "text": "I'm not particular. But one doesn't like changing so often.",
+          "type": "speech",
+          "bbox": [
+            1000,
+            1600,
+            1700,
+            1750
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_7",
+      "beat_ids": [
+        "beat_12",
+        "beat_13"
+      ],
+      "bbox": [
+        0,
+        1885,
+        1800,
+        2400
+      ],
+      "description": "Close up: Alice's face, looking earnest and a bit sad. She is only three inches tall and looks tiny compared to the blades of grass around her. The Caterpillar's large eye is visible in the background.",
+      "shot_type": "close_up",
+      "characters": [
+        "Caterpillar",
+        "Alice"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_12",
+          "character": "Caterpillar",
+          "text": "Are you content?",
+          "type": "speech",
+          "bbox": [
+            100,
+            1950,
+            500,
+            2050
+          ]
+        },
+        {
+          "id": "bubble_13",
+          "character": "Alice",
+          "text": "Well, I should like to be a little larger, sir, If you wouldn't mind, I'm afraid three inches is such a wretched height.",
+          "type": "speech",
+          "bbox": [
+            800,
+            2100,
+            1700,
+            2350
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "calm",
+  "dominant_emotion": "curiosity",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5",
+    "panel_6",
+    "panel_7"
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "page_id": "14f838d5-0954-49a7-84ac-d3d319618334",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2",
+        "beat_3"
+      ],
+      "bbox": [
+        20,
+        20,
+        1780,
+        580
+      ],
+      "description": "Medium shot, protagonist sitting in a dark, dimly lit room, profile view, expression reflective and hollow, shadows cast long across the wall, heavy introspective mood.",
+      "shot_type": "medium",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "I",
+          "text": "I saw myself as a creature of accident, driven by a sequence of events. No remorse, just a memory that haunts the silence.",
+          "type": "narration",
+          "bbox": [
+            50,
+            400,
+            1750,
+            550
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_4",
+        "beat_5",
+        "beat_6"
+      ],
+      "bbox": [
+        20,
+        600,
+        1780,
+        1180
+      ],
+      "description": "Wide shot, close-up on the protagonist's eyes staring into darkness. Faint, ethereal lighting suggesting the 'nearness of God', memory-flash overlay showing silhouettes of fire and smoke in the distance.",
+      "shot_type": "wide",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "I",
+          "text": "In the stillness of the night, I stood trial for that moment of wrath. I retraced every step... the ruins of Weybridge, the impossibility of our escape.",
+          "type": "narration",
+          "bbox": [
+            100,
+            950,
+            1700,
+            1150
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_12",
+        "beat_13",
+        "beat_14"
+      ],
+      "bbox": [
+        20,
+        1200,
+        890,
+        1780
+      ],
+      "description": "Close up, the protagonist suddenly bolt upright in bed, eyes wide with terror, sweating, dark room environment.",
+      "shot_type": "close_up",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "I",
+          "text": "I prayed the Heat-Ray had struck her out of being... painless. Anything but the alternative.",
+          "type": "narration",
+          "bbox": [
+            40,
+            1550,
+            870,
+            1750
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_17",
+        "beat_18"
+      ],
+      "bbox": [
+        910,
+        1200,
+        1780,
+        1780
+      ],
+      "description": "Low angle, wide shot showing the protagonist crouching at a doorway, looking like a rat, shadows emphasizing the smallness and vulnerability of the human figure against the looming house.",
+      "shot_type": "wide",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "I",
+          "text": "Dawn came, and I crept out like a rat—an inferior thing, hunted and small.",
+          "type": "narration",
+          "bbox": [
+            930,
+            1600,
+            1760,
+            1750
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_21",
+        "beat_22",
+        "beat_23"
+      ],
+      "bbox": [
+        20,
+        1800,
+        1780,
+        2380
+      ],
+      "description": "Wide shot, the post-apocalyptic morning scene: bright pink eastern sky, a shattered cart in the foreground, abandoned belongings, and a blood-stained glass fragment on the ground, creating a stark contrast of beauty and horror.",
+      "shot_type": "wide",
+      "characters": [],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "I",
+          "text": "The morning was bright and fine, indifferent to the wreckage of our lives.",
+          "type": "narration",
+          "bbox": [
+            50,
+            2150,
+            1750,
+            2350
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "tense",
+  "dominant_emotion": "melancholic dread",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

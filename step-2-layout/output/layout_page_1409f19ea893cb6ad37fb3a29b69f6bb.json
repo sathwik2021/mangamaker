@@ -1,0 +1,182 @@
+{
+  "page_id": "1409f19ea893cb6ad37fb3a29b69f6bb",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        580
+      ],
+      "description": "Wide shot: Mina Harker and Van Helsing standing on a snowy riverbank, looking toward a misty river. Dramatic, cold atmosphere, grey sky, winter landscape.",
+      "shot_type": "wide",
+      "characters": [
+        "Mina Harker",
+        "Professor Van Helsing"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "Mina Harker",
+          "text": "The adventurous days are useful, but we must push on. I fear the snow.",
+          "type": "narration",
+          "bbox": [
+            50,
+            50,
+            800,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_3",
+        "beat_4"
+      ],
+      "bbox": [
+        10,
+        590,
+        895,
+        1180
+      ],
+      "description": "Medium shot: Mina pointing at the distant river where a small, battered launch boat is visible, struggling against the rapids. Low-contrast, cold aesthetic.",
+      "shot_type": "medium",
+      "characters": [
+        "Mina Harker"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "Mina Harker",
+          "text": "The launch was damaged at the rapids... I hope Godalming can keep her moving.",
+          "type": "speech",
+          "bbox": [
+            50,
+            650,
+            800,
+            800
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_5",
+        "beat_6"
+      ],
+      "bbox": [
+        905,
+        590,
+        1790,
+        1180
+      ],
+      "description": "Close up: Professor Van Helsing looking weary, holding his head, with a cold, intense gaze. Veresti village in the blurred background.",
+      "shot_type": "close_up",
+      "characters": [
+        "Professor Van Helsing"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "Professor Van Helsing",
+          "text": "At dawn, you could only say 'dark and quiet.' We must move faster.",
+          "type": "speech",
+          "bbox": [
+            950,
+            650,
+            1700,
+            800
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_7",
+        "beat_8"
+      ],
+      "bbox": [
+        10,
+        1190,
+        1790,
+        1780
+      ],
+      "description": "Wide shot: Mina looking longingly at the beautiful, picturesque Romanian landscape as a horse-drawn carriage waits nearby.",
+      "shot_type": "wide",
+      "characters": [
+        "Mina Harker"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "Mina Harker",
+          "text": "If only we were under different conditions, how beautiful this land would be to explore.",
+          "type": "narration",
+          "bbox": [
+            50,
+            1250,
+            1700,
+            1400
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_9",
+        "beat_10",
+        "beat_11"
+      ],
+      "bbox": [
+        10,
+        1790,
+        1790,
+        2390
+      ],
+      "description": "Medium shot: Inside a cozy, rustic inn. A landlady hands a large basket of provisions to Van Helsing. Van Helsing leans in to whisper to Mina.",
+      "shot_type": "medium",
+      "characters": [
+        "Mina Harker",
+        "Professor Van Helsing",
+        "landlady"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "Professor Van Helsing",
+          "text": "Take it all. It may be a week before we find food again.",
+          "type": "whisper",
+          "bbox": [
+            50,
+            1850,
+            800,
+            2000
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "tense",
+  "dominant_emotion": "apprehension",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

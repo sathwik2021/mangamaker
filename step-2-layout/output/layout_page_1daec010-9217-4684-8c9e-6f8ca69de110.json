@@ -1,0 +1,181 @@
+{
+  "page_id": "1daec010-9217-4684-8c9e-6f8ca69de110",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2",
+        "beat_3"
+      ],
+      "bbox": [
+        20,
+        20,
+        1780,
+        580
+      ],
+      "description": "Medium shot: Young Voltaire in a dusty, dimly lit study, surrounded by stacks of books and scientific instruments, staring at the window with a look of existential longing.",
+      "shot_type": "medium",
+      "characters": [
+        "Voltaire"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": null,
+          "text": "Despite the discoveries of modern philosophers, I remain unsatisfied. Like Newton, I feel I am but a child picking shells beside a vast ocean of truth.",
+          "type": "narration",
+          "bbox": [
+            50,
+            400,
+            1750,
+            550
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_4",
+        "beat_5",
+        "beat_6"
+      ],
+      "bbox": [
+        20,
+        600,
+        1780,
+        1050
+      ],
+      "description": "Split composition: On one side, a peasant observing a field; on the other, a weary scholar dissecting a strange specimen. High contrast, academic atmosphere.",
+      "shot_type": "wide",
+      "characters": [
+        "instructors"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": null,
+          "text": "The learned philosopher knows little more than the peasant. Nature's true lineaments remain a mystery.",
+          "type": "narration",
+          "bbox": [
+            50,
+            900,
+            1750,
+            1030
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_9",
+        "beat_10",
+        "beat_13"
+      ],
+      "bbox": [
+        20,
+        1070,
+        890,
+        1750
+      ],
+      "description": "Close up: Young Voltaire intently reading ancient leather-bound alchemy texts by candlelight, eyes reflecting the firelight, expressions of fanatic dedication.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Voltaire"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "Voltaire",
+          "text": "These books hold the keys. I shall become their disciple and master the elixir of life.",
+          "type": "speech",
+          "bbox": [
+            40,
+            1550,
+            870,
+            1730
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_15",
+        "beat_16"
+      ],
+      "bbox": [
+        910,
+        1070,
+        1780,
+        1750
+      ],
+      "description": "Low angle shot: Voltaire waving a charcoal wand over a circle of strange symbols, looking desperate and frustrated as the smoke clears to show nothing happens.",
+      "shot_type": "medium",
+      "characters": [
+        "Voltaire"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "Voltaire",
+          "text": "My failure... surely it is my own inexperience, not the fault of the great masters.",
+          "type": "speech",
+          "bbox": [
+            930,
+            1580,
+            1760,
+            1730
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_19",
+        "beat_20",
+        "beat_21",
+        "beat_22"
+      ],
+      "bbox": [
+        20,
+        1770,
+        1780,
+        2380
+      ],
+      "description": "Dramatic wide shot: A violent purple-white bolt of lightning striking an ancient oak tree near a manor house in the rain. The tree is splintering into a blasted stump.",
+      "shot_type": "wide",
+      "characters": [],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": null,
+          "text": "A sudden stream of fire. In a flash, the beautiful oak was gone, replaced by a blasted stump.",
+          "type": "narration",
+          "bbox": [
+            50,
+            2200,
+            1750,
+            2360
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "awe",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

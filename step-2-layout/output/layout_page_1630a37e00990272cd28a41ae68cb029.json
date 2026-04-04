@@ -1,0 +1,200 @@
+{
+  "page_id": "1630a37e00990272cd28a41ae68cb029",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        585
+      ],
+      "description": "Wide shot: Van Helsing pacing outside Lucy's coffin in a dim, Victorian gothic bedroom. The coffin is covered in wild garlic flowers, heavy shadows, candlelit atmosphere, intense and somber mood.",
+      "shot_type": "wide",
+      "characters": [
+        "Van Helsing"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": null,
+          "text": "Van Helsing kept his vigil, the air thick with the cloying scent of garlic and decay.",
+          "type": "narration",
+          "bbox": [
+            50,
+            50,
+            800,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_6",
+        "beat_7"
+      ],
+      "bbox": [
+        10,
+        605,
+        890,
+        1190
+      ],
+      "description": "Medium shot: Mina and Jonathan walking hand in hand through London, dressed in mourning clothes, somber expressions, blurred city background.",
+      "shot_type": "medium",
+      "characters": [
+        "Mina Harker",
+        "Jonathan Harker"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "Mina Harker",
+          "text": "Our dearest friend is gone... the emptiness is almost too much to bear.",
+          "type": "speech",
+          "bbox": [
+            50,
+            650,
+            400,
+            800
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_10",
+        "beat_11"
+      ],
+      "bbox": [
+        910,
+        605,
+        1790,
+        1190
+      ],
+      "description": "Medium shot: Mina and Jonathan walking close, Jonathan holding her arm, Mina looking up at him with concern, soft lighting, focus on their intimate connection.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Mina Harker",
+        "Jonathan Harker"
+      ],
+      "bubbles": []
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_12",
+        "beat_13"
+      ],
+      "bbox": [
+        10,
+        1210,
+        890,
+        1795
+      ],
+      "description": "Medium shot: Jonathan suddenly stopping, gripping Mina's arm tightly, face pale, expression of pure shock, eyes wide, looking off-panel.",
+      "shot_type": "medium",
+      "characters": [
+        "Mina Harker",
+        "Jonathan Harker"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "Jonathan Harker",
+          "text": "My God!",
+          "type": "shout",
+          "bbox": [
+            150,
+            1250,
+            400,
+            1350
+          ]
+        },
+        {
+          "id": "bubble_4",
+          "character": "Mina Harker",
+          "text": "Jonathan? What is it?",
+          "type": "speech",
+          "bbox": [
+            50,
+            1400,
+            350,
+            1550
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_14",
+        "beat_15"
+      ],
+      "bbox": [
+        910,
+        1210,
+        1790,
+        1795
+      ],
+      "description": "Close up: The mysterious stranger observed by Jonathan. Tall, thin man, beaky nose, black moustache, cruel sensual expression, sharp white teeth, sinister gaze.",
+      "shot_type": "close_up",
+      "characters": [
+        "The Stranger"
+      ],
+      "bubbles": []
+    },
+    {
+      "id": "panel_6",
+      "beat_ids": [
+        "beat_17",
+        "beat_18"
+      ],
+      "bbox": [
+        10,
+        1815,
+        1790,
+        2390
+      ],
+      "description": "Medium shot: Jonathan leaning heavily on Mina, terrified, pointing at the stranger, Mina looking on in horror and confusion.",
+      "shot_type": "medium",
+      "characters": [
+        "Mina Harker",
+        "Jonathan Harker"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "Jonathan Harker",
+          "text": "Do you see who it is? It is the man himself!",
+          "type": "shout",
+          "bbox": [
+            500,
+            1850,
+            1200,
+            2050
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "tense",
+  "dominant_emotion": "terror",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5",
+    "panel_6"
+  ]
+}

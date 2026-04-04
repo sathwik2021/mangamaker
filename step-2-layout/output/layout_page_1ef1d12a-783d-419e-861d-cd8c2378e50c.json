@@ -1,0 +1,156 @@
+{
+  "page_id": "1ef1d12a-783d-419e-861d-cd8c2378e50c",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        585
+      ],
+      "description": "Medium shot of Shere Khan, a massive, scarred tiger, standing in the shadows of a jungle edge, looking forward with narrowed, menacing eyes.",
+      "shot_type": "medium",
+      "characters": [
+        "Shere Khan"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "Shere Khan",
+          "text": "Who calls?",
+          "type": "speech",
+          "bbox": [
+            50,
+            50,
+            400,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_2"
+      ],
+      "bbox": [
+        10,
+        605,
+        1790,
+        1190
+      ],
+      "description": "Medium close-up of Mowgli, a young boy with wild dark hair, standing firmly in the jungle, pointing toward the distance, defiant expression.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Mowgli"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "Mowgli",
+          "text": "I, Mowgli. Cattle thief, it is time to come to the Council Rock! Down--hurry them down, Akela! Down, Rama, down!",
+          "type": "speech",
+          "bbox": [
+            50,
+            650,
+            600,
+            900
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_3",
+        "beat_4",
+        "beat_5",
+        "beat_6",
+        "beat_7",
+        "beat_8",
+        "beat_9",
+        "beat_10",
+        "beat_11",
+        "beat_12",
+        "beat_13",
+        "beat_14",
+        "beat_15",
+        "beat_16"
+      ],
+      "bbox": [
+        10,
+        1210,
+        1790,
+        1795
+      ],
+      "description": "Wide action shot showing Mowgli running through the dense jungle landscape, hands cupped around his mouth, gesturing for the pack to move.",
+      "shot_type": "wide",
+      "characters": [
+        "Mowgli"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "Mowgli",
+          "text": "Hurry! Move!",
+          "type": "shout",
+          "bbox": [
+            800,
+            1250,
+            1100,
+            1400
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_17",
+        "beat_18"
+      ],
+      "bbox": [
+        10,
+        1815,
+        1790,
+        2390
+      ],
+      "description": "Wide shot: Akela the wolf and his pack stampeding down a hillside, with Mowgli running alongside them, leaves and dust kicking up in the air.",
+      "shot_type": "wide",
+      "characters": [
+        "Mowgli",
+        "Akela"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "Mowgli",
+          "text": "Akela, hurry them down, Akela!",
+          "type": "speech",
+          "bbox": [
+            50,
+            1850,
+            450,
+            2050
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "tense",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4"
+  ]
+}

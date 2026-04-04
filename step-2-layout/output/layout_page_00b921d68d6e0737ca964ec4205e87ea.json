@@ -1,0 +1,217 @@
+{
+  "page_id": "00b921d68d6e0737ca964ec4205e87ea",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2",
+        "beat_3"
+      ],
+      "bbox": [
+        10,
+        10,
+        890,
+        800
+      ],
+      "description": "Medium shot: Elizabeth and Jane sit opposite each other in a elegantly furnished drawing-room, bathed in soft morning light. Elizabeth has a thoughtful, concerned expression as she listens, while Jane looks serene and hopeful, her hands gently clasped in her lap. The room features delicate wallpaper and refined wooden furniture.",
+      "shot_type": "medium",
+      "characters": [
+        "Elizabeth",
+        "Jane"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "Jane",
+          "text": "\"We must endeavour to forget all that has passed on either side,\" said Jane: \"I hope and trust they will yet be happy.\"",
+          "type": "speech",
+          "bbox": [
+            400,
+            60,
+            860,
+            300
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_4"
+      ],
+      "bbox": [
+        910,
+        10,
+        1790,
+        800
+      ],
+      "description": "Medium shot: Elizabeth, in a plain but graceful Regency-era day dress, stands at a heavy, dark wooden writing-table. Her hand gently rests on a sealed letter, indicating she has just picked it up. Her expression is resolved yet pensive. A quill and ink bottle are neatly arranged on the table, with soft afternoon light illuminating the scene.",
+      "shot_type": "medium",
+      "characters": [
+        "Elizabeth"
+      ],
+      "bubbles": []
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_6"
+      ],
+      "bbox": [
+        10,
+        820,
+        890,
+        1600
+      ],
+      "description": "Medium shot: Elizabeth, holding the letter, approaches Mrs. Bennet, who is seated on a ornate upholstered armchair. Mrs. Bennet looks up, her face a mix of curiosity and slight impatience. Mary and Kitty are partially visible in the background, subtly observing the interaction. The parlour is filled with decorative items and warm, inviting light.",
+      "shot_type": "medium",
+      "characters": [
+        "Elizabeth",
+        "Mrs. Bennet",
+        "Mary",
+        "Kitty"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "Elizabeth",
+          "text": "\"May we take my uncle's letter to read to her?\"",
+          "type": "speech",
+          "bbox": [
+            50,
+            870,
+            450,
+            1050
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_7",
+        "beat_8"
+      ],
+      "bbox": [
+        910,
+        820,
+        1790,
+        1600
+      ],
+      "description": "Close-up: Mrs. Bennet's face, flushed with overwhelming joy and relief, is caught mid-exclamation. Her eyes are wide with delight, and a broad, triumphant smile stretches across her face. Her hands are clasped tightly against her chest in excitement. The background is blurred, emphasizing her intense emotional reaction, with bright, celebratory lighting.",
+      "shot_type": "close_up",
+      "characters": [
+        "Mrs. Bennet"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "Mrs. Bennet",
+          "text": "\"My dear, dear Lydia!\" cried Mrs. Bennet, \"this is delightful indeed! She will be married! I shall see her again! She will be married at sixteen!\"",
+          "type": "shout",
+          "bbox": [
+            950,
+            870,
+            1750,
+            1400
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_9",
+        "beat_10",
+        "beat_11"
+      ],
+      "bbox": [
+        10,
+        1620,
+        890,
+        2390
+      ],
+      "description": "Medium shot: Mrs. Bennet, still glowing with excessive joy, gestures emphatically with one hand, her face beaming. Elizabeth stands a little apart, offering a gentle, almost weary smile, attempting to appear calm amidst her mother's effervescence. The parlour setting continues, bathed in an air of triumphant celebration. Sunlight spills into the room.",
+      "shot_type": "medium",
+      "characters": [
+        "Mrs. Bennet",
+        "Elizabeth"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "Mrs. Bennet",
+          "text": "\"Well,\" cried her mother, \"it is all very right; who should do it but her own uncle?\"",
+          "type": "speech",
+          "bbox": [
+            400,
+            1670,
+            860,
+            1950
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_6",
+      "beat_ids": [
+        "beat_12",
+        "beat_13",
+        "beat_14"
+      ],
+      "bbox": [
+        910,
+        1620,
+        1790,
+        2390
+      ],
+      "description": "Medium shot: Mrs. Bennet, full of renewed energy, leans forward in her chair, dictating with grand gestures. Jane sits diligently at a writing desk nearby, a soft, understanding smile on her face as she pens her mother's words. The room feels vibrant with Mrs. Bennet's anticipation and joy. Bright, domestic lighting.",
+      "shot_type": "medium",
+      "characters": [
+        "Mrs. Bennet",
+        "Jane"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "Mrs. Bennet",
+          "text": "\"In a short time, I shall have a daughter married.\"",
+          "type": "speech",
+          "bbox": [
+            950,
+            1670,
+            1450,
+            1850
+          ]
+        },
+        {
+          "id": "bubble_6",
+          "character": "Mrs. Bennet",
+          "text": "\"My dear Jane, I am in such a flutter, that I can't write; so I will dictate, and you write for me.\"",
+          "type": "speech",
+          "bbox": [
+            1050,
+            1900,
+            1750,
+            2300
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "overwhelming joy and anticipation",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5",
+    "panel_6"
+  ]
+}

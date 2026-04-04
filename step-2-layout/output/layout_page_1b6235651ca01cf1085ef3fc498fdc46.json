@@ -1,0 +1,175 @@
+{
+  "page_id": "1b6235651ca01cf1085ef3fc498fdc46",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2",
+        "beat_3",
+        "beat_4"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        580
+      ],
+      "description": "Wide shot: The Gryphon strides ahead, beckoning impatiently. Alice, winded and disheveled, runs behind him, looking exhausted but determined. High-energy motion lines.",
+      "shot_type": "wide",
+      "characters": [
+        "Gryphon",
+        "Alice"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "Gryphon",
+          "text": "Come on! Come on!",
+          "type": "speech",
+          "bbox": [
+            100,
+            50,
+            400,
+            150
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_5",
+        "beat_6"
+      ],
+      "bbox": [
+        10,
+        590,
+        1790,
+        1180
+      ],
+      "description": "Medium shot: Grand courtroom scene. The King and Queen of Hearts sit upon an ornate, oversized throne. The Knave stands in the center, chained, flanked by stern card-soldiers.",
+      "shot_type": "medium",
+      "characters": [
+        "King",
+        "Queen of Hearts",
+        "Knave"
+      ],
+      "bubbles": []
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_7",
+        "beat_8",
+        "beat_9",
+        "beat_10"
+      ],
+      "bbox": [
+        10,
+        1190,
+        890,
+        1780
+      ],
+      "description": "Medium close-up: Alice looking at the jury-box filled with odd animals writing on slates. In the foreground, a table with delicious tarts. Alice looks annoyed.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Alice"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "Alice",
+          "text": "Stupid things!",
+          "type": "speech",
+          "bbox": [
+            50,
+            1220,
+            300,
+            1300
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_11",
+        "beat_12"
+      ],
+      "bbox": [
+        900,
+        1190,
+        1790,
+        1780
+      ],
+      "description": "Close-up: The White Rabbit shouting with a trumpet, King putting on thick spectacles to peer at a slate. High contrast, focus on the ridiculous expressions.",
+      "shot_type": "close_up",
+      "characters": [
+        "White Rabbit",
+        "King"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "White Rabbit",
+          "text": "SILENCE!",
+          "type": "shout",
+          "bbox": [
+            1000,
+            1220,
+            1400,
+            1350
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_13",
+        "beat_14"
+      ],
+      "bbox": [
+        10,
+        1790,
+        1790,
+        2390
+      ],
+      "description": "Wide angle: The King stands before the assembly, holding a long scroll, reading the accusation aloud. Tension fills the room as everyone waits for the verdict.",
+      "shot_type": "wide",
+      "characters": [
+        "King",
+        "Queen of Hearts",
+        "Knave"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "King",
+          "text": "Jury, consider your verdict!",
+          "type": "speech",
+          "bbox": [
+            400,
+            1820,
+            1200,
+            1950
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "anticipation",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

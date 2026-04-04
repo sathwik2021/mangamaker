@@ -1,0 +1,176 @@
+{
+  "page_id": "1b71e3784f8e413ba67233c3c9304243",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2",
+        "beat_3"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        580
+      ],
+      "description": "Wide shot looking up a dark vertical shaft. A tiny blue circle of sky with one star visible at the top. Weena's head silhouette is just visible at the aperture. Below, the dark, oppressive textures of the shaft walls. Dramatic shadows, sense of deep depth.",
+      "shot_type": "wide",
+      "characters": [
+        "I",
+        "Weena"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "I",
+          "text": "The thudding of the machine... it's getting louder.",
+          "type": "narration",
+          "bbox": [
+            50,
+            450,
+            600,
+            550
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_4",
+        "beat_5",
+        "beat_6"
+      ],
+      "bbox": [
+        10,
+        590,
+        1790,
+        1170
+      ],
+      "description": "Medium shot of the protagonist cramped inside the narrow stone shaft, face strained with agony and sweat. He spots a small, faint rectangular loophole of light appearing in the wall to his right. High contrast, grit, cold stone texture.",
+      "shot_type": "medium",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "I",
+          "text": "There! A passage...",
+          "type": "speech",
+          "bbox": [
+            1000,
+            700,
+            1400,
+            800
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_7",
+        "beat_8",
+        "beat_9"
+      ],
+      "bbox": [
+        10,
+        1180,
+        890,
+        1780
+      ],
+      "description": "Close up of the protagonist lying in the horizontal tunnel, face pressed against stone, eyes wide and fearful. A pale, slender hand reaches out from the darkness to touch his cheek. Low lighting, focus on skin texture and shadows.",
+      "shot_type": "close_up",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "I",
+          "text": "Who's there?!",
+          "type": "shout",
+          "bbox": [
+            400,
+            1250,
+            750,
+            1350
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_10",
+        "beat_11",
+        "beat_12",
+        "beat_13"
+      ],
+      "bbox": [
+        900,
+        1180,
+        1790,
+        1780
+      ],
+      "description": "Medium shot. Protagonist strikes a match. The flare of light reveals three pale, stooping Morlocks with oversized, reflective eyes scrambling back into the shadows. Motion blur on the creatures' limbs.",
+      "shot_type": "medium",
+      "characters": [
+        "I",
+        "Morlocks"
+      ],
+      "bubbles": []
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_14",
+        "beat_15",
+        "beat_16",
+        "beat_17",
+        "beat_18",
+        "beat_19"
+      ],
+      "bbox": [
+        10,
+        1790,
+        1790,
+        2390
+      ],
+      "description": "Wide panoramic shot. A second match flare illuminates the interior of a vast, titanic arched cavern. The protagonist stands as a small figure against the immense, dark, echoing scale of the underground space. Awe-inspiring and ominous.",
+      "shot_type": "wide",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "I",
+          "text": "A cavern... how deep does this place go?",
+          "type": "narration",
+          "bbox": [
+            100,
+            2100,
+            700,
+            2200
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "fear",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

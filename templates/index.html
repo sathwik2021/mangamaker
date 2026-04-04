@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga Generation Studio - AI Manga Creator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="header-content">
+                <h1>🎨 Manga Generation Studio</h1>
+                <p class="subtitle">Transform your text into stunning AI-generated manga pages</p>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Input Section -->
+            <div class="section input-section" id="inputSection">
+                <h2>Step 1: Enter Your Story</h2>
+                <div class="input-container">
+                    <textarea 
+                        id="textInput" 
+                        class="text-input" 
+                        placeholder="Paste your novel excerpt or story text here... (minimum 50 characters)"
+                        rows="12"></textarea>
+                    <div class="input-stats">
+                        <span>Characters: <strong id="charCount">0</strong></span>
+                        <span class="separator">•</span>
+                        <span>Words: <strong id="wordCount">0</strong></span>
+                    </div>
+                </div>
+
+                <!-- Options -->
+                <div class="options">
+                    <h3>Generation Options</h3>
+                    <div class="option-group">
+                        <label for="maxBeats">
+                            Max Beats (scenes):
+                            <input type="number" id="maxBeats" value="8" min="1" max="16">
+                        </label>
+                    </div>
+                    <div class="option-group">
+                        <label for="sdSteps">
+                            Image Quality (steps):
+                            <input type="number" id="sdSteps" value="40" min="20" max="80">
+                        </label>
+                    </div>
+                    <div class="option-group">
+                        <label for="guidanceScale">
+                            Style Guidance:
+                            <input type="number" id="guidanceScale" value="7.5" min="1" step="0.1" max="20">
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="button-group">
+                    <button class="btn btn-primary" id="generateBtn" onclick="generateManga()">
+                        <span class="btn-icon">⚡</span>
+                        Generate Manga
+                    </button>
+                    <button class="btn btn-secondary" id="exampleBtn" onclick="loadExample()">
+                        Load Example
+                    </button>
+                </div>
+            </div>
+
+            <!-- Status Section -->
+            <div class="section status-section" id="statusSection" style="display: none;">
+                <h2>Step 2: Generation in Progress</h2>
+                
+                <div class="status-card">
+                    <div class="status-header">
+                        <div class="status-title">
+                            <span class="spinner" id="spinner"></span>
+                            <span id="statusText">Initializing...</span>
+                        </div>
+                        <div class="status-timer" id="statusTimer">0s</div>
+                    </div>
+
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+                        </div>
+                        <div class="progress-text">
+                            <span id="progressPercent">0%</span>
+                        </div>
+                    </div>
+
+                    <div class="status-message" id="statusMessage">
+                        Waiting to start...
+                    </div>
+
+                    <div class="status-steps">
+                        <div class="step" id="step-extraction">
+                            <span class="step-icon">📖</span>
+                            <span class="step-name">Text Extraction</span>
+                        </div>
+                        <div class="step" id="step-layout">
+                            <span class="step-icon">📐</span>
+                            <span class="step-name">Layout Generation</span>
+                        </div>
+                        <div class="step" id="step-generation">
+                            <span class="step-icon">🎨</span>
+                            <span class="step-name">Image Creation</span>
+                        </div>
+                        <div class="step" id="step-composition">
+                            <span class="step-icon">🖼️</span>
+                            <span class="step-name">Composition</span>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn btn-secondary" id="cancelBtn" onclick="cancelGeneration()">
+                    Cancel
+                </button>
+            </div>
+
+            <!-- Results Section -->
+            <div class="section results-section" id="resultsSection" style="display: none;">
+                <h2>Step 3: Your Manga Page</h2>
+                
+                <div class="results-card">
+                    <div class="success-header">
+                        <span class="success-icon">✅</span>
+                        <span>Generation Complete!</span>
+                    </div>
+
+                    <!-- Main Image Display -->
+                    <div class="image-display" id="imageDisplay">
+                        <img id="resultImage" src="" alt="Generated Manga Page" class="result-image">
+                    </div>
+
+                    <!-- Image Info -->
+                    <div class="image-info">
+                        <div class="info-row">
+                            <span class="info-label">Generation Time:</span>
+                            <span class="info-value" id="generationTime">-</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">Beats Generated:</span>
+                            <span class="info-value" id="beatsCount">-</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">Panels Created:</span>
+                            <span class="info-value" id="panelsCount">-</span>
+                        </div>
+                    </div>
+
+                    <!-- Generated Files -->
+                    <div class="generated-files">
+                        <h3>Generated Files</h3>
+                        <div class="files-list" id="filesList">
+                            <!-- Populated by JavaScript -->
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="button-group">
+                        <a class="btn btn-primary" id="downloadBtn" href="#" download>
+                            <span class="btn-icon">⬇️</span>
+                            Download Manga Page
+                        </a>
+                        <button class="btn btn-secondary" onclick="generateNew()">
+                            <span class="btn-icon">🔄</span>
+                            Generate Another
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Error Section -->
+            <div class="section error-section" id="errorSection" style="display: none;">
+                <h2>⚠️ Generation Failed</h2>
+                
+                <div class="error-card">
+                    <div class="error-message" id="errorMessage">
+                        Unknown error occurred
+                    </div>
+                    
+                    <div class="error-details" id="errorDetails" style="display: none;">
+                        <p>Technical details:</p>
+                        <code id="errorCode"></code>
+                    </div>
+
+                    <div class="button-group">
+                        <button class="btn btn-secondary" onclick="generateNew()">
+                            Try Again
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>Built with <span class="heart">♥</span> using AI & Python • v1.0</p>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

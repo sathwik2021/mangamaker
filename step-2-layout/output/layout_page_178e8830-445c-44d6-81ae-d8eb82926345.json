@@ -1,0 +1,197 @@
+{
+  "page_id": "178e8830-445c-44d6-81ae-d8eb82926345",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        580
+      ],
+      "description": "Wide panoramic shot of a muddy, rain-drenched military encampment in Rawal Pindi. Thousands of tents, camels, and elephants under heavy gray clouds. In the foreground, fierce-looking Afghan soldiers and horses stand watch, looking wild and out of place.",
+      "shot_type": "wide",
+      "characters": [
+        "Viceroy of India",
+        "Amir of Afghanistan",
+        "savage men",
+        "savage horses"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": null,
+          "text": "For a month it had rained over the camp at Rawal Pindi. Thirty thousand men and countless beasts waited for the Viceroy.",
+          "type": "narration",
+          "bbox": [
+            30,
+            30,
+            800,
+            150
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_5",
+        "beat_6"
+      ],
+      "bbox": [
+        10,
+        590,
+        895,
+        1170
+      ],
+      "description": "Interior of a dark, rain-battered tent. A man is startled as another man pokes his head through the tent flap, looking panicked, pointing toward the chaos outside.",
+      "shot_type": "medium",
+      "characters": [
+        "man"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "man",
+          "text": "Get out, quick! They're coming! My tent's gone!",
+          "type": "shout",
+          "bbox": [
+            50,
+            610,
+            400,
+            750
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_8",
+        "beat_9"
+      ],
+      "bbox": [
+        905,
+        590,
+        1790,
+        1170
+      ],
+      "description": "A chaotic scene outside: a large camel has blundered into a tent, snapping the center pole. The canvas is collapsing like a 'mad ghost'. The narrator stands in the mud nearby, wet but laughing at the absurdity.",
+      "shot_type": "medium",
+      "characters": [
+        "man",
+        "camel"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "man",
+          "text": "I was wet and angry, but I couldn't help laughing.",
+          "type": "narration",
+          "bbox": [
+            925,
+            610,
+            1300,
+            750
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_12",
+        "beat_13"
+      ],
+      "bbox": [
+        10,
+        1180,
+        1790,
+        1750
+      ],
+      "description": "Nighttime in the artillery lines. The narrator huddles under a makeshift wigwam made of waterproofs and gun rammers draped over a cannon. Nearby, a wet mule passes by, ears shaking, unaware of the hidden observer.",
+      "shot_type": "wide",
+      "characters": [
+        "man",
+        "mule"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": null,
+          "text": "I sheltered against a gun. Then, through the drizzle, a mule wandered past.",
+          "type": "narration",
+          "bbox": [
+            30,
+            1200,
+            600,
+            1350
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_18",
+        "beat_19",
+        "beat_20"
+      ],
+      "bbox": [
+        10,
+        1760,
+        1790,
+        2390
+      ],
+      "description": "Close-up action shot: A mule in the foreground is kicking a camel in the ribs with his hind legs, captured in a dynamic, forceful motion. The camel looks surprised and hurt. Dark, rainy night atmosphere.",
+      "shot_type": "medium",
+      "characters": [
+        "mule",
+        "camel"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "camel",
+          "text": "I fought a white thing... it took a stick and hit me!",
+          "type": "speech",
+          "bbox": [
+            30,
+            1780,
+            500,
+            1920
+          ]
+        },
+        {
+          "id": "bubble_6",
+          "character": "mule",
+          "text": "You disturbed the camp? You'll be beaten for this, but take a taste now!",
+          "type": "shout",
+          "bbox": [
+            600,
+            1950,
+            1100,
+            2150
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "curiosity",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

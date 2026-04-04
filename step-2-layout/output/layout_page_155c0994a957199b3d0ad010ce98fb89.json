@@ -1,0 +1,164 @@
+{
+  "page_id": "155c0994a957199b3d0ad010ce98fb89",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2",
+        "beat_3",
+        "beat_4",
+        "beat_5",
+        "beat_6"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        600
+      ],
+      "description": "Wide shot: Inside a dimly lit bedroom, Mrs. Harker in a white nightdress is forced down on the bed by the tall, thin Count, whose hand grips her neck. The scene is macabre, like a grotesque feeding; blood smears her clothes. High contrast, gothic horror atmosphere.",
+      "shot_type": "wide",
+      "characters": [
+        "Kneeling wife",
+        "Tall, thin man"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "narration",
+          "text": "The Count... in every way, even to the scar on his forehead.",
+          "type": "narration",
+          "bbox": [
+            50,
+            50,
+            600,
+            150
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_7",
+        "beat_8"
+      ],
+      "bbox": [
+        10,
+        620,
+        890,
+        1200
+      ],
+      "description": "Close-up: The Count's face turned toward the viewer. His eyes flame red, nostrils flared, baring white sharp teeth dripping with blood. Beast-like, primal, and hellish expression. Dramatic chiaroscuro lighting.",
+      "shot_type": "close_up",
+      "characters": [
+        "Tall, thin man"
+      ],
+      "bubbles": []
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_9",
+        "beat_10",
+        "beat_11"
+      ],
+      "bbox": [
+        910,
+        620,
+        1790,
+        1200
+      ],
+      "description": "Medium shot: The Count recoils in terror as Professor Van Helsing holds up a glowing Sacred Wafer in an envelope. The Count is caught mid-lunge, forced back by the holy object.",
+      "shot_type": "medium",
+      "characters": [
+        "Professor",
+        "Tall, thin man"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "Professor",
+          "text": "Back, foul creature!",
+          "type": "shout",
+          "bbox": [
+            950,
+            650,
+            1400,
+            750
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_12",
+        "beat_13",
+        "beat_14"
+      ],
+      "bbox": [
+        10,
+        1220,
+        1790,
+        1800
+      ],
+      "description": "Wide shot: Moonlight fades as black clouds cover the sky. The Count dissipates into a faint, wispy vapour, trailing under the heavy bedroom door. The room is suddenly plunged into shadow.",
+      "shot_type": "wide",
+      "characters": [
+        "Tall, thin man"
+      ],
+      "bubbles": []
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_15",
+        "beat_16",
+        "beat_17"
+      ],
+      "bbox": [
+        10,
+        1820,
+        1790,
+        2390
+      ],
+      "description": "Medium shot: Mrs. Harker collapses on the bed, her face ghastly and pale, hands covering her eyes, shuddering. Van Helsing, Art, and Jonathan approach her with expressions of profound grief and horror.",
+      "shot_type": "medium",
+      "characters": [
+        "Mrs. Harker",
+        "Van Helsing",
+        "Art",
+        "Jonathan"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "Mrs. Harker",
+          "text": "(a low, desolate wail)",
+          "type": "speech",
+          "bbox": [
+            100,
+            1850,
+            600,
+            1950
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "terror",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

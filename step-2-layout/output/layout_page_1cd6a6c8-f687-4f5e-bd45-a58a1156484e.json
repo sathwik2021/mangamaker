@@ -1,0 +1,170 @@
+{
+  "page_id": "1cd6a6c8-f687-4f5e-bd45-a58a1156484e",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2",
+        "beat_3"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        580
+      ],
+      "description": "Medium shot inside a pale porcelain palace. The narrator, a Victorian explorer, points at unknown inscriptions on a wall while looking down at a confused, gentle-featured Weena. Soft, diffuse daylight.",
+      "shot_type": "medium",
+      "characters": [
+        "I",
+        "Weena"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "I",
+          "text": "I thought Weena might help me interpret this, but the concept of writing was entirely foreign to her.",
+          "type": "narration",
+          "bbox": [
+            30,
+            30,
+            800,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_5",
+        "beat_7",
+        "beat_10"
+      ],
+      "bbox": [
+        10,
+        600,
+        1790,
+        1180
+      ],
+      "description": "Wide angle interior view of a long, dusty museum gallery. In the center, a colossal, gaunt fossil skeleton looms in the dim light. The narrator stands small in the foreground, realizing the truth.",
+      "shot_type": "wide",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "I",
+          "text": "My museum hypothesis... it was all confirmed.",
+          "type": "narration",
+          "bbox": [
+            1000,
+            650,
+            1700,
+            800
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_16",
+        "beat_17",
+        "beat_18"
+      ],
+      "bbox": [
+        10,
+        1200,
+        890,
+        1780
+      ],
+      "description": "Medium shot on a forest path at dusk. The narrator is struggling, arms laden with bundles of dried grass and sticks. Weena looks exhausted, trailing slightly behind.",
+      "shot_type": "medium",
+      "characters": [
+        "I",
+        "Weena"
+      ],
+      "bubbles": []
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_22"
+      ],
+      "bbox": [
+        910,
+        1200,
+        1790,
+        1780
+      ],
+      "description": "Close up on the narrator's face, wide-eyed with sudden realization. In the dark, out-of-focus background, three pale, crouching Morlock figures are faintly visible between the bushes.",
+      "shot_type": "close_up",
+      "characters": [
+        "I",
+        "Morlocks"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "I",
+          "text": "They are here.",
+          "type": "speech",
+          "bbox": [
+            950,
+            1250,
+            1300,
+            1400
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_26",
+        "beat_27"
+      ],
+      "bbox": [
+        10,
+        1800,
+        1790,
+        2390
+      ],
+      "description": "Low angle, intense shot. The narrator is frantically striking a match, his face illuminated by the sudden, small, warm glow against the oppressive dark of the forest. The Morlocks are beginning to shadow the edges of the frame.",
+      "shot_type": "medium",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "I",
+          "text": "I wondered... what a rare thing flame must be to them now.",
+          "type": "narration",
+          "bbox": [
+            100,
+            1850,
+            900,
+            2100
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "tense",
+  "dominant_emotion": "anxiety",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

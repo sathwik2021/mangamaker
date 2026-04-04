@@ -1,0 +1,227 @@
+{
+  "page_id": "03010b1821567e2ad16f5ce716835718",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        0,
+        0,
+        895,
+        795
+      ],
+      "description": "Medium shot. Victor Frankenstein stands alone amidst the historic architecture of Oxford, perhaps a cloister or a library's exterior. His head is slightly bowed, eyes closed, a fleeting expression of hope quickly dissolving into deep despair, his right hand pressed against his chest over his heart. Shadows begin to engulf him, reflecting his inner turmoil, with soft morning light struggling to break through.",
+      "shot_type": "medium",
+      "characters": [
+        "the narrator"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "the narrator",
+          "text": "For a moment my soul was elevated from its debasing and miserable fears... but the iron had eaten into my flesh, and I sank again, trembling and hopeless, into my miserable self.",
+          "type": "narration",
+          "bbox": [
+            20,
+            20,
+            875,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_3"
+      ],
+      "bbox": [
+        905,
+        0,
+        1800,
+        795
+      ],
+      "description": "Wide shot. A horse-drawn carriage, carrying Victor Frankenstein and Henry Clerval (seen from behind), departs from the grand gothic spires of Oxford, receding into the distance. The road winds into the picturesque English countryside under an overcast, somber sky, symbolizing a reluctant departure and a journey fraught with underlying apprehension.",
+      "shot_type": "wide",
+      "characters": [
+        "the narrator",
+        "Henry"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "the narrator",
+          "text": "We left Oxford with regret and proceeded to Matlock, which was our next place of rest.",
+          "type": "narration",
+          "bbox": [
+            925,
+            20,
+            1780,
+            100
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_4",
+        "beat_5"
+      ],
+      "bbox": [
+        0,
+        805,
+        1800,
+        1200
+      ],
+      "description": "Wide shot. Victor Frankenstein and Henry Clerval, dressed in formal travel attire, stand at the mouth of a 'wondrous cave' in Matlock. Surrounding them are lush, green rolling hills and valleys, clearly beautiful but lacking the dramatic scale of the Alps. Henry looks on with genuine interest, while Victor's gaze is distant, comparing it mentally to Switzerland with a melancholic expression. Soft, diffuse daylight.",
+      "shot_type": "wide",
+      "characters": [
+        "the narrator",
+        "Henry"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "the narrator",
+          "text": "The country in the neighbourhood of this village resembled... the scenery of Switzerland; but everything is on a lower scale... We visited the wondrous cave and the little cabinets of natural history...",
+          "type": "narration",
+          "bbox": [
+            20,
+            825,
+            1780,
+            950
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_6"
+      ],
+      "bbox": [
+        0,
+        1210,
+        895,
+        1700
+      ],
+      "description": "Medium close-up, slightly Dutch angle. Victor Frankenstein's face, pale and contorted in sudden, intense fear. His eyes are wide, a bead of sweat on his brow. His left hand is raised slightly, as if to ward off a terrible memory. In the background, slightly out of focus, Henry Clerval is seen speaking, his mouth forming the word 'Chamounix'. Heavy, oppressive shadows fall across Victor's face, emphasizing his torment.",
+      "shot_type": "medium_close",
+      "characters": [
+        "the narrator",
+        "Henry"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4_1",
+          "character": "Henry",
+          "text": "Chamounix!",
+          "type": "speech",
+          "bbox": [
+            700,
+            1230,
+            875,
+            1330
+          ]
+        },
+        {
+          "id": "bubble_4_2",
+          "character": "the narrator",
+          "text": "That name made me tremble... I hastened to quit Matlock.",
+          "type": "narration",
+          "bbox": [
+            20,
+            1500,
+            300,
+            1680
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_7",
+        "beat_8"
+      ],
+      "bbox": [
+        905,
+        1210,
+        1800,
+        1700
+      ],
+      "description": "Wide shot. Victor Frankenstein and Henry Clerval are depicted walking along a scenic path through the rolling, green hills and clear lakes of Cumberland. They are meeting a small group of indistinct, smiling figures in the distance, representing new acquaintances. Victor's expression is one of fleeting relief, a rare, faint smile gracing his lips. Bright, hopeful daylight illuminates the scene.",
+      "shot_type": "wide",
+      "characters": [
+        "the narrator",
+        "Henry"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "the narrator",
+          "text": "Still journeying northwards, we passed two months in Cumberland and Westmorland. Here, acquaintances almost contrived to cheat me into happiness.",
+          "type": "narration",
+          "bbox": [
+            925,
+            1230,
+            1780,
+            1380
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_6",
+      "beat_ids": [
+        "beat_9",
+        "beat_10",
+        "beat_11"
+      ],
+      "bbox": [
+        0,
+        1710,
+        1800,
+        2400
+      ],
+      "description": "Wide shot. Henry Clerval, with a beaming, expansive smile, gestures broadly towards the panoramic landscape of the Lake District, which features distant, snow-capped mountains (small patches), shimmering lakes, and rocky streams. Victor Frankenstein stands slightly behind him, his expression a complex mix of wistful nostalgia for his homeland and an underlying shadow of melancholy. The sun casts a gentle, warm glow, highlighting Clerval's joy and Victor's subtle distress.",
+      "shot_type": "wide",
+      "characters": [
+        "the narrator",
+        "Clerval"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_6",
+          "character": "the narrator",
+          "text": "Clerval's delight was far greater than mine. I could almost fancy myself among the Swiss mountains again; the familiar sights were dear to me.",
+          "type": "narration",
+          "bbox": [
+            20,
+            1730,
+            1780,
+            1900
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "evocative",
+  "dominant_emotion": "melancholy_and_dread",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5",
+    "panel_6"
+  ]
+}
