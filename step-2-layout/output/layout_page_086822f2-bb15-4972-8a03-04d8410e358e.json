@@ -1,0 +1,367 @@
+{
+  "page_id": "086822f2-bb15-4972-8a03-04d8410e358e",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        50,
+        50,
+        1750,
+        450
+      ],
+      "description": "Medium close-up on Alice, slightly nervous and curious, glancing sideways off-panel where the Queen is. Background is the blurry croquet ground setting. Soft, inquisitive lighting.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Alice"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "Alice",
+          "text": "She's so extremely—",
+          "type": "speech",
+          "bbox": [
+            180,
+            280,
+            600,
+            380
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_3",
+        "beat_4",
+        "beat_5",
+        "beat_6"
+      ],
+      "bbox": [
+        50,
+        460,
+        1750,
+        920
+      ],
+      "description": "Wide shot showing Alice, the King leaning in curiously, and the floating, grinning head of the Cheshire Cat partially visible in the middle ground. The Queen is seen turning away slightly in the background. Bright, slightly chaotic lighting.",
+      "shot_type": "wide",
+      "characters": [
+        "Alice",
+        "King",
+        "Cat"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "King",
+          "text": "Who _are_ you talking to?",
+          "type": "speech",
+          "bbox": [
+            1100,
+            550,
+            1550,
+            650
+          ]
+        },
+        {
+          "id": "bubble_3",
+          "character": "Alice",
+          "text": "It's a friend of mine—a Cheshire Cat,",
+          "type": "speech",
+          "bbox": [
+            150,
+            650,
+            600,
+            750
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_7",
+        "beat_8",
+        "beat_9",
+        "beat_10"
+      ],
+      "bbox": [
+        50,
+        930,
+        880,
+        1400
+      ],
+      "description": "Medium close-up on the King, stern and slightly affronted, addressing Alice (off-panel). The Cat's head is slightly visible near the King's shoulder, looking smug. Tension is rising.",
+      "shot_type": "medium",
+      "characters": [
+        "King",
+        "Cat"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "King",
+          "text": "I don't like the look of it at all, however, it may kiss my hand if it likes.",
+          "type": "speech",
+          "bbox": [
+            150,
+            950,
+            800,
+            1100
+          ]
+        },
+        {
+          "id": "bubble_5",
+          "character": "Alice",
+          "text": "I'd rather not,",
+          "type": "speech",
+          "bbox": [
+            150,
+            1120,
+            400,
+            1220
+          ]
+        },
+        {
+          "id": "bubble_6",
+          "character": "King",
+          "text": "Don't be impertinent,",
+          "type": "shout",
+          "bbox": [
+            450,
+            1240,
+            780,
+            1350
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_11",
+        "beat_12",
+        "beat_13",
+        "beat_14"
+      ],
+      "bbox": [
+        930,
+        930,
+        1750,
+        1400
+      ],
+      "description": "Medium shot. Alice faces the King, who is now standing slightly behind her, looking superior. Emphasis on the Cat's continued presence (perhaps only its eyes or a slight grin visible near the King).",
+      "shot_type": "medium",
+      "characters": [
+        "Alice",
+        "King"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_7",
+          "character": "Cat",
+          "text": "A cat may look at a king,",
+          "type": "speech",
+          "bbox": [
+            1000,
+            950,
+            1450,
+            1050
+          ]
+        },
+        {
+          "id": "bubble_8",
+          "character": "Cat",
+          "text": "I've read that in some book, but I don't remember where.",
+          "type": "speech",
+          "bbox": [
+            1000,
+            1070,
+            1650,
+            1220
+          ]
+        },
+        {
+          "id": "bubble_9",
+          "character": "King",
+          "text": "The King very decidedly.",
+          "type": "narration",
+          "bbox": [
+            1000,
+            1240,
+            1600,
+            1380
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_15",
+        "beat_16",
+        "beat_17"
+      ],
+      "bbox": [
+        50,
+        1410,
+        1750,
+        1850
+      ],
+      "description": "Action panel focusing on the Queen's sudden fury and command. Close-up on the Queen's enraged face, pointing aggressively off-panel towards where the Cat was, or where the King is standing. Executioner figure partially visible in the background, turning to run.",
+      "shot_type": "close_up",
+      "characters": [
+        "Queen",
+        "Executioner"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_10",
+          "character": "Queen",
+          "text": "Off with his head!",
+          "type": "shout",
+          "bbox": [
+            150,
+            1430,
+            550,
+            1550
+          ]
+        },
+        {
+          "id": "bubble_11",
+          "character": "King",
+          "text": "I'll fetch the executioner myself,",
+          "type": "speech",
+          "bbox": [
+            600,
+            1570,
+            1100,
+            1700
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_6",
+      "beat_ids": [
+        "beat_18",
+        "beat_19",
+        "beat_20",
+        "beat_21"
+      ],
+      "bbox": [
+        50,
+        1860,
+        880,
+        2350
+      ],
+      "description": "Wide shot: Alice walking away from the chaotic center of the court towards the edge of the garden, looking slightly exasperated but determined. The garden is depicted as slightly messy and confusing.",
+      "shot_type": "wide",
+      "characters": [
+        "Alice"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_12",
+          "character": "Narration",
+          "text": "She did not like the look of things at all, and went in search of her hedgehog.",
+          "type": "narration",
+          "bbox": [
+            100,
+            1950,
+            800,
+            2300
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_7",
+      "beat_ids": [
+        "beat_22",
+        "beat_23",
+        "beat_24",
+        "beat_25",
+        "beat_26",
+        "beat_27",
+        "beat_28",
+        "beat_29",
+        "beat_30",
+        "beat_31",
+        "beat_32"
+      ],
+      "bbox": [
+        930,
+        1860,
+        1750,
+        2350
+      ],
+      "description": "Wide shot of the crowded area where Alice is returning. A dynamic, tense gathering: The Queen, King, and Executioner arguing loudly over the empty space where the Cat was, while a small crowd looks on uncomfortably. Alice re-enters the frame from the left, holding a struggling hedgehog under her arm.",
+      "shot_type": "wide",
+      "characters": [
+        "Alice",
+        "Queen",
+        "King",
+        "Executioner",
+        "Cat"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_13",
+          "character": "Executioner",
+          "text": "He's gone! Where is he?!",
+          "type": "shout",
+          "bbox": [
+            1000,
+            1900,
+            1350,
+            2000
+          ]
+        },
+        {
+          "id": "bubble_14",
+          "character": "Queen",
+          "text": "Find him at once!",
+          "type": "shout",
+          "bbox": [
+            1370,
+            1900,
+            1650,
+            2000
+          ]
+        },
+        {
+          "id": "bubble_15",
+          "character": "Narration",
+          "text": "When she returned to the Cheshire Cat, she was surprised to find quite a large crowd round it.",
+          "type": "narration",
+          "bbox": [
+            950,
+            2020,
+            1700,
+            2300
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "confusion_and_tension",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5",
+    "panel_6",
+    "panel_7"
+  ]
+}

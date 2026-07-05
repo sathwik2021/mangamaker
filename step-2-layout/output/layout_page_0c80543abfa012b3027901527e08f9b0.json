@@ -1,0 +1,189 @@
+{
+  "page_id": "0c80543abfa012b3027901527e08f9b0",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        580
+      ],
+      "description": "Medium shot: Baloo the bear pats his belly with a gentle, proud smile, Bagheera the panther stands beside him looking thoughtful. Jungle canopy background with dappled sunlight.",
+      "shot_type": "medium",
+      "characters": [
+        "Baloo",
+        "Bagheera"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "Baloo",
+          "text": "There--there! That was worth a little bruise. Some day thou wilt remember me.",
+          "type": "speech",
+          "bbox": [
+            50,
+            50,
+            600,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_3",
+        "beat_4",
+        "beat_5",
+        "beat_6"
+      ],
+      "bbox": [
+        10,
+        600,
+        1790,
+        1180
+      ],
+      "description": "Wide shot: Baloo gesturing grandly to Bagheera, Mowgli dancing around their feet. Baloo looks boisterous and protective, Bagheera watching with weary wisdom.",
+      "shot_type": "wide",
+      "characters": [
+        "Baloo",
+        "Bagheera",
+        "Mowgli"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "Baloo",
+          "text": "No one then is to be feared! Have a care for my ribs, Little Brother! What is all this dancing?",
+          "type": "speech",
+          "bbox": [
+            900,
+            650,
+            1700,
+            850
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_7",
+        "beat_8",
+        "beat_9"
+      ],
+      "bbox": [
+        10,
+        1190,
+        890,
+        1770
+      ],
+      "description": "Medium close-up: Mowgli, standing on Bagheera's back, shouting excitedly with wide eyes, pulling at the panther's fur.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Mowgli",
+        "Bagheera"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "Mowgli",
+          "text": "And so I shall have a tribe of my own, and lead them through the branches all day long!",
+          "type": "shout",
+          "bbox": [
+            50,
+            1250,
+            800,
+            1450
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_10",
+        "beat_11"
+      ],
+      "bbox": [
+        900,
+        1190,
+        1790,
+        1770
+      ],
+      "description": "Medium shot: Baloo has snatched Mowgli off the panther. Baloo's expression is stern and angry. High contrast lighting accentuating his heavy paws.",
+      "shot_type": "medium",
+      "characters": [
+        "Baloo",
+        "Mowgli"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "Baloo",
+          "text": "Mowgli, thou hast been talking with the Bandar-log--the Monkey People.",
+          "type": "speech",
+          "bbox": [
+            950,
+            1250,
+            1700,
+            1450
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_12",
+        "beat_13",
+        "beat_14"
+      ],
+      "bbox": [
+        10,
+        1780,
+        1790,
+        2390
+      ],
+      "description": "Close-up: Mowgli looking up at Baloo from between his paws, eyes full of hurt and defiance. In the background, Bagheera's eyes glint like jade in the shadows.",
+      "shot_type": "close_up",
+      "characters": [
+        "Mowgli",
+        "Baloo",
+        "Bagheera"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "Mowgli",
+          "text": "The gray apes had pity on me. No one else cared.",
+          "type": "speech",
+          "bbox": [
+            100,
+            1850,
+            800,
+            2050
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "tense",
+  "dominant_emotion": "defiance",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "page_id": "1c285924dce2bd186e9065940cf5a7d8",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        580
+      ],
+      "description": "Medium close-up shot: Frankenstein on the ship's deck, looking out at the frozen Arctic horizon with a melancholic and haunted expression, wind whipping his hair, heavy layers of winter clothing, icy mist in the background.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Frankenstein"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "Frankenstein",
+          "text": "And what, Margaret, will be the state of your mind? You will anxiously await my return, tortured by hope.",
+          "type": "narration",
+          "bbox": [
+            50,
+            50,
+            800,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_8",
+        "beat_9"
+      ],
+      "bbox": [
+        10,
+        590,
+        1790,
+        1170
+      ],
+      "description": "Wide shot: The deck of the ship surrounded by massive, towering glaciers. Frankenstein is standing in the center, speaking with intense, charismatic gestures to a group of weary, frost-bitten sailors. The atmosphere is tense and claustrophobic.",
+      "shot_type": "wide",
+      "characters": [
+        "Frankenstein",
+        "sailors"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "Frankenstein",
+          "text": "These mountains of ice are mole-hills that will vanish before the resolution of man!",
+          "type": "shout",
+          "bbox": [
+            100,
+            650,
+            700,
+            850
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_13",
+        "beat_15"
+      ],
+      "bbox": [
+        10,
+        1180,
+        890,
+        1760
+      ],
+      "description": "Medium shot: Frankenstein lying in a cramped cabin, pale and emaciated, eyes barely open, his frame fragile. The narrator sits nearby, looking at him with deep concern, dimly lit by a flickering lantern.",
+      "shot_type": "medium",
+      "characters": [
+        "Frankenstein"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "narrator",
+          "text": "Frankenstein has daily declined in health... a feverish fire still glimmers in his eyes.",
+          "type": "narration",
+          "bbox": [
+            50,
+            1220,
+            450,
+            1450
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_16",
+        "beat_17"
+      ],
+      "bbox": [
+        900,
+        1180,
+        1790,
+        1760
+      ],
+      "description": "Medium close-up: A group of sailors pushes into the cabin, their faces hardened by fear and desperation. The leader steps forward, pointing a gloved hand towards the narrator.",
+      "shot_type": "medium_close",
+      "characters": [
+        "sailors"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "sailor leader",
+          "text": "We demand a promise, Captain. If the ice breaks, you steer south. We will not perish for your voyage.",
+          "type": "speech",
+          "bbox": [
+            950,
+            1220,
+            1700,
+            1450
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_23",
+        "beat_24"
+      ],
+      "bbox": [
+        10,
+        1770,
+        1790,
+        2390
+      ],
+      "description": "Close-up: Frankenstein suddenly sitting upright, his eyes sparking with a terrifying, wild energy, cheeks flushed. He is shouting at the sailors with renewed, almost unnatural vitality, hands gripped tight on the bedframe.",
+      "shot_type": "close_up",
+      "characters": [
+        "Frankenstein"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "Frankenstein",
+          "text": "What do you mean? Are you, then, so easily turned from your design?",
+          "type": "shout",
+          "bbox": [
+            100,
+            1850,
+            1200,
+            2100
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "tense",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

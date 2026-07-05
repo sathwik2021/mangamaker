@@ -1,0 +1,109 @@
+{
+  "page_id": "12e3ed482e62f8ccf38673b1b4ce727c",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        790
+      ],
+      "description": "Wide shot: The protagonist sits at a desk in a dim room, head in hands, looking away from an open window that frames a calm but distant sea. Atmospheric lighting, heavy shadows on the face, Victorian era interior, melancholic mood.",
+      "shot_type": "wide",
+      "characters": [
+        "Protagonist"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "Protagonist",
+          "text": "Oxen and wain-ropes would not bring me back again to that accursed island;",
+          "type": "narration",
+          "bbox": [
+            50,
+            50,
+            800,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_2"
+      ],
+      "bbox": [
+        10,
+        810,
+        1790,
+        1590
+      ],
+      "description": "Medium shot: The protagonist bolts upright in bed, eyes wide with terror, sweat on brow, messy bedsheets. Moonlight streaming in, creating sharp, jagged shadows across the room. The room feels claustrophobic.",
+      "shot_type": "medium",
+      "characters": [
+        "Protagonist"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "Protagonist",
+          "text": "And the worst dreams that ever I have are when I hear the surf booming... or start upright with the voice of Captain Flint ringing in my ears.",
+          "type": "narration",
+          "bbox": [
+            900,
+            900,
+            1700,
+            1200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_3"
+      ],
+      "bbox": [
+        10,
+        1610,
+        1790,
+        2390
+      ],
+      "description": "Close up: The protagonist's face, distorted by fear, mouth slightly open as if hearing the ghost of a voice. Background is pitch black, emphasizing the overwhelming sense of trauma. Sharp focus on eyes.",
+      "shot_type": "close_up",
+      "characters": [
+        "Protagonist"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "Protagonist",
+          "text": "\"Pieces of eight! Pieces of eight!\"",
+          "type": "shout",
+          "bbox": [
+            300,
+            1800,
+            1500,
+            2000
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "tense",
+  "dominant_emotion": "trauma",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3"
+  ]
+}

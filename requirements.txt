@@ -1,0 +1,13 @@
+diffusers>=0.37.1
+peft>=0.18.1
+transformers>=4.47.0,<5.0.0
+accelerate>=1.13.0
+safetensors>=0.7.0
+google-genai
+flask>=3.0.0
+opencv-python
+scipy
+pillow
+numpy
+python-dotenv>=1.2.2
+flask-cors>=4.0.0

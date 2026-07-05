@@ -1,0 +1,230 @@
+{
+  "page_id": "0aae18335e43d6520596d8ef7cfddf78",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2",
+        "beat_3"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        580
+      ],
+      "description": "Wide shot: Jane and Elizabeth in a parlor, looking worried over a ledger, piles of letters scattered on a wooden table, Victorian aesthetic, soft window light.",
+      "shot_type": "wide",
+      "characters": [
+        "Jane",
+        "Elizabeth"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "Elizabeth",
+          "text": "Economy is our only hope for Lydia's debts.",
+          "type": "narration",
+          "bbox": [
+            50,
+            50,
+            600,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_4",
+        "beat_5",
+        "beat_6"
+      ],
+      "bbox": [
+        10,
+        590,
+        890,
+        1180
+      ],
+      "description": "Medium shot: Darcy stands by a fireplace at Pemberley, looking contemplative; in a small inset bubble window, a chaotic glimpse of Lydia and Wickham arguing in a messy drawing room.",
+      "shot_type": "medium",
+      "characters": [
+        "Darcy",
+        "Lydia"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "Darcy",
+          "text": "For Elizabeth's sake, I shall continue to assist him, despite my distaste.",
+          "type": "narration",
+          "bbox": [
+            50,
+            650,
+            800,
+            400
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_7",
+        "beat_8",
+        "beat_9"
+      ],
+      "bbox": [
+        900,
+        590,
+        1790,
+        1180
+      ],
+      "description": "Medium shot: Miss Bingley forcing a stiff, polite smile while conversing with Georgiana Darcy in the elegant Pemberley library.",
+      "shot_type": "medium",
+      "characters": [
+        "Miss Bingley",
+        "Georgiana"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "Miss Bingley",
+          "text": "I find the air at Pemberley... exceptionally refined today, Georgiana.",
+          "type": "speech",
+          "bbox": [
+            950,
+            650,
+            1700,
+            400
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_10",
+        "beat_11",
+        "beat_12",
+        "beat_13"
+      ],
+      "bbox": [
+        10,
+        1190,
+        890,
+        1780
+      ],
+      "description": "Medium close-up: Elizabeth laughing while leaning on Darcy's shoulder; Georgiana watches them with wide, enlightened eyes.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Elizabeth",
+        "Darcy",
+        "Georgiana"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "Elizabeth",
+          "text": "Oh, Darcy, stop being so dreadfully serious!",
+          "type": "speech",
+          "bbox": [
+            100,
+            1250,
+            750,
+            300
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_14",
+        "beat_15"
+      ],
+      "bbox": [
+        900,
+        1190,
+        1790,
+        1780
+      ],
+      "description": "Medium shot: Lady Catherine arrives at the grand gates of Pemberley, looking down her nose with intense judgment, Darcy stands firmly in the doorway.",
+      "shot_type": "medium",
+      "characters": [
+        "Lady Catherine",
+        "Darcy"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "Lady Catherine",
+          "text": "The pollution of this estate is quite unbearable.",
+          "type": "speech",
+          "bbox": [
+            950,
+            1250,
+            1700,
+            400
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_6",
+      "beat_ids": [
+        "beat_16",
+        "beat_17",
+        "beat_18",
+        "beat_19",
+        "beat_20",
+        "beat_21",
+        "beat_22",
+        "beat_23"
+      ],
+      "bbox": [
+        10,
+        1790,
+        1790,
+        2390
+      ],
+      "description": "Wide shot: The Gardiners sitting at a dining table with Darcy and Elizabeth, all laughing and clinking crystal glasses in a warm, candlelit room.",
+      "shot_type": "wide",
+      "characters": [
+        "Gardiners",
+        "Darcy",
+        "Elizabeth"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_6",
+          "character": "Elizabeth",
+          "text": "We owe everything to you, my dear aunt and uncle.",
+          "type": "speech",
+          "bbox": [
+            50,
+            1850,
+            1700,
+            400
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "contentment",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5",
+    "panel_6"
+  ]
+}

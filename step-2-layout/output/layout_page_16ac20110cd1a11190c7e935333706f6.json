@@ -1,0 +1,183 @@
+{
+  "page_id": "16ac20110cd1a11190c7e935333706f6",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2",
+        "beat_3"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        580
+      ],
+      "description": "Wide shot, Victor sitting at a cluttered, dimly lit mahogany desk in Geneva. He is looking at his hands with a conflicted expression, heavy shadows on his face, books and papers scattered everywhere.",
+      "shot_type": "wide",
+      "characters": [
+        "Victor"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "Victor",
+          "text": "The prospect of such an occupation... I cannot collect the courage to recommence my work. I fear the fiend's vengeance.",
+          "type": "narration",
+          "bbox": [
+            50,
+            400,
+            1750,
+            550
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_9",
+        "beat_10",
+        "beat_11"
+      ],
+      "bbox": [
+        10,
+        590,
+        1790,
+        1170
+      ],
+      "description": "Wide shot, Victor alone in a small wooden boat on a serene blue lake. Bright, warm sunlight contrasts with his lonely posture. He is looking into the distance with a hollow but peaceful expression.",
+      "shot_type": "wide",
+      "characters": [
+        "Victor"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "Victor",
+          "text": "In solitude, on the rippling waves, I find a brief restoration of my heart.",
+          "type": "narration",
+          "bbox": [
+            100,
+            1000,
+            1700,
+            1150
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_12",
+        "beat_13",
+        "beat_14"
+      ],
+      "bbox": [
+        10,
+        1180,
+        895,
+        1780
+      ],
+      "description": "Medium shot, Father sitting in a comfortable armchair, looking warmly and intensely at Victor. The room is cozy, illuminated by warm lamp light.",
+      "shot_type": "medium",
+      "characters": [
+        "father",
+        "Victor"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "father",
+          "text": "My dear son, I have always looked forward to your marriage with our dear Elizabeth.",
+          "type": "speech",
+          "bbox": [
+            30,
+            1200,
+            850,
+            1450
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_16",
+        "beat_17"
+      ],
+      "bbox": [
+        905,
+        1180,
+        1790,
+        1780
+      ],
+      "description": "Close up on Father's concerned face, looking over his spectacles at Victor, questioning look.",
+      "shot_type": "close_up",
+      "characters": [
+        "father"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "father",
+          "text": "You may have met another. This struggle... it causes you misery, does it not?",
+          "type": "speech",
+          "bbox": [
+            925,
+            1200,
+            1770,
+            1550
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_18",
+        "beat_19",
+        "beat_20"
+      ],
+      "bbox": [
+        10,
+        1790,
+        1790,
+        2390
+      ],
+      "description": "Medium close up, Victor looking up at his father, his expression softening with genuine sincerity and a trace of relief. Warm room lighting.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Victor"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "Victor",
+          "text": "I love my cousin tenderly. My future hopes are entirely bound up in the expectation of our union.",
+          "type": "speech",
+          "bbox": [
+            50,
+            2050,
+            1750,
+            2350
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "reassurance",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

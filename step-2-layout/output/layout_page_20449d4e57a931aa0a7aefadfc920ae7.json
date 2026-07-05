@@ -1,0 +1,201 @@
+{
+  "page_id": "20449d4e57a931aa0a7aefadfc920ae7",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        580
+      ],
+      "description": "Close up shot on the protagonist's wide-eyed, horrified face as they stare at a demonic, basilisk-eyed gaze. High contrast, heavy shadows, intense expression.",
+      "shot_type": "close_up",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "I",
+          "text": "The eyes... their blaze of horror... I cannot move.",
+          "type": "narration",
+          "bbox": [
+            50,
+            50,
+            600,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_3",
+        "beat_4"
+      ],
+      "bbox": [
+        10,
+        600,
+        1790,
+        1050
+      ],
+      "description": "Medium shot of the protagonist holding a shovel, hands trembling, a shallow gash appearing on the ghastly face they are attacking. The atmosphere is thick with dread.",
+      "shot_type": "medium",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "I",
+          "text": "My hand... it failed me. Only a scratch.",
+          "type": "narration",
+          "bbox": [
+            50,
+            650,
+            500,
+            300
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_5",
+        "beat_6"
+      ],
+      "bbox": [
+        10,
+        1070,
+        890,
+        1550
+      ],
+      "description": "Wide angle: Distant silhouettes of wagons approaching through the dark, misty landscape. The protagonist is seen small in the corner, clutching their chest in fear.",
+      "shot_type": "wide",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "I",
+          "text": "The gipsies... the Szgany... they are here.",
+          "type": "speech",
+          "bbox": [
+            100,
+            1150,
+            400,
+            1300
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_7",
+        "beat_8",
+        "beat_9",
+        "beat_10"
+      ],
+      "bbox": [
+        910,
+        1070,
+        1790,
+        1550
+      ],
+      "description": "Medium shot: The protagonist presses their ear against a cold, stone wall. Inset panel shows a heavy iron door locking. Dramatic lighting.",
+      "shot_type": "medium",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "I",
+          "text": "The locks... they are sealing me in.",
+          "type": "speech",
+          "bbox": [
+            950,
+            1150,
+            1300,
+            1300
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_11",
+        "beat_12"
+      ],
+      "bbox": [
+        10,
+        1570,
+        1790,
+        2000
+      ],
+      "description": "Action shot: A violent gust of wind slams a heavy wooden door shut, dust and stone debris flying everywhere. Protagonist recoils in shock.",
+      "shot_type": "medium",
+      "characters": [
+        "I"
+      ],
+      "bubbles": []
+    },
+    {
+      "id": "panel_6",
+      "beat_ids": [
+        "beat_13",
+        "beat_14",
+        "beat_15"
+      ],
+      "bbox": [
+        10,
+        2020,
+        1790,
+        2390
+      ],
+      "description": "Close up: The protagonist stares upwards toward a sliver of moonlight filtering through a high, impossible stone wall. Expression shifts from despair to desperate resolve.",
+      "shot_type": "close_up",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "I",
+          "text": "Caught in the net of death. But I will scale these walls... or die trying.",
+          "type": "narration",
+          "bbox": [
+            50,
+            2100,
+            1700,
+            2300
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "tense",
+  "dominant_emotion": "despair and resolve",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5",
+    "panel_6"
+  ]
+}

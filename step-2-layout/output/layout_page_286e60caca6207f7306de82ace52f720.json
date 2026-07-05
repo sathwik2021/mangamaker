@@ -1,0 +1,184 @@
+{
+  "page_id": "286e60caca6207f7306de82ace52f720",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        580
+      ],
+      "description": "Medium shot on the deck of the Hispaniola. Israel Hands sits, his face a mask of haggard, twisted malice as he watches Jim Hawkins. The lighting is harsh sunlight reflecting off the wooden deck, creating deep, treacherous shadows on Hands' face.",
+      "shot_type": "medium",
+      "characters": [
+        "Israel Hands",
+        "Jim Hawkins"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "narration",
+          "text": "His eyes followed me derisively, a shadow of treachery in every line of his face.",
+          "type": "narration",
+          "bbox": [
+            50,
+            50,
+            800,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_3",
+        "beat_4"
+      ],
+      "bbox": [
+        10,
+        590,
+        1790,
+        1050
+      ],
+      "description": "Wide shot of the ship at sea. The sails are adjusted, the horizon is wide and lonely. Jim and Hands sit on the deck near a simple meal. Silence hangs between them, oppressive and heavy.",
+      "shot_type": "wide",
+      "characters": [
+        "Israel Hands",
+        "Jim Hawkins"
+      ],
+      "bubbles": []
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_5",
+        "beat_6",
+        "beat_7"
+      ],
+      "bbox": [
+        10,
+        1060,
+        1790,
+        1550
+      ],
+      "description": "Close-up on Hands, gesturing toward the body of O'Brien slumped nearby. Hands looks sickly, his expression conveying false worry about the 'unlucky' ship.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Israel Hands"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "Israel Hands",
+          "text": "Cap'n, here's my old shipmate, O'Brien; s'pose you was to heave him overboard? He ain't ornamental now.",
+          "type": "speech",
+          "bbox": [
+            300,
+            1100,
+            1700,
+            1300
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_9",
+        "beat_10",
+        "beat_11",
+        "beat_12"
+      ],
+      "bbox": [
+        10,
+        1560,
+        1790,
+        2000
+      ],
+      "description": "Extreme close-up on Hands' eyes—they are shifty, constantly glancing at the sky and then toward the cabin door. His tongue pokes out nervously.",
+      "shot_type": "close_up",
+      "characters": [
+        "Israel Hands"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "Israel Hands",
+          "text": "Step down into the cabin and get me some wine, Jim. This brandy's too strong for me.",
+          "type": "speech",
+          "bbox": [
+            100,
+            1600,
+            1000,
+            1850
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_13",
+        "beat_14",
+        "beat_15"
+      ],
+      "bbox": [
+        10,
+        2010,
+        1790,
+        2390
+      ],
+      "description": "Medium shot: Jim Hawkins standing, looking down at Hands with a sharp, guarded expression. Hands looks up, feigning ignorance while hiding his true intent.",
+      "shot_type": "medium",
+      "characters": [
+        "Jim Hawkins",
+        "Israel Hands"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "Jim Hawkins",
+          "text": "Some wine? Far better. Will you have white or red?",
+          "type": "speech",
+          "bbox": [
+            100,
+            2050,
+            800,
+            2200
+          ]
+        },
+        {
+          "id": "bubble_5",
+          "character": "Israel Hands",
+          "text": "Don't matter, shipmate. Just get it.",
+          "type": "speech",
+          "bbox": [
+            900,
+            2200,
+            1700,
+            2350
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "tense",
+  "dominant_emotion": "suspicion",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

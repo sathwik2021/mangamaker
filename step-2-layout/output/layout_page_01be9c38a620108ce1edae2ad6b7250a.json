@@ -1,0 +1,318 @@
+{
+  "page_id": "01be9c38a620108ce1edae2ad6b7250a",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2",
+        "beat_3"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        500
+      ],
+      "description": "Medium shot: Inside the cozy, humble Cratchit home, Mrs. Cratchit, a kind-faced woman, stands near a warm, crackling fireplace, extending a welcoming hand with a gentle smile to Martha, who enters. Suddenly, a younger Cratchit child, perhaps Belinda or Master Peter, turns sharply, pointing towards the door with a conspiratorial look of urgency. Martha, her eyes wide with a playful, mischievous glint, quickly turns to find a spot to hide, a mix of excitement and anticipation on her face. The room is bathed in the warm, orange glow from the fire, indicating a loving atmosphere.",
+      "shot_type": "medium",
+      "characters": [
+        "Mrs. Cratchit",
+        "Martha",
+        "young Cratchit"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "Mrs. Cratchit",
+          "text": "Sit ye down before the fire, my dear, and have a warm, Lord bless ye!",
+          "type": "speech",
+          "bbox": [
+            60,
+            60,
+            1490,
+            160
+          ]
+        },
+        {
+          "id": "bubble_2",
+          "character": "young Cratchit",
+          "text": "No, no! There's father coming,",
+          "type": "speech",
+          "bbox": [
+            550,
+            180,
+            1740,
+            260
+          ]
+        },
+        {
+          "id": "bubble_3",
+          "character": "young Cratchit",
+          "text": "Hide, Martha, hide!",
+          "type": "speech",
+          "bbox": [
+            550,
+            280,
+            1740,
+            360
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_4",
+        "beat_5"
+      ],
+      "bbox": [
+        10,
+        510,
+        895,
+        1110
+      ],
+      "description": "Medium shot, slightly low angle: Bob Cratchit steps into the cramped doorway of his modest home, a look of gentle weariness mixed with a deep, humble warmth on his face. He is wrapped in a thick, long, threadbare comforter and wears patched but neatly brushed clothes, conveying dignity despite poverty. Perched carefully on his left shoulder, Tiny Tim, small and delicate, clutches a tiny crutch in his hand, his thin leg visibly supported by an iron frame. Mrs. Cratchit and other children, visible in the background, watch his entrance with a mixture of love and subtle concern. The background shows a simple, but clean, interior.",
+      "shot_type": "medium",
+      "characters": [
+        "Bob Cratchit",
+        "Tiny Tim",
+        "Mrs. Cratchit",
+        "young Cratchit"
+      ],
+      "bubbles": []
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_6",
+        "beat_7",
+        "beat_8",
+        "beat_9",
+        "beat_10"
+      ],
+      "bbox": [
+        905,
+        510,
+        1790,
+        1110
+      ],
+      "description": "Medium close-up: Bob Cratchit, still holding Tiny Tim gently, scans the small room with a slight frown of playful disappointment, his eyes searching every corner. He addresses the other family members. In the background, peeking cautiously from behind a worn curtain or a half-open cupboard door, Martha's eyes are wide, reflecting a mischievous glint combined with a flicker of nervous excitement as she tries to remain completely hidden, holding her breath. Soft, ambient light illuminates their faces, emphasizing the playful interaction.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Bob Cratchit",
+        "Tiny Tim",
+        "Martha"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "Bob Cratchit",
+          "text": "Why, where's our Martha?",
+          "type": "speech",
+          "bbox": [
+            955,
+            560,
+            1590,
+            660
+          ]
+        },
+        {
+          "id": "bubble_5",
+          "character": "Bob Cratchit",
+          "text": "Not coming,",
+          "type": "speech",
+          "bbox": [
+            955,
+            680,
+            1590,
+            760
+          ]
+        },
+        {
+          "id": "bubble_6",
+          "character": "Bob Cratchit",
+          "text": "Not coming upon Christmas Day!",
+          "type": "speech",
+          "bbox": [
+            955,
+            780,
+            1590,
+            860
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_11"
+      ],
+      "bbox": [
+        10,
+        1120,
+        1790,
+        1570
+      ],
+      "description": "Wide shot, dynamic angle: Martha, beaming with pure joy and relief, bursts out from behind a closet door, her skirt swishing, and rushes into Bob Cratchit's open arms. Bob embraces her warmly, a genuine, hearty smile replacing his earlier playful frown. Their embrace is full of affection. In the background, two energetic young Cratchits, Master Peter and Belinda, are seen playfully yet carefully hustling Tiny Tim away towards a wash-house door, their faces lit up with the excitement of hearing the 'pudding singing in the copper.' The scene is vibrant with movement and bustling familial warmth, bathed in the cozy light of the home.",
+      "shot_type": "wide",
+      "characters": [
+        "Martha",
+        "Bob Cratchit",
+        "Tiny Tim",
+        "Master Peter",
+        "Belinda"
+      ],
+      "bubbles": []
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_12",
+        "beat_13",
+        "beat_14",
+        "beat_15",
+        "beat_16",
+        "beat_17"
+      ],
+      "bbox": [
+        10,
+        1580,
+        895,
+        1980
+      ],
+      "description": "Medium close-up transitioning to close-up: Mrs. Cratchit, with a gentle, proud smile, looks at Bob, speaking warmly about Tiny Tim's good nature and thoughtful character. The camera then pushes in for a close-up on Bob Cratchit's face, showing a profound mixture of love and deep sorrow. His eyes are downcast, a single tear welling at the corner, his lips trembling slightly as he recounts Tiny Tim's poignant words from church. The lighting is subdued and soft, emphasizing the emotional weight and pathos of this intimate moment.",
+      "shot_type": "close_up",
+      "characters": [
+        "Mrs. Cratchit",
+        "Bob Cratchit"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_7",
+          "character": "Mrs. Cratchit",
+          "text": "And how did little Tim behave?",
+          "type": "speech",
+          "bbox": [
+            60,
+            1630,
+            845,
+            1710
+          ]
+        },
+        {
+          "id": "bubble_8",
+          "character": "Mrs. Cratchit",
+          "text": "As good as gold, And better. Somehow he gets thoughtful, sitting by himself so much, and thinks the strangest things you ever heard.",
+          "type": "speech",
+          "bbox": [
+            60,
+            1720,
+            845,
+            1840
+          ]
+        },
+        {
+          "id": "bubble_9",
+          "character": "Bob Cratchit",
+          "text": "He told me, coming home, that he hoped the people saw him in the church, because he was a cripple, and it might be pleasant to them to remember upon Christmas Day, who made lame beggars walk, and blind men see.",
+          "type": "speech",
+          "bbox": [
+            60,
+            1850,
+            845,
+            1930
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_6",
+      "beat_ids": [
+        "beat_18",
+        "beat_19"
+      ],
+      "bbox": [
+        905,
+        1580,
+        1790,
+        1980
+      ],
+      "description": "Medium shot: Tiny Tim, with his little crutch, slowly but determinedly navigates across the worn floor towards his stool, which is positioned perfectly by the warm, crackling fireplace. He is gently aided by his brother and sister, Master Peter and Belinda. In the foreground, Bob Cratchit, with his sleeves thoughtfully rolled up, is diligently stirring a steaming hot mixture of gin and lemons in a jug that rests on the hob. His expression is one of focused care, perhaps with a slight, contented smile, reflecting the joy of preparing a treat for his beloved family. The room is bathed in the cozy, orange light emanating from the fire, casting warm shadows.",
+      "shot_type": "medium",
+      "characters": [
+        "Tiny Tim",
+        "Master Peter",
+        "Belinda",
+        "Bob Cratchit"
+      ],
+      "bubbles": []
+    },
+    {
+      "id": "panel_7",
+      "beat_ids": [
+        "beat_20",
+        "beat_21",
+        "beat_22",
+        "beat_23"
+      ],
+      "bbox": [
+        10,
+        1990,
+        1790,
+        2390
+      ],
+      "description": "Wide shot: The entire Cratchit family is joyfully gathered around their humble but beautifully set Christmas dinner table. Their faces are alight with sheer delight and eager anticipation. Master Peter and Belinda, beaming with pride, carefully present a magnificent, perfectly roasted Christmas goose, golden-brown and steaming, which takes center stage on the table. Bob Cratchit beams with immense pride and satisfaction, while Mrs. Cratchit and Tiny Tim (at his stool by the table) look on with utterly delighted expressions. The table is laden with humble but abundant dishes, including mutton, ale, and creamy mashed potatoes. The room is enveloped in a warm, inviting light, fully embodying the spirit of Christmas generosity and familial love.",
+      "shot_type": "wide",
+      "characters": [
+        "Master Peter",
+        "Belinda",
+        "Bob Cratchit",
+        "Mrs. Cratchit",
+        "Tiny Tim",
+        "young Cratchit"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_10",
+          "character": null,
+          "text": "The two young Cratchits went with the goose, with whom they returned in high speed, and the bustle ensued that one might think a goose was the rarest of all birds...",
+          "type": "narration",
+          "bbox": [
+            60,
+            2040,
+            1740,
+            2120
+          ]
+        },
+        {
+          "id": "bubble_11",
+          "character": null,
+          "text": "Bob said he did not believe there ever was such a goose.",
+          "type": "narration",
+          "bbox": [
+            60,
+            2150,
+            1740,
+            2230
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "warmth",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5",
+    "panel_6",
+    "panel_7"
+  ]
+}

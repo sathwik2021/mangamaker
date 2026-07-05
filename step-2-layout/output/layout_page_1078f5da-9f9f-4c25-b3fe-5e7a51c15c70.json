@@ -1,0 +1,146 @@
+{
+  "page_id": "1078f5da-9f9f-4c25-b3fe-5e7a51c15c70",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        580
+      ],
+      "description": "Wide shot: A narrow Victorian street in London, foggy and dark. Scrooge, a hunched, thin, sour-faced man in a top hat, walks down the center. Pedestrians actively avoid him, and a blind man’s dog is tugging its owner away into a doorway. High contrast, gloomy atmosphere.",
+      "shot_type": "wide",
+      "characters": [
+        "Scrooge"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": null,
+          "text": "Nobody ever stopped him in the street... even the blind men's dogs would tug their owners into doorways to avoid him.",
+          "type": "narration",
+          "bbox": [
+            50,
+            50,
+            800,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_3",
+        "beat_4"
+      ],
+      "bbox": [
+        10,
+        590,
+        1790,
+        1180
+      ],
+      "description": "Medium shot: Inside the counting-house. Scrooge sits at a heavy wooden desk, scowling over ledgers. Through the fogged window, we see the silhouettes of people outside stamping their feet against the cold. The room is dark and claustrophobic.",
+      "shot_type": "medium",
+      "characters": [
+        "Scrooge"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": null,
+          "text": "It was cold, bleak, biting weather. Scrooge sat busy, keeping human sympathy at a distance.",
+          "type": "narration",
+          "bbox": [
+            50,
+            630,
+            700,
+            750
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_5",
+        "beat_6"
+      ],
+      "bbox": [
+        10,
+        1190,
+        1790,
+        1770
+      ],
+      "description": "Wide shot: An exterior view of the counting-house office windows at 3 PM. The air is thick with brown, swirling fog. Faint, ruddy candlelight glows from the window panes like smears of blood in the gloom. The neighboring buildings are barely visible phantoms.",
+      "shot_type": "wide",
+      "characters": [],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": null,
+          "text": "The city clocks had only just gone three, but it was quite dark already.",
+          "type": "narration",
+          "bbox": [
+            50,
+            1230,
+            900,
+            1350
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_7",
+        "beat_8",
+        "beat_9",
+        "beat_10"
+      ],
+      "bbox": [
+        10,
+        1780,
+        1790,
+        2390
+      ],
+      "description": "Medium shot: A split view showing Scrooge in his office with a large coal box, and his clerk in a tiny, tank-like cubicle visible through the open door. The clerk is hunched over, shivering in a white comforter, trying to warm his hands over a single, flickering candle. Scrooge stares daggers at the clerk.",
+      "shot_type": "medium",
+      "characters": [
+        "Scrooge",
+        "Scrooge's nephew"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": null,
+          "text": "Scrooge kept the coal-box in his own room. The clerk, failing to keep warm, tried to catch heat from his small candle.",
+          "type": "narration",
+          "bbox": [
+            50,
+            1820,
+            800,
+            2000
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "tense",
+  "dominant_emotion": "Cold, isolated, and gloomy",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4"
+  ]
+}

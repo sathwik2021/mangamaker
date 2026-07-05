@@ -1,0 +1,187 @@
+{
+  "page_id": "2136d791-1a90-493a-bbda-f4e9ab940f38",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2",
+        "beat_3"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        470
+      ],
+      "description": "Wide shot: The narrator standing on a grassy hill, looking down at a ventilation shaft. Silhouettes of bronze gates in the distance. The mood is one of sudden intellectual clarity.",
+      "shot_type": "wide",
+      "characters": [
+        "the narrator"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "the narrator",
+          "text": "My mind was in revolution. I finally understood the purpose of the wells, the towers, and the fate of my Time Machine.",
+          "type": "narration",
+          "bbox": [
+            50,
+            50,
+            800,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_4",
+        "beat_5",
+        "beat_6",
+        "beat_7"
+      ],
+      "bbox": [
+        10,
+        480,
+        895,
+        1430
+      ],
+      "description": "Medium close-up: The narrator pointing towards the dark entrance of a cavern. The sketch style emphasizes analytical observation. Split-panel overlay showing an owl and a pale cave fish as a visual comparison.",
+      "shot_type": "medium_close",
+      "characters": [
+        "the narrator"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "the narrator",
+          "text": "The second species is subterranean. The bleached skin, the huge light-reflecting eyes—they are creatures of the dark.",
+          "type": "speech",
+          "bbox": [
+            50,
+            520,
+            850,
+            700
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_8",
+        "beat_9",
+        "beat_10"
+      ],
+      "bbox": [
+        905,
+        480,
+        1790,
+        1430
+      ],
+      "description": "Cutaway diagram style: Cross-section of the earth beneath the narrator's feet showing a massive, complex network of tunnels and shafts beneath the surface landscape.",
+      "shot_type": "wide",
+      "characters": [],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "the narrator",
+          "text": "The earth is tunnelled enormously. This is the factory of the Underworld.",
+          "type": "narration",
+          "bbox": [
+            930,
+            500,
+            1750,
+            650
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_11",
+        "beat_12",
+        "beat_13",
+        "beat_14"
+      ],
+      "bbox": [
+        10,
+        1440,
+        1790,
+        1920
+      ],
+      "description": "Medium shot: The narrator sitting on a rock, gesturing with hands as if explaining a complex economic theory. The background fades into a ghostly overlay of 19th-century factory chimneys transitioning into subways.",
+      "shot_type": "medium",
+      "characters": [
+        "the narrator"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "the narrator",
+          "text": "It began as a widening gap between Capitalist and Labourer. Industry simply moved deeper to escape the surface.",
+          "type": "speech",
+          "bbox": [
+            50,
+            1480,
+            1750,
+            1700
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_15",
+        "beat_16",
+        "beat_17",
+        "beat_18",
+        "beat_19",
+        "beat_20",
+        "beat_21"
+      ],
+      "bbox": [
+        10,
+        1930,
+        1790,
+        2390
+      ],
+      "description": "Close-up: The narrator's face, partially shadowed, looking intense and troubled. Reflections of a future divided into two distinct human species in his eyes.",
+      "shot_type": "close_up",
+      "characters": [
+        "the narrator"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "the narrator",
+          "text": "The Haves on the surface... and the Have-nots in the dark. A stratification that can never be undone.",
+          "type": "speech",
+          "bbox": [
+            50,
+            1980,
+            1750,
+            2200
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "reflection",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

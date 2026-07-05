@@ -1,0 +1,183 @@
+{
+  "page_id": "1f51c60f-6ac9-4cf4-b19b-e175ca73402e",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        470
+      ],
+      "description": "Wide shot, cold, eerie space atmosphere. A silhouette of a Martian creature floating in a dark chamber, indifferent and alien. Cinematic lighting with deep shadows.",
+      "shot_type": "wide",
+      "characters": [
+        "the Martians"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "the author",
+          "text": "The Martians were lifted above all organic fluctuations of mood and emotion. Their need for us as nourishment was merely a necessity of their biology.",
+          "type": "narration",
+          "bbox": [
+            50,
+            50,
+            1750,
+            150
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_3",
+        "beat_4",
+        "beat_5"
+      ],
+      "bbox": [
+        10,
+        490,
+        890,
+        1440
+      ],
+      "description": "Medium shot of a Martian corpse specimen displayed in a laboratory setting. Pale, flimsy silicious skeleton, six feet tall, round head with large flinty eyes. Harsh white medical lighting.",
+      "shot_type": "medium",
+      "characters": [
+        "the Martians"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "the author",
+          "text": "Flimsy skeletons, feeble musculature. Earth's gravity alone would have shattered them.",
+          "type": "narration",
+          "bbox": [
+            50,
+            530,
+            850,
+            700
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_6",
+        "beat_7",
+        "beat_8",
+        "beat_9"
+      ],
+      "bbox": [
+        910,
+        490,
+        1790,
+        1440
+      ],
+      "description": "Close-up on a notebook or desk where the author is writing. Focus on the anatomical diagrams of the Martian nervous system. The atmosphere is academic and investigative.",
+      "shot_type": "medium_close",
+      "characters": [
+        "the author"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "the author",
+          "text": "Their physiology differed strangely. They had no need for sleep; their hearts never rested, for they had no fatigue to overcome.",
+          "type": "narration",
+          "bbox": [
+            950,
+            530,
+            1750,
+            800
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_10",
+        "beat_11",
+        "beat_12"
+      ],
+      "bbox": [
+        10,
+        1460,
+        1790,
+        1920
+      ],
+      "description": "Wide, cinematic shot of multiple Martians working in a synchronized, endless loop in a sterile metallic environment. They appear as mindless, efficient machines.",
+      "shot_type": "wide",
+      "characters": [
+        "the Martians"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "the author",
+          "text": "Twenty-four hours of constant labor. Absolutely without sex, and therefore, without any of the tumultuous emotions that define humanity.",
+          "type": "narration",
+          "bbox": [
+            50,
+            1500,
+            1750,
+            1700
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_13",
+        "beat_14",
+        "beat_15"
+      ],
+      "bbox": [
+        10,
+        1940,
+        1790,
+        2390
+      ],
+      "description": "Detail shot: a small Martian budding off a parent, looking like a biological growth. In the background, a portrait of a Victorian scientist looking concerned.",
+      "shot_type": "medium_close",
+      "characters": [
+        "the Martians"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "the author",
+          "text": "It is a chilling mirror. A speculative writer once foresaw our own human civilization evolving toward this same soulless end.",
+          "type": "narration",
+          "bbox": [
+            50,
+            1980,
+            1750,
+            2150
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "calm",
+  "dominant_emotion": "clinical detachment",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

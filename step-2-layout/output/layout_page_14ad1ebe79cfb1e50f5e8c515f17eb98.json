@@ -1,0 +1,181 @@
+{
+  "page_id": "14ad1ebe79cfb1e50f5e8c515f17eb98",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        590
+      ],
+      "description": "Medium shot: Elizabeth and Jonathan in a dimly lit, Victorian-style bedroom. Elizabeth is looking at Jonathan, holding his hand tightly; Jonathan has his arm protectively around her. Soft, melancholic lighting.",
+      "shot_type": "medium",
+      "characters": [
+        "Elizabeth",
+        "Jonathan"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "Elizabeth",
+          "text": "I took the sleeping draught which you had so kindly given me, but for a long time it did not act.",
+          "type": "speech",
+          "bbox": [
+            50,
+            50,
+            800,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_3",
+        "beat_4"
+      ],
+      "bbox": [
+        10,
+        610,
+        1790,
+        1190
+      ],
+      "description": "Close-up of Elizabeth's face, looking pale and weary. Jonathan is in the foreground, his back turned slightly as he grimaces in distress. Moody, dramatic shadows.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Elizabeth",
+        "Jonathan"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "Elizabeth",
+          "text": "Do not fret, dear. You must be brave and strong, and help me through the horrible task.",
+          "type": "speech",
+          "bbox": [
+            900,
+            700,
+            1700,
+            900
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_5",
+        "beat_6",
+        "beat_7"
+      ],
+      "bbox": [
+        10,
+        1210,
+        890,
+        1790
+      ],
+      "description": "Side profile of Elizabeth looking determined, holding a glass of medicine. Dim bedroom interior, warm lamplight flickering against the dark.",
+      "shot_type": "medium",
+      "characters": [
+        "Elizabeth"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "Elizabeth",
+          "text": "Well, I saw I must try to help the medicine to its work with my will, if it was to do me any good, so I resolutely set myself to sleep.",
+          "type": "speech",
+          "bbox": [
+            50,
+            1250,
+            850,
+            1500
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_8",
+        "beat_9"
+      ],
+      "bbox": [
+        910,
+        1210,
+        1790,
+        1790
+      ],
+      "description": "Wide shot of the bedroom at night. A strange, thin white mist begins to creep across the floor. Eerie, cold atmosphere.",
+      "shot_type": "wide",
+      "characters": [],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": null,
+          "text": "There was in the room the same thin white mist that I had before noticed.",
+          "type": "narration",
+          "bbox": [
+            950,
+            1250,
+            1750,
+            1400
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_10",
+        "beat_11",
+        "beat_12"
+      ],
+      "bbox": [
+        10,
+        1810,
+        1790,
+        2390
+      ],
+      "description": "Dynamic low-angle shot: Elizabeth staring in terror at Jonathan, who is unnaturally fast asleep beside her. She is reaching out to shake his shoulder, but he remains motionless. Stark, fearful lighting.",
+      "shot_type": "close_up",
+      "characters": [
+        "Elizabeth",
+        "Jonathan"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "Elizabeth",
+          "text": "Jonathan... wake up! Please!",
+          "type": "shout",
+          "bbox": [
+            100,
+            1850,
+            600,
+            2050
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "tense",
+  "dominant_emotion": "fear",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

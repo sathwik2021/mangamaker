@@ -1,0 +1,199 @@
+{
+  "page_id": "077d6dbf5ad64b9d5571530a564b4b22",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        50,
+        50,
+        1750,
+        400
+      ],
+      "description": "Wide shot: The Creature ('I') moving stealthily through a dark, moonlit forest clearing near a small, rustic cottage. Snow is visible on the ground, and the Creature is carrying bundles of wood. The mood is secretive and industrious. Cold, blue lighting.",
+      "shot_type": "wide",
+      "characters": [
+        "I"
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_3"
+      ],
+      "bbox": [
+        50,
+        410,
+        1750,
+        760
+      ],
+      "description": "Medium shot looking towards the cottage window from outside. A faint, warm light spills out. Inside, the silhouettes of Felix and Agatha look surprised or awestruck towards an unseen spot. Use sound effect lettering for the words.",
+      "shot_type": "medium",
+      "characters": [
+        "Felix",
+        "Agatha"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "narration",
+          "text": "“Good spirit... wonderful.”",
+          "type": "narration",
+          "bbox": [
+            150,
+            600,
+            700,
+            670
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_4",
+        "beat_5"
+      ],
+      "bbox": [
+        50,
+        770,
+        1750,
+        1120
+      ],
+      "description": "Close-up on the Creature's face (hidden features, but emphasizing the intense, longing eyes). The lighting is internal and focused, suggesting deep thought and developing emotion. The background is blurred, showing vague shapes of the cottage family.",
+      "shot_type": "close_up",
+      "characters": [
+        "I"
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_6",
+        "beat_7"
+      ],
+      "bbox": [
+        50,
+        1130,
+        890,
+        1480
+      ],
+      "description": "Medium shot: The Creature watches the family (old man, Agatha, Felix) from behind a tree outside the cottage at twilight. The family figures are bathed in a soft, warm glow from the cottage, making them appear almost ethereal or divine. The Creature is in shadow, looking up in reverence.",
+      "shot_type": "medium",
+      "characters": [
+        "I",
+        "the old man",
+        "Agatha",
+        "Felix"
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_8",
+        "beat_9"
+      ],
+      "bbox": [
+        910,
+        1130,
+        1750,
+        1480
+      ],
+      "description": "Split panel/Montage effect: On the left, a very brief, hopeful sketch image of the Creature bowing before the family with an offering. On the right, a darker, contrasting image of a donkey being struck by a rough stick. Visualizing the Creature's internal comparison.",
+      "shot_type": "medium_close",
+      "characters": []
+    },
+    {
+      "id": "panel_6",
+      "beat_ids": [
+        "beat_10",
+        "beat_11",
+        "beat_12"
+      ],
+      "bbox": [
+        50,
+        1490,
+        1750,
+        1790
+      ],
+      "description": "Wide, vibrant landscape shot showing the transition to spring. Bright sun, lush green fields, budding trees, and perhaps tiny figures of people working in the distance. Full saturation, emphasizing life returning.",
+      "shot_type": "wide",
+      "characters": []
+    },
+    {
+      "id": "panel_7",
+      "beat_ids": [
+        "beat_13",
+        "beat_14"
+      ],
+      "bbox": [
+        50,
+        1800,
+        890,
+        2150
+      ],
+      "description": "Close-up on the Creature's hand resting gently on new, bright green grass, feeling the warmth. Sunlight dappling through new leaves overhead. Expression of tentative joy and hope.",
+      "shot_type": "close_up",
+      "characters": [
+        "I"
+      ]
+    },
+    {
+      "id": "panel_8",
+      "beat_ids": [
+        "beat_15",
+        "beat_16",
+        "beat_17"
+      ],
+      "bbox": [
+        910,
+        1800,
+        1750,
+        2150
+      ],
+      "description": "Medium shot: Close view of vibrant, exotic flowers in full bloom, illuminated by brilliant sunshine. Overwhelming sensory beauty. Focus is entirely on the vivid natural detail.",
+      "shot_type": "medium_close",
+      "characters": []
+    },
+    {
+      "id": "panel_9",
+      "beat_ids": [
+        "beat_18",
+        "beat_19"
+      ],
+      "bbox": [
+        50,
+        2160,
+        1750,
+        2350
+      ],
+      "description": "Medium shot focusing on Felix inside the cottage, seated near the old man who is gently holding his guitar. Felix looks utterly dejected, head slightly bowed, while the old man looks on with concern. Warm, indoor lighting contrasting with the bright exterior light implied by previous panels.",
+      "shot_type": "medium",
+      "characters": [
+        "Felix",
+        "the old man",
+        "Agatha"
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "Anticipation mixed with Sorrow",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5",
+    "panel_6",
+    "panel_7",
+    "panel_8",
+    "panel_9"
+  ]
+}

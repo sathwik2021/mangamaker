@@ -1,0 +1,375 @@
+{
+  "page_id": "0026d2f8-6a2e-4cf5-817c-4dc8bd827ecf",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2",
+        "beat_3",
+        "beat_4",
+        "beat_5",
+        "beat_6"
+      ],
+      "bbox": [
+        10,
+        10,
+        895,
+        800
+      ],
+      "description": "A wide, low-angle shot of a desolate, dimly lit Victorian room. Dust motes dance in faint light shafts. A tattered curtain hangs askew. In the foreground, a shadowy figure (Scrooge) is on his knees, hands clasped, pleading desperately, his face etched with anguish. Beside him, the Spirit of Christmas Yet to Come stands tall, cloaked in black, an unmoved finger pointing towards an unseen bed, implying a grim fate. A cat tears at a worn door in the background, rats gnawing beneath the hearth, emphasizing decay and neglect. Heavy shadows dominate the scene.",
+      "shot_type": "wide",
+      "characters": [
+        "Scrooge",
+        "Spirit"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1_1",
+          "character": "narration",
+          "text": "They have brought him to a rich end, truly! He lay, in the dark empty house, with not a man, a woman, or a child, to say that he was kind to me in this or that, and for the memory of one kind word I will be kind to him. A cat was tearing at the door, and there was a sound of gnawing rats beneath the hearth-stone.",
+          "type": "narration",
+          "bbox": [
+            30,
+            30,
+            875,
+            150
+          ]
+        },
+        {
+          "id": "bubble_1_2",
+          "character": "Scrooge",
+          "text": "I understand you, and I would do it, if I could. But I have not the power, Spirit. I have not the power.",
+          "type": "speech",
+          "bbox": [
+            30,
+            170,
+            875,
+            290
+          ]
+        },
+        {
+          "id": "bubble_1_3",
+          "character": "Scrooge",
+          "text": "If there is any person in the town, who feels emotion caused by this man's death, show that person to me, Spirit, I beseech you!",
+          "type": "speech",
+          "bbox": [
+            30,
+            300,
+            875,
+            420
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_7",
+        "beat_8"
+      ],
+      "bbox": [
+        905,
+        10,
+        1790,
+        800
+      ],
+      "description": "A bright medium-wide shot reveals a modest, clean Victorian living room bathed in daylight. The Spirit's dark robe recedes from the left edge of the frame, revealing the scene. Caroline, a young mother with a worried yet hopeful expression, paces anxiously near a window, glancing at a clock. Two young children play quietly on the floor in the background, their presence adding to the domestic tension. The room feels full of anxious expectation.",
+      "shot_type": "medium",
+      "characters": [
+        "Spirit",
+        "Caroline",
+        "children"
+      ],
+      "bubbles": []
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_9",
+        "beat_10",
+        "beat_11",
+        "beat_12",
+        "beat_13",
+        "beat_14",
+        "beat_15",
+        "beat_16",
+        "beat_17",
+        "beat_18"
+      ],
+      "bbox": [
+        10,
+        810,
+        895,
+        1600
+      ],
+      "description": "A medium shot focusing on Caroline opening the door to Bob Cratchit. Caroline's face is a mix of relief and anxious questioning. Bob Cratchit, a young man, appears careworn and slightly haggard, but with a subtle, almost guilty, expression of relief and 'serious delight' he tries to repress. The children peer from behind Caroline, curious. Soft natural light filters in from the doorway, creating a tense yet hopeful atmosphere.",
+      "shot_type": "medium",
+      "characters": [
+        "Caroline",
+        "Bob Cratchit",
+        "children"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3_1",
+          "character": "Caroline",
+          "text": "Is it good? Or bad?",
+          "type": "speech",
+          "bbox": [
+            30,
+            830,
+            420,
+            910
+          ]
+        },
+        {
+          "id": "bubble_3_2",
+          "character": "Bob Cratchit",
+          "text": "Bad,",
+          "type": "speech",
+          "bbox": [
+            450,
+            830,
+            875,
+            890
+          ]
+        },
+        {
+          "id": "bubble_3_3",
+          "character": "Caroline",
+          "text": "We are quite ruined?",
+          "type": "speech",
+          "bbox": [
+            30,
+            920,
+            420,
+            990
+          ]
+        },
+        {
+          "id": "bubble_3_4",
+          "character": "Bob Cratchit",
+          "text": "No. There is hope yet, Caroline. If he relents, Caroline. If he relents, there is!",
+          "type": "speech",
+          "bbox": [
+            450,
+            900,
+            875,
+            1050
+          ]
+        },
+        {
+          "id": "bubble_3_5",
+          "character": "Caroline",
+          "text": "He is past relenting, there is!",
+          "type": "speech",
+          "bbox": [
+            30,
+            1000,
+            420,
+            1070
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_19",
+        "beat_20",
+        "beat_21",
+        "beat_22"
+      ],
+      "bbox": [
+        905,
+        810,
+        1790,
+        1600
+      ],
+      "description": "A medium shot of Caroline and Bob Cratchit. Caroline stands with hands clasped to her chest, a profound sense of relief washing over her face, almost like a prayer of thanks. Bob, looking serious but with a hint of relief, explains the situation. Their expressions convey a mix of past hardship and a glimmer of future hope. The background is slightly blurred, focusing on their interaction.",
+      "shot_type": "medium",
+      "characters": [
+        "Caroline",
+        "Bob Cratchit"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4_1",
+          "character": "Bob Cratchit",
+          "text": "What the half-drunken woman whom I told you of last night, said to me, when I tried to see him and obtain a week's delay; and what I thought was a mere excuse to avoid me; turns out to have been quite true. He was not only very ill, but dying, then.",
+          "type": "speech",
+          "bbox": [
+            925,
+            830,
+            1770,
+            970
+          ]
+        },
+        {
+          "id": "bubble_4_2",
+          "character": "Caroline",
+          "text": "To whom will our debt be transferred?",
+          "type": "speech",
+          "bbox": [
+            925,
+            980,
+            1400,
+            1050
+          ]
+        },
+        {
+          "id": "bubble_4_3",
+          "character": "narration",
+          "text": "Bob replied, 'I don't know. But before that time we shall be ready with the money; and even though we were not, it would be a bad fortune indeed to find so merciless a creditor in his successor.'",
+          "type": "narration",
+          "bbox": [
+            925,
+            1060,
+            1770,
+            1160
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_23",
+        "beat_24",
+        "beat_25",
+        "beat_26"
+      ],
+      "bbox": [
+        10,
+        1610,
+        596,
+        2390
+      ],
+      "description": "A heartwarming wide shot of the Cratchit family gathered, bathed in warm, soft afternoon light. Caroline and Bob exchange relieved, tender smiles, their hearts visibly lighter. The children's faces, clustered around, also appear brighter, reflecting the newfound peace. The overall atmosphere is one of profound relief and quiet joy, a sense of burden lifted.",
+      "shot_type": "wide",
+      "characters": [
+        "Caroline",
+        "Bob Cratchit",
+        "children"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5_1",
+          "character": "narration",
+          "text": "Softened as they would, their hearts were lighter. The children's faces, hushed and clustered round to hear what they so little understood, were brighter. The only emotion the Ghost could show him, caused by the event, was one of pleasure.",
+          "type": "narration",
+          "bbox": [
+            30,
+            1630,
+            576,
+            1780
+          ]
+        },
+        {
+          "id": "bubble_5_2",
+          "character": "Bob Cratchit",
+          "text": "We may sleep to-night with light hearts, Caroline!",
+          "type": "speech",
+          "bbox": [
+            30,
+            1800,
+            576,
+            1870
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_6",
+      "beat_ids": [
+        "beat_27",
+        "beat_28"
+      ],
+      "bbox": [
+        606,
+        1610,
+        1193,
+        2390
+      ],
+      "description": "A close-up shot of Scrooge's face, bathed in stark, dramatic shadows. His expression is a desperate plea, eyes wide with fear and longing, a single tear tracing a path down his cheek. He holds out a trembling hand towards an unseen Spirit, his posture conveying profound anguish and a desperate need for a glimpse of genuine human connection, in contrast to the grim desolation he just witnessed.",
+      "shot_type": "close_up",
+      "characters": [
+        "Scrooge"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_6_1",
+          "character": "Scrooge",
+          "text": "Let me see some tenderness connected with a death,",
+          "type": "speech",
+          "bbox": [
+            626,
+            1630,
+            1173,
+            1700
+          ]
+        },
+        {
+          "id": "bubble_6_2",
+          "character": "Scrooge",
+          "text": "or that dark chamber, Spirit, which we left just now, will be for ever present to me.",
+          "type": "narration",
+          "bbox": [
+            626,
+            1710,
+            1173,
+            1800
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_7",
+      "beat_ids": [
+        "beat_29"
+      ],
+      "bbox": [
+        1203,
+        1610,
+        1790,
+        2390
+      ],
+      "description": "A wide, slightly high-angle shot of a bustling, snow-dusted Victorian London street at twilight. Horse-drawn carriages and bundled pedestrians fill the scene. Scrooge, a lone, small figure amidst the crowd, walks beside the towering, shadowy Spirit. He scans the faces around him, a wistful, almost invisible presence, a sense of profound loneliness and detachment etched on his face as he searches for himself.",
+      "shot_type": "wide",
+      "characters": [
+        "Scrooge",
+        "Spirit"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_7_1",
+          "character": "narration",
+          "text": "The Ghost conducted him through several streets familiar to his feet; and as they went along, Scrooge looked here and there to find himself, but nowhere was he to be seen.",
+          "type": "narration",
+          "bbox": [
+            1223,
+            1630,
+            1770,
+            1750
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "Desperation transitioning to Cautious Hope",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5",
+    "panel_6",
+    "panel_7"
+  ]
+}

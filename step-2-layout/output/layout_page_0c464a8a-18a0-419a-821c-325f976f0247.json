@@ -1,0 +1,183 @@
+{
+  "page_id": "0c464a8a-18a0-419a-821c-325f976f0247",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        585
+      ],
+      "description": "Medium shot: The narrator, a Victorian explorer, tentatively reaches his hand out into the ruins, expression anxious but resolute. Sunlight filters through crumbling architecture, creating long, dramatic shadows.",
+      "shot_type": "medium",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "I",
+          "text": "Is anyone there?",
+          "type": "speech",
+          "bbox": [
+            100,
+            50,
+            600,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_3",
+        "beat_4"
+      ],
+      "bbox": [
+        10,
+        605,
+        1790,
+        1180
+      ],
+      "description": "Dynamic action shot: A pale, ape-like creature with large, greyish-red eyes and flaxen hair scrambles away in terror across the sunlit stone floor. The narrator reacts with wide-eyed surprise, reaching out.",
+      "shot_type": "medium",
+      "characters": [
+        "I",
+        "Queer little ape-like figure"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "I",
+          "text": "Wait!",
+          "type": "shout",
+          "bbox": [
+            1200,
+            650,
+            1500,
+            750
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_5",
+        "beat_6",
+        "beat_7"
+      ],
+      "bbox": [
+        10,
+        1200,
+        890,
+        1790
+      ],
+      "description": "Wide shot: The creature disappears into the dark, jagged shadow of a ruined pillar. Only a glimpse of its white, hair-covered back and spindly limbs is visible.",
+      "shot_type": "wide",
+      "characters": [
+        "Queer little ape-like figure"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "I",
+          "text": "It was... inhuman. A pale, spider-like thing.",
+          "type": "narration",
+          "bbox": [
+            50,
+            1250,
+            800,
+            1500
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_8",
+        "beat_9",
+        "beat_10"
+      ],
+      "bbox": [
+        910,
+        1200,
+        1790,
+        1790
+      ],
+      "description": "Medium close-up: The narrator stands before a dark, round well-like opening in the ground, half-obscured by a fallen marble pillar. His face is illuminated by the ambient light of the ruins.",
+      "shot_type": "medium_close",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "I",
+          "text": "Did it go down... into the earth?",
+          "type": "speech",
+          "bbox": [
+            1000,
+            1250,
+            1700,
+            1400
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_11",
+        "beat_12",
+        "beat_13"
+      ],
+      "bbox": [
+        10,
+        1810,
+        1790,
+        2390
+      ],
+      "description": "Close-up: The narrator peers down the shaft holding a lit match. The flickering light reveals the creature's startled eyes staring back from the dark, metal rungs of an underground ladder.",
+      "shot_type": "close_up",
+      "characters": [
+        "I",
+        "Little, white, moving creature"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "I",
+          "text": "Human spider... it's horrifying.",
+          "type": "speech",
+          "bbox": [
+            200,
+            1900,
+            800,
+            2100
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "fear",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

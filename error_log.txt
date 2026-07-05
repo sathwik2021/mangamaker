@@ -1,0 +1,50 @@
+21:19:37 [INFO] ============================================================
+21:19:37 [INFO] \U0001f3a8 Manga Generation Web Interface
+21:19:37 [INFO] ============================================================
+21:19:37 [INFO] Pipeline available: True
+21:19:37 [INFO] Output directory: D:\Documents\mangamaker\web_output
+21:19:37 [INFO] Starting server on http://localhost:5000
+21:19:37 [INFO] ============================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+21:19:37 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.130:5000
+21:19:37 [INFO] [33mPress CTRL+C to quit[0m
+21:20:16 [INFO] 127.0.0.1 - - [04/Jul/2026 21:20:16] "GET / HTTP/1.1" 200 -
+21:20:16 [INFO] 127.0.0.1 - - [04/Jul/2026 21:20:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+21:20:16 [INFO] 127.0.0.1 - - [04/Jul/2026 21:20:16] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+21:20:16 [INFO] 127.0.0.1 - - [04/Jul/2026 21:20:16] "GET /api/health HTTP/1.1" 200 -
+21:20:21 [INFO] 127.0.0.1 - - [04/Jul/2026 21:20:21] "POST /api/generate HTTP/1.1" 200 -
+21:20:21 [INFO] [job_1783180221977] extraction: Extracting narrative beats from text... (15%)
+21:20:21 [INFO] AFC is enabled with max remote calls: 10.
+21:20:21 [INFO] 127.0.0.1 - - [04/Jul/2026 21:20:21] "GET /api/status/job_1783180221977 HTTP/1.1" 200 -
+21:20:22 [INFO] 127.0.0.1 - - [04/Jul/2026 21:20:22] "GET /api/status/job_1783180221977 HTTP/1.1" 200 -
+21:20:24 [INFO] 127.0.0.1 - - [04/Jul/2026 21:20:24] "GET /api/status/job_1783180221977 HTTP/1.1" 200 -
+21:20:24 [INFO] 127.0.0.1 - - [04/Jul/2026 21:20:24] "GET /api/status/job_1783180221977 HTTP/1.1" 200 -
+21:20:25 [INFO] 127.0.0.1 - - [04/Jul/2026 21:20:25] "GET /api/status/job_1783180221977 HTTP/1.1" 200 -
+21:20:26 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+21:20:26 [INFO] [job_1783180221977] Extracted 3 beats
+21:20:26 [INFO] [job_1783180221977] layout: Generating manga page layout... (35%)
+21:20:26 [ERROR] [job_1783180221977] Layout generation error: 'charmap' codec can't encode character '\U0001f916' in position 2: character maps to <undefined>
+21:20:26 [ERROR] [job_1783180221977] Pipeline fatal error: Traceback (most recent call last):
+  File "D:\Documents\mangamaker\app.py", line 189, in run_pipeline_worker
+    layout = convert_beats_to_layout(beats)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\mangamaker\step-2-layout\layout_generator.py", line 106, in convert_beats_to_layout
+    print(f"  \U0001f916 Calling {get_current_model()} (attempt {attempt}/{max_retries})...")
+  File "C:\Users\DELL\miniconda3\envs\mangamaker\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f916' in position 2: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Documents\mangamaker\app.py", line 204, in run_pipeline_worker
+    raise RuntimeError(f"Failed to generate layout: {str(e)}")
+RuntimeError: Failed to generate layout: 'charmap' codec can't encode character '\U0001f916' in position 2: character maps to <undefined>
+
+21:20:26 [ERROR] [job_1783180221977] Error: Failed to generate layout: 'charmap' codec can't encode character '\U0001f916' in position 2: character maps to <undefined>
+21:20:26 [INFO] 127.0.0.1 - - [04/Jul/2026 21:20:26] "GET /api/status/job_1783180221977 HTTP/1.1" 200 -

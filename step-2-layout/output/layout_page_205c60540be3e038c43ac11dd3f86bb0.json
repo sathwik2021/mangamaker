@@ -1,0 +1,184 @@
+{
+  "page_id": "205c60540be3e038c43ac11dd3f86bb0",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        580
+      ],
+      "description": "Medium shot, Victorian study with dim, warm candlelight. Van Helsing, an elderly gentleman with white hair and a lab coat, leans forward earnestly toward Madam Mina, who sits gracefully in a velvet armchair.",
+      "shot_type": "medium",
+      "characters": [
+        "Van Helsing",
+        "Madam Mina"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "Van Helsing",
+          "text": "Oh, Madam Mina, dear, dear Madam Mina, alas! ... you will forget it, will you not?",
+          "type": "speech",
+          "bbox": [
+            50,
+            50,
+            800,
+            300
+          ]
+        },
+        {
+          "id": "bubble_2",
+          "character": "Madam Mina",
+          "text": "No, I shall not forget, for it is well that I remember...",
+          "type": "speech",
+          "bbox": [
+            900,
+            300,
+            1750,
+            550
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_3",
+        "beat_4"
+      ],
+      "bbox": [
+        10,
+        600,
+        1790,
+        1180
+      ],
+      "description": "Medium shot, the group including Van Helsing and friends standing in a circle. Mina stands in the center holding a small piece of wafer, reaching toward Van Helsing's forehead. Shadows are long and dramatic.",
+      "shot_type": "medium",
+      "characters": [
+        "Van Helsing",
+        "Madam Mina",
+        "Friends"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "Van Helsing",
+          "text": "Now, my dear friends, we go forth to our terrible enterprise...",
+          "type": "speech",
+          "bbox": [
+            50,
+            650,
+            800,
+            900
+          ]
+        },
+        {
+          "id": "bubble_4",
+          "character": "Madam Mina",
+          "text": "But before we go... On your forehead I touch this piece of Sacred Wafer...",
+          "type": "speech",
+          "bbox": [
+            900,
+            850,
+            1750,
+            1150
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_5",
+        "beat_6"
+      ],
+      "bbox": [
+        10,
+        1200,
+        1790,
+        1780
+      ],
+      "description": "Close up, intense focus on Madam Mina's face. A glowing, angry red scar appears on her forehead where the wafer touched her skin. She is pulling her hair down, eyes wide with terror and grief.",
+      "shot_type": "close_up",
+      "characters": [
+        "Madam Mina"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "Madam Mina",
+          "text": "Unclean! Unclean! Even the Almighty shuns my polluted flesh!",
+          "type": "shout",
+          "bbox": [
+            100,
+            1250,
+            800,
+            1500
+          ]
+        },
+        {
+          "id": "bubble_6",
+          "character": "Madam Mina",
+          "text": "I must bear this mark of shame...",
+          "type": "speech",
+          "bbox": [
+            900,
+            1550,
+            1750,
+            1750
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_7"
+      ],
+      "bbox": [
+        10,
+        1800,
+        1790,
+        2390
+      ],
+      "description": "Medium shot, Van Helsing gently placing a hand on Mina's shoulder, looking at her with profound compassion. The light is soft and hopeful, contrasting with the previous panel's shadows.",
+      "shot_type": "medium",
+      "characters": [
+        "Van Helsing",
+        "Madam Mina"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_7",
+          "character": "Van Helsing",
+          "text": "It may be that you may have to bear that mark till God himself shall... redress all wrongs.",
+          "type": "speech",
+          "bbox": [
+            200,
+            1850,
+            1600,
+            2350
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "hope",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4"
+  ]
+}

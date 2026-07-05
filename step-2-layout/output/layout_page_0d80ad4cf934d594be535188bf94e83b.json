@@ -1,0 +1,198 @@
+{
+  "page_id": "0d80ad4cf934d594be535188bf94e83b",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        580
+      ],
+      "description": "Medium shot of F. speaking to a group of worried gentlemen in a dimly lit drawing room, expressing the route to Gretna Green. Denny stands nearby looking skeptical, hand to his chin, with a furrowed brow.",
+      "shot_type": "medium",
+      "characters": [
+        "F.",
+        "Denny"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "F.",
+          "text": "They are headed for Gretna Green.",
+          "type": "speech",
+          "bbox": [
+            50,
+            50,
+            600,
+            200
+          ]
+        },
+        {
+          "id": "bubble_2",
+          "character": "Denny",
+          "text": "I doubt he intends to marry her at all.",
+          "type": "speech",
+          "bbox": [
+            1000,
+            300,
+            1700,
+            450
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_3",
+        "beat_4",
+        "beat_5"
+      ],
+      "bbox": [
+        10,
+        600,
+        1790,
+        1180
+      ],
+      "description": "Dynamic wide shot showing Colonel F. riding horseback on a rainy, dark road toward Clapham, shadows stretching long behind him. The atmosphere is tense and hurried.",
+      "shot_type": "wide",
+      "characters": [
+        "Colonel F."
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "None",
+          "text": "The trail led to Clapham, but vanished into the anonymity of a hackney coach.",
+          "type": "narration",
+          "bbox": [
+            50,
+            650,
+            800,
+            850
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_6",
+        "beat_7",
+        "beat_8"
+      ],
+      "bbox": [
+        10,
+        1200,
+        890,
+        1780
+      ],
+      "description": "Colonel F. talking to a gatekeeper at a muddy turnpike, looking exhausted and mud-splattered. Expressing his failure to find them to the concerned family at Longbourn.",
+      "shot_type": "medium",
+      "characters": [
+        "Colonel F."
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "Colonel F.",
+          "text": "They were never seen at the turnpikes. I fear the worst.",
+          "type": "speech",
+          "bbox": [
+            50,
+            1250,
+            800,
+            1450
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_9",
+        "beat_10",
+        "beat_11",
+        "beat_12"
+      ],
+      "bbox": [
+        910,
+        1200,
+        1790,
+        1780
+      ],
+      "description": "Lydia's frantic letter held in Elizabeth's trembling hands. Close up on Elizabeth's face showing deep grief and concern.",
+      "shot_type": "close_up",
+      "characters": [
+        "Elizabeth"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "Elizabeth",
+          "text": "Mother is ill... Father expects no marriage. Oh, Lydia...",
+          "type": "narration",
+          "bbox": [
+            950,
+            1250,
+            1700,
+            1500
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_13",
+        "beat_14",
+        "beat_15",
+        "beat_16",
+        "beat_17"
+      ],
+      "bbox": [
+        10,
+        1800,
+        1790,
+        2390
+      ],
+      "description": "Elizabeth racing through a hallway, looking for her uncle, a sense of extreme urgency as she grips her letter tightly.",
+      "shot_type": "medium",
+      "characters": [
+        "Elizabeth"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_6",
+          "character": "Elizabeth",
+          "text": "I must find my uncle! He is the only one who can help!",
+          "type": "shout",
+          "bbox": [
+            50,
+            1850,
+            800,
+            2100
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "action",
+  "dominant_emotion": "urgency",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

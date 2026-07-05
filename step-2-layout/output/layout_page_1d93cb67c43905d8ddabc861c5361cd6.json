@@ -1,0 +1,197 @@
+{
+  "page_id": "1d93cb67c43905d8ddabc861c5361cd6",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2",
+        "beat_3"
+      ],
+      "bbox": [
+        20,
+        20,
+        1780,
+        450
+      ],
+      "description": "Wide establishing shot of a gloomy Victorian study at dawn, cold light streaming through dusty windows, Jonathan Harker sits at a desk with a quill, intense shadows.",
+      "shot_type": "wide",
+      "characters": [
+        "Jonathan Harker"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "Jonathan Harker",
+          "text": "3 October. Jonathan Harker's Journal. The sun rises on no more miserable house than this.",
+          "type": "narration",
+          "bbox": [
+            50,
+            50,
+            600,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_7",
+        "beat_8",
+        "beat_9"
+      ],
+      "bbox": [
+        20,
+        470,
+        890,
+        1200
+      ],
+      "description": "Close up of Jonathan writing feverishly in a leather-bound diary, his hand trembling, ink smudged, expression of pure exhaustion.",
+      "shot_type": "close_up",
+      "characters": [
+        "Jonathan Harker"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "Jonathan Harker",
+          "text": "I must keep writing. I dare not stop to think. The end... God, what end?",
+          "type": "narration",
+          "bbox": [
+            50,
+            500,
+            400,
+            700
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_11",
+        "beat_12"
+      ],
+      "bbox": [
+        910,
+        470,
+        1780,
+        1200
+      ],
+      "description": "Medium shot of Mina sitting by the window, weeping, holding a handkerchief, soft morning light catching the tears on her cheek.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Mina"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "Mina",
+          "text": "It is in trial that our faith is tested... God will aid us to the end.",
+          "type": "speech",
+          "bbox": [
+            950,
+            500,
+            1300,
+            700
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_15",
+        "beat_16"
+      ],
+      "bbox": [
+        20,
+        1220,
+        1780,
+        1850
+      ],
+      "description": "Flashback panel: Dr. Seward and Van Helsing looking down at the body of Renfield, lying broken in a heap on the floor, dramatic dark lighting.",
+      "shot_type": "wide",
+      "characters": [
+        "Dr. Van Helsing",
+        "Dr. Seward",
+        "Renfield"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "Dr. Seward",
+          "text": "His neck... broken. All crushed in.",
+          "type": "speech",
+          "bbox": [
+            100,
+            1250,
+            500,
+            1400
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_24",
+        "beat_25",
+        "beat_26",
+        "beat_27"
+      ],
+      "bbox": [
+        20,
+        1870,
+        1780,
+        2380
+      ],
+      "description": "Low angle shot looking at Van Helsing speaking to Mina; his gaze is piercing, Mina looks up with resolute, martyr-like devotion despite her tear-streaked face.",
+      "shot_type": "medium",
+      "characters": [
+        "Dr. Van Helsing",
+        "Mina"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "Dr. Van Helsing",
+          "text": "Madam Mina, are you not afraid... for others from yourself?",
+          "type": "speech",
+          "bbox": [
+            100,
+            1900,
+            600,
+            2100
+          ]
+        },
+        {
+          "id": "bubble_6",
+          "character": "Mina",
+          "text": "Ah no! My mind is made up!",
+          "type": "speech",
+          "bbox": [
+            1000,
+            2150,
+            1500,
+            2300
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "despair and resolve",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

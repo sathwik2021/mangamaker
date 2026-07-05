@@ -1,0 +1,193 @@
+{
+  "page_id": "1c85a338-25f5-475f-8601-0a25ef1e72a5",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2",
+        "beat_3",
+        "beat_4",
+        "beat_5"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        580
+      ],
+      "description": "Wide shot, exterior forest at twilight, the narrator standing before a small, newly lit fire, Weena standing beside him looking with wide-eyed innocent curiosity at the flames. Moody lighting, archaic, mysterious atmosphere.",
+      "shot_type": "wide",
+      "characters": [
+        "I",
+        "Weena"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "I",
+          "text": "The art of fire-making had been forgotten on the earth. These red tongues were an altogether new and strange thing to Weena.",
+          "type": "narration",
+          "bbox": [
+            50,
+            50,
+            800,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_6",
+        "beat_7",
+        "beat_8"
+      ],
+      "bbox": [
+        10,
+        590,
+        890,
+        1190
+      ],
+      "description": "Close up on Weena's face, illuminated by the orange glow of the fire, expression of childlike wonder and enchantment, reaching out a hand toward the flames.",
+      "shot_type": "close_up",
+      "characters": [
+        "Weena"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "Weena",
+          "text": "...",
+          "type": "speech",
+          "bbox": [
+            100,
+            1000,
+            300,
+            1080
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_9",
+        "beat_10",
+        "beat_11"
+      ],
+      "bbox": [
+        900,
+        590,
+        1790,
+        1190
+      ],
+      "description": "Medium shot, narrator pulling Weena away from the fire as he looks back to see the blaze spreading rapidly up the grassy hill, shadows lengthening, terrified expression on his face.",
+      "shot_type": "medium",
+      "characters": [
+        "I",
+        "Weena"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "I",
+          "text": "The fire... it's spreading!",
+          "type": "shout",
+          "bbox": [
+            1000,
+            650,
+            1500,
+            800
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_12",
+        "beat_13",
+        "beat_14",
+        "beat_15",
+        "beat_16",
+        "beat_17"
+      ],
+      "bbox": [
+        10,
+        1200,
+        1790,
+        1800
+      ],
+      "description": "Dynamic medium shot from behind the narrator's shoulder, dark forest, pale clawed hands of Morlocks emerging from the darkness, gripping his coat, high contrast, silhouettes against the dim ambient light.",
+      "shot_type": "medium",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "I",
+          "text": "They're closing in on us!",
+          "type": "shout",
+          "bbox": [
+            100,
+            1250,
+            600,
+            1400
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_18",
+        "beat_19",
+        "beat_20",
+        "beat_21",
+        "beat_22",
+        "beat_23"
+      ],
+      "bbox": [
+        10,
+        1810,
+        1790,
+        2390
+      ],
+      "description": "Dramatic low angle close-up, the narrator striking a match, the sudden flare of light illuminating the terrified faces of the pale Morlocks scrambling away into the shadows of the trees.",
+      "shot_type": "close_up",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "I",
+          "text": "Back! Get back!",
+          "type": "shout",
+          "bbox": [
+            100,
+            1900,
+            500,
+            2100
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "action",
+  "dominant_emotion": "fear",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

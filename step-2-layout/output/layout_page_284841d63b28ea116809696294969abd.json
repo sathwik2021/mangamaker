@@ -1,0 +1,226 @@
+{
+  "page_id": "284841d63b28ea116809696294969abd",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        10,
+        10,
+        895,
+        786
+      ],
+      "description": "Flashback style wide shot: Petrof Skinsky loading a mysterious heavy wooden box onto a riverboat at dusk, moody river docks, dark water reflecting gaslights.",
+      "shot_type": "wide",
+      "characters": [
+        "Petrof Skinsky"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "narration",
+          "text": "Skinsky had taken the box to the ship, paid in English gold.",
+          "type": "narration",
+          "bbox": [
+            50,
+            50,
+            850,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_3",
+        "beat_4",
+        "beat_5",
+        "beat_6"
+      ],
+      "bbox": [
+        905,
+        10,
+        1790,
+        786
+      ],
+      "description": "Medium shot: Dr. Van Helsing and Jonathan Harker standing outside a gloomy tenement building, looking frustrated, speaking to a suspicious landlord holding a key.",
+      "shot_type": "medium",
+      "characters": [
+        "Dr. Van Helsing",
+        "Jonathan Harker"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "Dr. Van Helsing",
+          "text": "Skinsky is gone. The trail is cold again.",
+          "type": "speech",
+          "bbox": [
+            950,
+            50,
+            1750,
+            250
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_7",
+        "beat_8",
+        "beat_9"
+      ],
+      "bbox": [
+        10,
+        796,
+        1790,
+        1586
+      ],
+      "description": "Dynamic wide shot: Panic in the churchyard of St. Peter. A crowd gathers around a grotesque shadow in the wall. Harsh lighting, high contrast, swirling dust.",
+      "shot_type": "wide",
+      "characters": [],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "Villager",
+          "text": "A body! Look, the throat is torn open!",
+          "type": "shout",
+          "bbox": [
+            100,
+            850,
+            900,
+            1000
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_10",
+        "beat_11",
+        "beat_12"
+      ],
+      "bbox": [
+        10,
+        1596,
+        895,
+        2390
+      ],
+      "description": "Medium shot: Jonathan and Van Helsing returning to the hotel room, silhouettes against a dim hallway, heavy atmosphere, looking tired.",
+      "shot_type": "medium",
+      "characters": [
+        "Jonathan Harker",
+        "Dr. Van Helsing"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "Jonathan Harker",
+          "text": "We know the box is moving by water... but to where?",
+          "type": "speech",
+          "bbox": [
+            50,
+            1650,
+            850,
+            1850
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_13",
+        "beat_14",
+        "beat_15"
+      ],
+      "bbox": [
+        905,
+        1596,
+        1790,
+        1993
+      ],
+      "description": "Medium close-up: Van Helsing looking at Mina with intensity, hand on shoulder, the atmosphere is somber but purposeful.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Mina Harker",
+        "Dr. Van Helsing"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "Dr. Van Helsing",
+          "text": "Mina, the situation is desperate. We need your mind on this.",
+          "type": "speech",
+          "bbox": [
+            950,
+            1650,
+            1750,
+            1850
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_6",
+      "beat_ids": [
+        "beat_16",
+        "beat_17",
+        "beat_18",
+        "beat_19",
+        "beat_20",
+        "beat_21",
+        "beat_22",
+        "beat_23",
+        "beat_24",
+        "beat_25",
+        "beat_26"
+      ],
+      "bbox": [
+        905,
+        2003,
+        1790,
+        2390
+      ],
+      "description": "Close-up: Mina Harker at her typewriter, furrowed brow, eyes wide with focus, surrounded by stacks of ancient papers and documents. Golden lamp light reflecting off her face.",
+      "shot_type": "close_up",
+      "characters": [
+        "Mina Harker"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_6",
+          "character": "Mina Harker",
+          "text": "Poor Jonathan... I will find the truth. I see it now.",
+          "type": "speech",
+          "bbox": [
+            950,
+            2100,
+            1750,
+            2300
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "determination",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5",
+    "panel_6"
+  ]
+}

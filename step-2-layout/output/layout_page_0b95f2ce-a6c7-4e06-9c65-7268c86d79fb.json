@@ -1,0 +1,167 @@
+{
+  "page_id": "0b95f2ce-a6c7-4e06-9c65-7268c86d79fb",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2",
+        "beat_3"
+      ],
+      "bbox": [
+        20,
+        20,
+        1780,
+        580
+      ],
+      "description": "Wide shot: Alice stands at a small garden door, holding a golden key, then drinking from a potion bottle to shrink down, entering a vibrant, surreal oversized garden.",
+      "shot_type": "wide",
+      "characters": [
+        "Alice"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "Alice",
+          "text": "At last, the garden!",
+          "type": "narration",
+          "bbox": [
+            50,
+            50,
+            400,
+            150
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_4",
+        "beat_5"
+      ],
+      "bbox": [
+        20,
+        600,
+        1780,
+        1180
+      ],
+      "description": "Medium shot: Three playing card gardeners (Five, Seven, Two) nervously painting white roses red. Alice peers from behind a large shrub, expression curious.",
+      "shot_type": "medium",
+      "characters": [
+        "Alice",
+        "Five",
+        "Seven",
+        "Two"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "Alice",
+          "text": "What are they doing?",
+          "type": "speech",
+          "bbox": [
+            50,
+            630,
+            450,
+            750
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_6",
+        "beat_7",
+        "beat_8",
+        "beat_9"
+      ],
+      "bbox": [
+        20,
+        1200,
+        1780,
+        1780
+      ],
+      "description": "Medium close-up: Five and Seven arguing aggressively, paint splattered on their outfits, one dropping a brush in frustration, intense expressions.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Five",
+        "Seven"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "Five",
+          "text": "Seven jogged my elbow!",
+          "type": "shout",
+          "bbox": [
+            100,
+            1250,
+            600,
+            1400
+          ]
+        },
+        {
+          "id": "bubble_4",
+          "character": "Seven",
+          "text": "Always blaming others!",
+          "type": "shout",
+          "bbox": [
+            1100,
+            1450,
+            1600,
+            1600
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_14",
+        "beat_15",
+        "beat_19"
+      ],
+      "bbox": [
+        20,
+        1800,
+        1780,
+        2380
+      ],
+      "description": "Wide angle: A grand royal procession marches through the garden. Soldiers, courtiers, and children leading to the King and Queen of Hearts in magnificent, intimidating robes. The gardeners are flat on the ground in terror.",
+      "shot_type": "wide",
+      "characters": [
+        "The Queen",
+        "The King",
+        "The Knave of Hearts"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "The Queen",
+          "text": "THE QUEEN!",
+          "type": "shout",
+          "bbox": [
+            900,
+            1850,
+            1500,
+            2000
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "tension",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4"
+  ]
+}

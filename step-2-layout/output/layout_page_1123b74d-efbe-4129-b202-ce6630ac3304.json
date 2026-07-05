@@ -1,0 +1,225 @@
+{
+  "page_id": "1123b74d-efbe-4129-b202-ce6630ac3304",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        580
+      ],
+      "description": "Wide shot: Kaa the giant python looms in the center of the Cold Lairs ruins, head raised, scales shimmering. Monkeys cower in the background hanging from branches. Bagheera emerges from the water tank in the foreground, shaking his fur.",
+      "shot_type": "wide",
+      "characters": [
+        "Kaa",
+        "Bagheera",
+        "monkeys"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "Kaa",
+          "text": "Ssssss...",
+          "type": "speech",
+          "bbox": [
+            50,
+            50,
+            400,
+            150
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_3",
+        "beat_4"
+      ],
+      "bbox": [
+        10,
+        600,
+        1790,
+        1180
+      ],
+      "description": "Medium shot: Mowgli inside the stone summerhouse, peeking through screenwork with a taunting expression. Outside, Bagheera looks exhausted, chest heaving, pointing towards the exit.",
+      "shot_type": "medium",
+      "characters": [
+        "Mowgli",
+        "Bagheera"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "Bagheera",
+          "text": "Get the man-cub out of that trap. Let us go.",
+          "type": "speech",
+          "bbox": [
+            900,
+            650,
+            1700,
+            800
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_5",
+        "beat_6",
+        "beat_7"
+      ],
+      "bbox": [
+        10,
+        1200,
+        890,
+        1790
+      ],
+      "description": "Medium shot: Baloo steps forward, bruised and limping, greeting Kaa and Bagheera. Dramatic low-angle view of Kaa's head as he coils nearby.",
+      "shot_type": "medium",
+      "characters": [
+        "Kaa",
+        "Bagheera",
+        "Baloo"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "Kaa",
+          "text": "Stay you sssso!",
+          "type": "shout",
+          "bbox": [
+            50,
+            1250,
+            400,
+            1400
+          ]
+        },
+        {
+          "id": "bubble_4",
+          "character": "Baloo",
+          "text": "Baloo, art thou hurt?",
+          "type": "speech",
+          "bbox": [
+            50,
+            1500,
+            400,
+            1650
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_8",
+        "beat_9",
+        "beat_10",
+        "beat_11"
+      ],
+      "bbox": [
+        910,
+        1200,
+        1790,
+        1790
+      ],
+      "description": "Close-up: Baloo shaking his leg, looking at Kaa with gratitude. Mowgli is visible through the barred window behind them, hand reaching out.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Baloo",
+        "Mowgli"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "Baloo",
+          "text": "We owe thee our lives.",
+          "type": "speech",
+          "bbox": [
+            1000,
+            1250,
+            1700,
+            1400
+          ]
+        },
+        {
+          "id": "bubble_6",
+          "character": "Mowgli",
+          "text": "Here! I cannot climb out!",
+          "type": "shout",
+          "bbox": [
+            1000,
+            1600,
+            1700,
+            1750
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_13",
+        "beat_14",
+        "beat_15"
+      ],
+      "bbox": [
+        10,
+        1810,
+        1790,
+        2390
+      ],
+      "description": "Action shot: Kaa strikes the stone wall with immense force, shattering the marble tracery. Dust and debris fly everywhere. Mowgli is seen leaping through the opening.",
+      "shot_type": "wide",
+      "characters": [
+        "Kaa",
+        "Mowgli"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_7",
+          "character": "Kaa",
+          "text": "Stand back, manling!",
+          "type": "shout",
+          "bbox": [
+            50,
+            1850,
+            450,
+            2000
+          ]
+        },
+        {
+          "id": "bubble_8",
+          "character": "Narration",
+          "text": "CRASH!",
+          "type": "narration",
+          "bbox": [
+            700,
+            1850,
+            1100,
+            1950
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "action",
+  "dominant_emotion": "tense",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

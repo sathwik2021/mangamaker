@@ -1,0 +1,172 @@
+{
+  "page_id": "1f1940545f474962bb0d5653187af731",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        580
+      ],
+      "description": "Wide shot: A dusty, abandoned stone chamber illuminated by brilliant moonlight. Protagonist in foreground looking at three elegant women standing in the moonbeams. The women cast no shadows on the floor.",
+      "shot_type": "wide",
+      "characters": [
+        "I",
+        "three young women"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "I",
+          "text": "I was not alone... and they threw no shadow on the floor.",
+          "type": "narration",
+          "bbox": [
+            50,
+            50,
+            800,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_3",
+        "beat_4"
+      ],
+      "bbox": [
+        10,
+        600,
+        1790,
+        1000
+      ],
+      "description": "Medium shot: The three women lean in closer, their faces partially obscured by shadows. One dark-haired with piercing eyes, one golden-haired with sapphire eyes. Protagonist looks on with wide-eyed curiosity and rising fear.",
+      "shot_type": "medium",
+      "characters": [
+        "I",
+        "three young women"
+      ],
+      "bubbles": []
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_5",
+        "beat_6",
+        "beat_7"
+      ],
+      "bbox": [
+        10,
+        1010,
+        1790,
+        1500
+      ],
+      "description": "Close up: The women whisper together, their faces twisted into unnatural, silvery, hard smiles. Moonlight accentuates the sharpness of their features.",
+      "shot_type": "close_up",
+      "characters": [
+        "three young women"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "three young women",
+          "text": "He is young and strong; there are kisses for us all.",
+          "type": "speech",
+          "bbox": [
+            100,
+            1100,
+            900,
+            1300
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_8",
+        "beat_9",
+        "beat_10"
+      ],
+      "bbox": [
+        10,
+        1510,
+        890,
+        2390
+      ],
+      "description": "Medium close up: The fair-haired girl kneels, looking down at the protagonist with a mixture of desire and predatory intent, licking her scarlet lips with a red tongue.",
+      "shot_type": "medium_close",
+      "characters": [
+        "I",
+        "fair girl"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "fair girl",
+          "text": "Go on! Yours is the right to begin.",
+          "type": "speech",
+          "bbox": [
+            50,
+            1600,
+            600,
+            1800
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_11",
+        "beat_12",
+        "beat_13"
+      ],
+      "bbox": [
+        910,
+        1510,
+        1790,
+        2390
+      ],
+      "description": "Close up: The fair girl's face inches from the protagonist's throat. Her sharp teeth are visible. Extreme tension, high contrast lighting.",
+      "shot_type": "close_up",
+      "characters": [
+        "I",
+        "fair girl"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "I",
+          "text": "I could feel the movement of her breath...",
+          "type": "narration",
+          "bbox": [
+            950,
+            1600,
+            1600,
+            1800
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "fear",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

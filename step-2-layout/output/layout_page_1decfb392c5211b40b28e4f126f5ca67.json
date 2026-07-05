@@ -1,0 +1,190 @@
+{
+  "page_id": "1decfb392c5211b40b28e4f126f5ca67",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        585
+      ],
+      "description": "Medium wide shot: Protagonist standing high on the mast, pointing two pistols down at Israel Hands, who looks up in shock, dirk stuck in the wood near the protagonist's feet, dramatic nautical ropes background.",
+      "shot_type": "wide",
+      "characters": [
+        "I",
+        "Israel Hands"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "I",
+          "text": "One more step, Mr. Hands! And I'll blow your brains out! Dead men don't bite, you know.",
+          "type": "speech",
+          "bbox": [
+            100,
+            50,
+            600,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_3",
+        "beat_4"
+      ],
+      "bbox": [
+        10,
+        605,
+        890,
+        1190
+      ],
+      "description": "Medium close shot: Israel Hands looking perplexed and fearful, swallowed hard; contrasted with the protagonist's arrogant, cocky smirk above him.",
+      "shot_type": "medium_close",
+      "characters": [
+        "I",
+        "Israel Hands"
+      ],
+      "bubbles": []
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_5",
+        "beat_6"
+      ],
+      "bbox": [
+        910,
+        605,
+        1790,
+        1190
+      ],
+      "description": "Close up: The protagonist's shoulder pinned to the mast by a dirk, intense pain expression, guns firing wildly into the air due to shock.",
+      "shot_type": "close_up",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "I",
+          "text": "!",
+          "type": "shout",
+          "bbox": [
+            1000,
+            700,
+            1200,
+            800
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_7",
+        "beat_8",
+        "beat_9"
+      ],
+      "bbox": [
+        10,
+        1210,
+        1790,
+        1795
+      ],
+      "description": "Wide action shot: Israel Hands falling from the mast, plunging headfirst into the sea, the ship's massive mast stretching out over the bay.",
+      "shot_type": "wide",
+      "characters": [
+        "Israel Hands"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": null,
+          "text": "...",
+          "type": "narration",
+          "bbox": [
+            1400,
+            1300,
+            1700,
+            1450
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_10",
+        "beat_11",
+        "beat_12",
+        "beat_13"
+      ],
+      "bbox": [
+        10,
+        1815,
+        890,
+        2390
+      ],
+      "description": "Underwater view looking up: Israel Hands' body lying huddled on the bright seabed, fish swimming past, sunlight shimmering through the surface.",
+      "shot_type": "wide",
+      "characters": [
+        "Israel Hands"
+      ],
+      "bubbles": []
+    },
+    {
+      "id": "panel_6",
+      "beat_ids": [
+        "beat_14",
+        "beat_15"
+      ],
+      "bbox": [
+        910,
+        1815,
+        1790,
+        2390
+      ],
+      "description": "Close up: Protagonist's face pale and terrified, looking down, sweat and blood on brow, eyes wide with horror at the sight below.",
+      "shot_type": "close_up",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "I",
+          "text": "I feel... so sick.",
+          "type": "speech",
+          "bbox": [
+            1000,
+            2200,
+            1500,
+            2350
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "fear",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5",
+    "panel_6"
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "page_id": "1a2c14bb1ac572f4623fad1fb47b5132",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2",
+        "beat_3"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        480
+      ],
+      "description": "Wide shot: A quill writes on parchment in a dimly lit study, transitioned to a view of the Longbourn estate exterior. Elegant, historical setting.",
+      "shot_type": "wide",
+      "characters": [
+        "Mr. Bennet"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": null,
+          "text": "Permission granted. They arrive at Longbourn today.",
+          "type": "narration",
+          "bbox": [
+            50,
+            50,
+            600,
+            150
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_4",
+        "beat_5"
+      ],
+      "bbox": [
+        10,
+        500,
+        1790,
+        980
+      ],
+      "description": "Medium shot: The breakfast room. Mrs. Bennet beaming with joy, Mr. Bennet standing stiffly with a stern face, Jane and Elizabeth looking tense and worried.",
+      "shot_type": "medium",
+      "characters": [
+        "Mrs. Bennet",
+        "Mr. Bennet",
+        "Jane",
+        "Elizabeth"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "Mrs. Bennet",
+          "text": "Oh, they are here! My dear Lydia!",
+          "type": "speech",
+          "bbox": [
+            100,
+            550,
+            500,
+            650
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_6",
+        "beat_7"
+      ],
+      "bbox": [
+        10,
+        1000,
+        1790,
+        1480
+      ],
+      "description": "Medium shot: The door bursts open. Lydia enters vibrantly, Wickham follows behind with a charismatic, confident smile. Mrs. Bennet rushes to embrace them.",
+      "shot_type": "medium",
+      "characters": [
+        "Lydia",
+        "Wickham",
+        "Mrs. Bennet"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "Lydia",
+          "text": "I'm back, everyone!",
+          "type": "shout",
+          "bbox": [
+            1200,
+            1050,
+            1700,
+            1200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_8",
+        "beat_9",
+        "beat_10"
+      ],
+      "bbox": [
+        10,
+        1500,
+        890,
+        2390
+      ],
+      "description": "Medium close-up: Elizabeth and Jane standing side-by-side, faces pale with deep disgust and shock, watching the scene in the background.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Elizabeth",
+        "Jane"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "Elizabeth",
+          "text": "She has no shame at all.",
+          "type": "speech",
+          "bbox": [
+            50,
+            1550,
+            400,
+            1700
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_18",
+        "beat_19",
+        "beat_20"
+      ],
+      "bbox": [
+        910,
+        1500,
+        1790,
+        2390
+      ],
+      "description": "Close-up: Lydia gesturing animatedly, showing off her wedding ring on her hand to her family, a smug and proud expression.",
+      "shot_type": "close_up",
+      "characters": [
+        "Lydia"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "Lydia",
+          "text": "I made sure he saw the ring! I just rested my hand right on the window frame and bowed!",
+          "type": "speech",
+          "bbox": [
+            950,
+            1700,
+            1750,
+            2100
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "disgust",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

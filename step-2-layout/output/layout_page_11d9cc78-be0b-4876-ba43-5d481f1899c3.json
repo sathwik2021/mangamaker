@@ -1,0 +1,222 @@
+{
+  "page_id": "11d9cc78-be0b-4876-ba43-5d481f1899c3",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        580
+      ],
+      "description": "Wide shot: The Time Traveler stands in a lush, futuristic garden, gesturing toward a group of frail, ethereal, exquisite creatures with soft features. The atmosphere is bright and dreamlike.",
+      "shot_type": "wide",
+      "characters": [
+        "he",
+        "two others",
+        "exquisite creatures"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "he",
+          "text": "Then he turned to the two others and spoke in a strange, liquid tongue.",
+          "type": "narration",
+          "bbox": [
+            50,
+            50,
+            800,
+            150
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_3",
+        "beat_4",
+        "beat_5",
+        "beat_6"
+      ],
+      "bbox": [
+        10,
+        590,
+        890,
+        1180
+      ],
+      "description": "Medium shot: The Traveler looking uneasy as small, soft, childlike hands feel his shoulders and the metal of the Time Machine. He looks down at them with a mix of intrigue and slight concern.",
+      "shot_type": "medium",
+      "characters": [
+        "he",
+        "exquisite creatures",
+        "Time Machine"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "he",
+          "text": "They looked so frail I could fling them about like ninepins... but I made a sudden motion when their hands touched the machine.",
+          "type": "speech",
+          "bbox": [
+            50,
+            650,
+            850,
+            850
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_7",
+        "beat_8",
+        "beat_9",
+        "beat_10"
+      ],
+      "bbox": [
+        910,
+        590,
+        1790,
+        1180
+      ],
+      "description": "Close up: The Traveler's hand unscrewing a lever from the Time Machine. He looks focused and protective of his only means of escape.",
+      "shot_type": "close_up",
+      "characters": [
+        "he",
+        "Time Machine"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "he",
+          "text": "I unscrewed the levers... then I pointed to the sun to communicate.",
+          "type": "speech",
+          "bbox": [
+            950,
+            650,
+            1750,
+            800
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_11",
+        "beat_12",
+        "beat_13"
+      ],
+      "bbox": [
+        10,
+        1190,
+        890,
+        1780
+      ],
+      "description": "Medium close-up: The Traveler's face showing deep disappointment and contemplation as he realizes the creatures might not be as intellectually advanced as he hoped.",
+      "shot_type": "medium_close",
+      "characters": [
+        "he"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "he",
+          "text": "Were these creatures fools? A flow of disappointment rushed across my mind.",
+          "type": "speech",
+          "bbox": [
+            50,
+            1250,
+            850,
+            1450
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_14"
+      ],
+      "bbox": [
+        910,
+        1190,
+        1790,
+        1780
+      ],
+      "description": "Dynamic medium shot: The creatures laughing and showering the Traveler with colorful, exotic flowers. He looks surprised and slightly overwhelmed by their joyful reception.",
+      "shot_type": "medium",
+      "characters": [
+        "he",
+        "exquisite creatures"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "exquisite creatures",
+          "text": "Melodious laughter!",
+          "type": "shout",
+          "bbox": [
+            1000,
+            1300,
+            1700,
+            1450
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_6",
+      "beat_ids": [
+        "beat_15",
+        "beat_16"
+      ],
+      "bbox": [
+        10,
+        1790,
+        1790,
+        2390
+      ],
+      "description": "Wide shot: The Traveler walking toward a massive, grey, fretted stone edifice. In the foreground, a large, enigmatic white marble sphinx watches him with a fixed, stone smile.",
+      "shot_type": "wide",
+      "characters": [
+        "he",
+        "sphinx"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_6",
+          "character": "he",
+          "text": "I was led past the sphinx... towards a vast grey edifice.",
+          "type": "narration",
+          "bbox": [
+            50,
+            1850,
+            800,
+            2000
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "curiosity",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5",
+    "panel_6"
+  ]
+}

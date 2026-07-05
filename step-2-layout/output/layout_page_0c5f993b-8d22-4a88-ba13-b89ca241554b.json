@@ -1,0 +1,185 @@
+{
+  "page_id": "0c5f993b-8d22-4a88-ba13-b89ca241554b",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2",
+        "beat_3"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        600
+      ],
+      "description": "Wide shot: The Time Traveller stands in a luxurious, warm library, face flushed with excitement, gesturing to his guests. The room is filled with silver lily lamps casting soft light on crystal glasses.",
+      "shot_type": "wide",
+      "characters": [
+        "The Time Traveller",
+        "Filby",
+        "the Psychologist"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "The Time Traveller",
+          "text": "You must follow me carefully. I shall have to controvert one or two ideas that are almost universally accepted.",
+          "type": "speech",
+          "bbox": [
+            50,
+            50,
+            600,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_4",
+        "beat_5"
+      ],
+      "bbox": [
+        10,
+        610,
+        895,
+        1200
+      ],
+      "description": "Medium shot: The Time Traveller leans forward, emphasizing his point with a lean forefinger, his expression earnest and intellectual.",
+      "shot_type": "medium",
+      "characters": [
+        "The Time Traveller"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "The Time Traveller",
+          "text": "The geometry you were taught at school is founded on a misconception.",
+          "type": "speech",
+          "bbox": [
+            50,
+            650,
+            400,
+            800
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_9",
+        "beat_10",
+        "beat_11"
+      ],
+      "bbox": [
+        905,
+        610,
+        1790,
+        1200
+      ],
+      "description": "Medium close-up: Filby looking skeptical, eyebrows raised, gesturing as he objects to the claim.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Filby"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "Filby",
+          "text": "There I object. Of course a solid body may exist!",
+          "type": "speech",
+          "bbox": [
+            950,
+            650,
+            1300,
+            850
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_12",
+        "beat_13",
+        "beat_14"
+      ],
+      "bbox": [
+        10,
+        1210,
+        1790,
+        1750
+      ],
+      "description": "Medium shot: The Time Traveller smiles confidently at a pensive, slightly confused Filby. The lighting is intimate and academic.",
+      "shot_type": "medium",
+      "characters": [
+        "The Time Traveller",
+        "Filby"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "The Time Traveller",
+          "text": "But can an instantaneous cube exist? A cube that does not last for any time at all?",
+          "type": "speech",
+          "bbox": [
+            50,
+            1250,
+            600,
+            1450
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_15",
+        "beat_16",
+        "beat_17"
+      ],
+      "bbox": [
+        10,
+        1760,
+        1790,
+        2390
+      ],
+      "description": "Close-up: The Time Traveller's eyes intense and piercing, explaining the Fourth Dimension with a sweep of his hand.",
+      "shot_type": "close_up",
+      "characters": [
+        "The Time Traveller"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "The Time Traveller",
+          "text": "This is the Fourth Dimension. It is only another way of looking at Time.",
+          "type": "speech",
+          "bbox": [
+            100,
+            1850,
+            800,
+            2050
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "curiosity",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

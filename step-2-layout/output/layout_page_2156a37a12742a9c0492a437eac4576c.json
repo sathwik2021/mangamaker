@@ -1,0 +1,161 @@
+{
+  "page_id": "2156a37a12742a9c0492a437eac4576c",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        580
+      ],
+      "description": "Wide shot: The Creature standing alone amidst vast, jagged glacier mountains under a cold, bleak, overcast sky. He is a looming, hulking figure with tattered clothes, looking toward the horizon.",
+      "shot_type": "wide",
+      "characters": [
+        "Creature"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "Creature",
+          "text": "The ice is my only home. These bleak skies are kinder to me than man.",
+          "type": "narration",
+          "bbox": [
+            50,
+            50,
+            800,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_8",
+        "beat_9",
+        "beat_10"
+      ],
+      "bbox": [
+        10,
+        590,
+        1790,
+        1150
+      ],
+      "description": "Medium close-up: Frankenstein, face twisted in rage and disgust, pointing a finger at the Creature. Snow swirls around them, heavy shadows, intense lighting.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Frankenstein",
+        "Creature"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "Frankenstein",
+          "text": "Cursed be the day you saw light! Begone! Relieve me of your detested form!",
+          "type": "shout",
+          "bbox": [
+            900,
+            620,
+            1750,
+            850
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_13",
+        "beat_14"
+      ],
+      "bbox": [
+        10,
+        1160,
+        1790,
+        1780
+      ],
+      "description": "Medium shot: The Creature leads the way across treacherous ice toward a rocky cliff; Frankenstein follows with a wary, conflicted expression, shoulders slumped.",
+      "shot_type": "medium",
+      "characters": [
+        "Frankenstein",
+        "Creature"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "Frankenstein",
+          "text": "My heart was full. I weighed his arguments... and decided to listen.",
+          "type": "narration",
+          "bbox": [
+            50,
+            1200,
+            600,
+            1400
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_19",
+        "beat_20"
+      ],
+      "bbox": [
+        10,
+        1790,
+        1790,
+        2390
+      ],
+      "description": "Interior low-angle shot: A dark, humble hut. The Creature sits by a small fire he has lit, looking expectant. Frankenstein sits opposite him, leaning forward, face illuminated by the flickering firelight.",
+      "shot_type": "medium",
+      "characters": [
+        "Frankenstein",
+        "Creature"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "Creature",
+          "text": "It is with difficulty that I remember the original era of my being.",
+          "type": "speech",
+          "bbox": [
+            1000,
+            1850,
+            1700,
+            2100
+          ]
+        },
+        {
+          "id": "bubble_5",
+          "character": "Creature",
+          "text": "Chapter 11",
+          "type": "narration",
+          "bbox": [
+            100,
+            2200,
+            400,
+            2350
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "conflict",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4"
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "page_id": "0535b47599da858f4baf18b716d00ddb",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2",
+        "beat_3"
+      ],
+      "bbox": [
+        0,
+        0,
+        1800,
+        400
+      ],
+      "description": "Wide shot: The Longbourn drawing room is bathed in the cold light of a cloudy day. Elizabeth stands near a bookshelf, looking toward Charlotte who is seated by the window; both avoid eye contact. Mr. Bennet is seen in the background with a scowl, leaning against the mantle. The atmosphere is thick with palpable tension and silence.",
+      "shot_type": "wide",
+      "characters": [
+        "Bennet",
+        "Elizabeth",
+        "Charlotte"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "narration",
+          "text": "A cold restraint grew between Elizabeth and Charlotte, a silence that signaled the end of their true confidence.",
+          "type": "narration",
+          "bbox": [
+            40,
+            40,
+            600,
+            180
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_4",
+        "beat_5",
+        "beat_6"
+      ],
+      "bbox": [
+        0,
+        410,
+        895,
+        900
+      ],
+      "description": "Medium shot: Elizabeth and Jane stand close together in a hallway. Elizabeth looks at Jane with deep affection and concern, her hand resting on Jane's arm. Jane looks out toward the front door, her expression hopeful but weary as she clutches a small, folded letter. Soft, natural light from a side window.",
+      "shot_type": "medium",
+      "characters": [
+        "Elizabeth",
+        "Jane"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "narration",
+          "text": "With her trust in Charlotte broken, Elizabeth turned to Jane, whose anxiety for Bingley's return grew with every passing day.",
+          "type": "narration",
+          "bbox": [
+            50,
+            460,
+            450,
+            650
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_7",
+        "beat_8",
+        "beat_9",
+        "beat_10"
+      ],
+      "bbox": [
+        905,
+        410,
+        1800,
+        900
+      ],
+      "description": "Medium shot: Mr. Bennet in his study, holding a heavy, formal letter with a prominent wax seal. He has a cynical, amused smirk. The background is filled with stacks of old books and a desk cluttered with quills and ink. Dust motes dance in a single beam of light.",
+      "shot_type": "medium",
+      "characters": [
+        "Bennet"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "narration",
+          "text": "A letter from Mr. Collins arrived, announcing with pompous gratitude his engagement to their neighbor, Miss Lucas.",
+          "type": "narration",
+          "bbox": [
+            955,
+            460,
+            1350,
+            620
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_11",
+        "beat_12",
+        "beat_13",
+        "beat_14"
+      ],
+      "bbox": [
+        0,
+        910,
+        1800,
+        1350
+      ],
+      "description": "Medium close-up: Mrs. Bennet is in the center of the drawing room, her face flushed red with indignation. She is gesturing dramatically with a silk handkerchief. Her eyes are wide and watery, conveying exaggerated distress. The background shows the ornate but slightly cluttered interior of Longbourn.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Bennet",
+        "Elizabeth",
+        "Jane"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "Mrs. Bennet",
+          "text": "It is very strange he should come here instead of Lucas Lodge! I hate having visitors while my health is so indifferent!",
+          "type": "shout",
+          "bbox": [
+            50,
+            960,
+            600,
+            1150
+          ]
+        },
+        {
+          "id": "bubble_5",
+          "character": "narration",
+          "text": "Her murmurs of complaint only gave way to the greater distress of Bingley's continued absence.",
+          "type": "narration",
+          "bbox": [
+            1200,
+            1150,
+            1750,
+            1300
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_15",
+        "beat_16",
+        "beat_17",
+        "beat_18",
+        "beat_19"
+      ],
+      "bbox": [
+        0,
+        1360,
+        895,
+        1850
+      ],
+      "description": "Close-up: Elizabeth's face is partially in shadow as she gazes out a rainy window. Her expression is one of deep calculation and dread. In the reflection of the glass, we see a faint, stylized silhouette of the Bingley sisters and Mr. Darcy standing together in a sophisticated London setting, symbolizing her fears.",
+      "shot_type": "close_up",
+      "characters": [
+        "Elizabeth"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_6",
+          "character": "narration",
+          "text": "Elizabeth feared the united efforts of his unfeeling sisters and overpowering friend would be too much for Bingley's attachment.",
+          "type": "narration",
+          "bbox": [
+            50,
+            1410,
+            450,
+            1650
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_6",
+      "beat_ids": [
+        "beat_20",
+        "beat_21",
+        "beat_22"
+      ],
+      "bbox": [
+        905,
+        1360,
+        1800,
+        1850
+      ],
+      "description": "Medium shot: Mrs. Bennet leans over Jane, who is trying to read a book. Mrs. Bennet is talking incessantly, her mouth open and a finger pointed for emphasis. Jane looks down at her book with a forced, calm expression, her shoulders slightly hunched as if enduring a storm.",
+      "shot_type": "medium",
+      "characters": [
+        "Jane",
+        "Bennet"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_7",
+          "character": "Mrs. Bennet",
+          "text": "Jane, you must confess! If he does not come back, you are very ill-used!",
+          "type": "speech",
+          "bbox": [
+            955,
+            1410,
+            1350,
+            1550
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_7",
+      "beat_ids": [
+        "beat_23",
+        "beat_24",
+        "beat_25"
+      ],
+      "bbox": [
+        0,
+        1860,
+        1800,
+        2400
+      ],
+      "description": "Wide shot: The exterior of Longbourn. Mr. Collins is stepping out of a carriage, looking extremely self-satisfied and smiling broadly. Charlotte Lucas stands nearby, greeting him with a polite, reserved smile. The rest of the Bennet family is visible in the doorway, looking weary and unenthusiastic.",
+      "shot_type": "wide",
+      "characters": [
+        "Mr. Collins",
+        "Charlotte",
+        "Bennet",
+        "Elizabeth",
+        "Jane"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_8",
+          "character": "narration",
+          "text": "Mr. Collins returned punctually. Luckily for the family, his 'business of love-making' with Charlotte relieved them of his company.",
+          "type": "narration",
+          "bbox": [
+            50,
+            1910,
+            700,
+            2050
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "resentment and anxious suspense",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5",
+    "panel_6",
+    "panel_7"
+  ]
+}

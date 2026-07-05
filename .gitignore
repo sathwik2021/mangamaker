@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+web_output/
+tests/test_output/
+*.png
+*.safetensors
+*.ckpt

@@ -1,0 +1,260 @@
+{
+  "page_id": "028ea837-5cfc-44bf-b8c3-509e6dfb86e0",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1"
+      ],
+      "bbox": [
+        0,
+        0,
+        1800,
+        600
+      ],
+      "description": "Wide shot, looking into a large, dimly lit hall. Soft, ethereal moonlight filters through ornate windows, casting gentle shadows. Many small, delicate figures (the little people) are curled up, peacefully sleeping on plush, vibrant cushions scattered across the floor. The Time Traveler (protagonist) stands at the entrance, observing them, his figure slightly shadowed, an expression of quiet discovery on his face. The overall mood is calm and mysterious.",
+      "shot_type": "wide",
+      "characters": [
+        "I",
+        "little people",
+        "moonlight"
+      ],
+      "bubbles": []
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_2",
+        "beat_3"
+      ],
+      "bbox": [
+        0,
+        610,
+        895,
+        1200
+      ],
+      "description": "Dynamic medium shot from a low angle: The Time Traveler, disheveled and frantic, is roughly shaking several small, delicate figures of the little people. His face is contorted with raw rage and desperation, eyes wide and bloodshot, sweat beading on his brow. The little people are a mix of utterly terrified (eyes wide with fear, shrinking away) and confused (some with small, nervous smiles, clutching each other). Dim, oppressive lighting emphasizes the Time Traveler's towering anger and the little people's vulnerability against a blurred background of cushions.",
+      "shot_type": "medium",
+      "characters": [
+        "I",
+        "little people"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "I",
+          "text": "WHERE IS MY TIME MACHINE?!",
+          "type": "shout",
+          "bbox": [
+            297,
+            630,
+            597,
+            710
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_4",
+        "beat_5"
+      ],
+      "bbox": [
+        905,
+        610,
+        1800,
+        1200
+      ],
+      "description": "Dynamic wide shot from a slightly elevated angle, capturing chaotic movement: The Time Traveler is a frantic blur, dashing across the grand hall, leaving a trail of disarray. One little person is seen falling in the foreground, while others scatter in chaotic panic in the background, their tiny forms stumbling this way and that. Dramatic moonlight streams through a large archway, silhouetting the Time Traveler's frantic exit. Shadows are long and distorted, enhancing the sense of urgency and terror.",
+      "shot_type": "wide",
+      "characters": [
+        "I",
+        "little people",
+        "moonlight"
+      ],
+      "bubbles": []
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_6",
+        "beat_7",
+        "beat_8"
+      ],
+      "bbox": [
+        0,
+        1210,
+        895,
+        1800
+      ],
+      "description": "Extreme close-up on the Time Traveler's face, bathed in stark, cold moonlight from an unseen source. His features are ravaged by grief and profound despair; eyes wide, bloodshot, and unfocused, perhaps a single tear rolling down his gaunt cheek. Heavy, dramatic shadows cling to his face, emphasizing sunken eyes and the harshness of his emotional state. The background is a blurred, dark void, enhancing his utter isolation and hopelessness. A feeling of overwhelming misery.",
+      "shot_type": "close_up",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "narration",
+          "text": "The sheer unexpectedness... it maddened me.",
+          "type": "narration",
+          "bbox": [
+            20,
+            1230,
+            875,
+            1290
+          ]
+        },
+        {
+          "id": "bubble_2",
+          "character": "narration",
+          "text": "Hopelessly cut off. A strange animal in an unknown world.",
+          "type": "narration",
+          "bbox": [
+            20,
+            1300,
+            875,
+            1380
+          ]
+        },
+        {
+          "id": "bubble_3",
+          "character": "narration",
+          "text": "Nothing... but misery.",
+          "type": "narration",
+          "bbox": [
+            20,
+            1390,
+            875,
+            1440
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_9",
+        "beat_10"
+      ],
+      "bbox": [
+        905,
+        1210,
+        1800,
+        1800
+      ],
+      "description": "High angle wide shot: The Time Traveler is slowly stirring awake, coming to on a patch of lush green turf. Soft, warm morning sunlight bathes the scene, casting gentle hues. Two small, cheerful sparrows hop playfully nearby, unaware of his turmoil. He is disoriented, his expression a mix of confusion and lingering sadness as he tries to recall the harrowing events of the night. The background is a serene, open landscape with distant trees, a stark contrast to the previous panel's despair.",
+      "shot_type": "wide",
+      "characters": [
+        "I",
+        "sparrows"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "narration",
+          "text": "Waking to a new day... and the strange weight of desertion.",
+          "type": "narration",
+          "bbox": [
+            925,
+            1230,
+            1780,
+            1310
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_6",
+      "beat_ids": [
+        "beat_11",
+        "beat_12"
+      ],
+      "bbox": [
+        0,
+        1810,
+        895,
+        2400
+      ],
+      "description": "Medium close-up on the Time Traveler's face. He is now sitting upright, gazing forward with a newfound look of calm resolve and analytical thought. The morning light fully illuminates his features, casting away the previous shadows of despair. There's a distinct hint of determination in his eyes, a flicker of intelligence and purpose returning. The background is a softly blurred expanse of green and blue, emphasizing his internal shift towards clarity.",
+      "shot_type": "medium_close",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "narration",
+          "text": "The daylight brought clarity. It was time to face facts.",
+          "type": "narration",
+          "bbox": [
+            20,
+            1830,
+            875,
+            1890
+          ]
+        },
+        {
+          "id": "bubble_2",
+          "character": "narration",
+          "text": "Calm. Patient. Learn. Rebuild. I will make another.",
+          "type": "narration",
+          "bbox": [
+            20,
+            1900,
+            875,
+            1980
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_7",
+      "beat_ids": [
+        "beat_13",
+        "beat_14"
+      ],
+      "bbox": [
+        905,
+        1810,
+        1800,
+        2400
+      ],
+      "description": "Medium shot: The Time Traveler stands up slowly, stretching slightly, his posture showing weariness but also renewed purpose. His clothing is rumpled and dirt-stained. He looks around with a practical gaze, perhaps towards a distant stream or body of water implied in the background, wondering where to find a place to cleanse himself. The morning light is still gentle, hinting at a new beginning after immense emotional turmoil.",
+      "shot_type": "medium",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "narration",
+          "text": "First, a bath. I felt utterly travel-soiled.",
+          "type": "narration",
+          "bbox": [
+            925,
+            1830,
+            1780,
+            1910
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "despair leading to resolve",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5",
+    "panel_6",
+    "panel_7"
+  ]
+}

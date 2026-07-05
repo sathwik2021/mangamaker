@@ -1,0 +1,204 @@
+{
+  "page_id": "097e894b05060a0dfc78926383c91abb",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2",
+        "beat_3"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        470
+      ],
+      "description": "Medium shot of the protagonist huddled in a dark stone corner of a castle bedroom, moonlight filtering through a high window, expression of intense prayer and resolve.",
+      "shot_type": "medium",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "I",
+          "text": "To-morrow! to-morrow! Lord, help me!",
+          "type": "speech",
+          "bbox": [
+            50,
+            50,
+            600,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_4",
+        "beat_5"
+      ],
+      "bbox": [
+        10,
+        480,
+        1790,
+        950
+      ],
+      "description": "Dynamic medium shot of the protagonist shoving a heavy wooden door, face strained with panic, shadows stretching across a dusty corridor.",
+      "shot_type": "medium",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "I",
+          "text": "Stuck... it won't budge!",
+          "type": "speech",
+          "bbox": [
+            1000,
+            550,
+            1500,
+            700
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_6",
+        "beat_7"
+      ],
+      "bbox": [
+        10,
+        960,
+        1790,
+        1430
+      ],
+      "description": "Wide shot: The protagonist scaling a rugged castle wall in the pale blue light of dawn, looking up toward a high window.",
+      "shot_type": "wide",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "I",
+          "text": "I must get to him. No matter the cost.",
+          "type": "narration",
+          "bbox": [
+            50,
+            1000,
+            500,
+            1200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_8",
+        "beat_9"
+      ],
+      "bbox": [
+        10,
+        1440,
+        890,
+        2390
+      ],
+      "description": "Close up: The Count lying in a stone coffin, eyes open, skin unnaturally rejuvenated and youthful, glowing slightly, sinister atmosphere.",
+      "shot_type": "close_up",
+      "characters": [
+        "Count"
+      ],
+      "bubbles": []
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_10",
+        "beat_11",
+        "beat_12"
+      ],
+      "bbox": [
+        900,
+        1440,
+        1790,
+        1910
+      ],
+      "description": "Medium shot: Protagonist standing over the Count, trembling with a shovel held high, eyes filled with murderous intent.",
+      "shot_type": "medium",
+      "characters": [
+        "I",
+        "Count"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "I",
+          "text": "End this now.",
+          "type": "speech",
+          "bbox": [
+            950,
+            1500,
+            1300,
+            1650
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_6",
+      "beat_ids": [
+        "beat_13",
+        "beat_14",
+        "beat_15",
+        "beat_16",
+        "beat_17"
+      ],
+      "bbox": [
+        900,
+        1920,
+        1790,
+        2390
+      ],
+      "description": "Extreme close up on the Count's face suddenly turning towards the viewer, a jagged, bloody gash visible on his forehead, expression of ancient malice.",
+      "shot_type": "close_up",
+      "characters": [
+        "Count"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "Count",
+          "text": "...",
+          "type": "speech",
+          "bbox": [
+            1100,
+            2200,
+            1200,
+            2300
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "tense",
+  "dominant_emotion": "horror",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5",
+    "panel_6"
+  ]
+}

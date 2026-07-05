@@ -1,0 +1,227 @@
+{
+  "page_id": "1e45f65eda9548d62da5760767069b64",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        600
+      ],
+      "description": "Wide shot: The narrator stands in a desolate London street near a park, looking toward a faint, ominous haze of smoke rising over the buildings in the distance. The atmosphere is hazy and oppressive.",
+      "shot_type": "wide",
+      "characters": [
+        "the narrator"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "the narrator",
+          "text": "Ulla, ulla, ulla, ulla...",
+          "type": "speech",
+          "bbox": [
+            100,
+            100,
+            500,
+            250
+          ]
+        },
+        {
+          "id": "bubble_2",
+          "character": null,
+          "text": "The voice grew stronger, drifting from the direction of Regent's Park.",
+          "type": "narration",
+          "bbox": [
+            1000,
+            400,
+            1700,
+            550
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_3",
+        "beat_4",
+        "beat_5"
+      ],
+      "bbox": [
+        10,
+        610,
+        890,
+        1200
+      ],
+      "description": "Close-up: The narrator's weary, haggard face. His eyes are sunken, reflecting profound loneliness and exhaustion. Empty streets stretch out in the blurred background.",
+      "shot_type": "close_up",
+      "characters": [
+        "the narrator"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": null,
+          "text": "Why am I alone in this city of the dead?",
+          "type": "narration",
+          "bbox": [
+            50,
+            700,
+            850,
+            850
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_8",
+        "beat_9",
+        "beat_10",
+        "beat_11"
+      ],
+      "bbox": [
+        910,
+        610,
+        1790,
+        1200
+      ],
+      "description": "Medium shot: The narrator inside a ransacked, dusty public-house, reaching for biscuits and cheese. Sunlight filters through broken glass, highlighting the grit of the abandoned bar.",
+      "shot_type": "medium",
+      "characters": [
+        "the narrator"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": null,
+          "text": "Thirst and hunger drove me into the remains of a public-house.",
+          "type": "narration",
+          "bbox": [
+            950,
+            650,
+            1750,
+            800
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_12",
+        "beat_13"
+      ],
+      "bbox": [
+        10,
+        1210,
+        1790,
+        1800
+      ],
+      "description": "Wide shot: The narrator at the edge of Regent's Park at sunset. In the far distance, the hood of a Martian giant looms over the trees, silhouetted against a deep orange sky.",
+      "shot_type": "wide",
+      "characters": [
+        "the narrator"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": null,
+          "text": "There, amidst the trees, the source of the howling.",
+          "type": "narration",
+          "bbox": [
+            100,
+            1600,
+            800,
+            1750
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_16",
+        "beat_17",
+        "beat_18"
+      ],
+      "bbox": [
+        10,
+        1810,
+        890,
+        2390
+      ],
+      "description": "Medium shot: A desperate dog clutching raw meat dashes past the narrator, pursued by a pack of snarling mongrels. The narrator steps back into the shadows of a terrace.",
+      "shot_type": "medium",
+      "characters": [
+        "the narrator",
+        "dog"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_6",
+          "character": null,
+          "text": "The wild things of the city scramble for the spoils of a fallen world.",
+          "type": "narration",
+          "bbox": [
+            50,
+            2100,
+            850,
+            2350
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_6",
+      "beat_ids": [
+        "beat_19",
+        "beat_20",
+        "beat_21"
+      ],
+      "bbox": [
+        910,
+        1810,
+        1790,
+        2390
+      ],
+      "description": "Wide shot: A dark, twisted wreck of a mechanical handling-machine lying abandoned in the twilight. The scene is gloomy and foreboding, with sharp, jagged metal silhouettes.",
+      "shot_type": "wide",
+      "characters": [],
+      "bubbles": [
+        {
+          "id": "bubble_7",
+          "character": null,
+          "text": "A wrecked machine, discarded like a broken toy.",
+          "type": "narration",
+          "bbox": [
+            950,
+            2150,
+            1750,
+            2350
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "desolation",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5",
+    "panel_6"
+  ]
+}

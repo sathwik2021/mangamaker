@@ -1,0 +1,163 @@
+{
+  "page_id": "161b1f6e161470a7401a995869d0af81",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2",
+        "beat_3"
+      ],
+      "bbox": [
+        20,
+        20,
+        1780,
+        580
+      ],
+      "description": "Wide action shot: The battered Thunder Child, smoke trailing from its funnels and fire engulfing its middle, surges through a white sea toward a towering, tripod Martian, mid-day lighting.",
+      "shot_type": "wide",
+      "characters": [],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": null,
+          "text": "The Thunder Child charged, its engines screaming against the heat-ray.",
+          "type": "narration",
+          "bbox": [
+            50,
+            50,
+            600,
+            150
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_4",
+        "beat_5"
+      ],
+      "bbox": [
+        20,
+        600,
+        1780,
+        1180
+      ],
+      "description": "Dynamic action: A blinding explosion rips the ironclad apart, fire and metal hurling outward, the force of the blast crumpling the tripod Martian like paper, high contrast, dramatic shadows.",
+      "shot_type": "wide",
+      "characters": [],
+      "bubbles": []
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_6",
+        "beat_8",
+        "beat_9"
+      ],
+      "bbox": [
+        20,
+        1200,
+        890,
+        1790
+      ],
+      "description": "Medium close-up: My brother on the deck of a smaller vessel, face etched with shock and awe, mouth open as he looks toward the horizon.",
+      "shot_type": "medium_close",
+      "characters": [
+        "my brother"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "the captain",
+          "text": "TWO!",
+          "type": "shout",
+          "bbox": [
+            100,
+            1250,
+            400,
+            1350
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_10",
+        "beat_11"
+      ],
+      "bbox": [
+        910,
+        1200,
+        1780,
+        1790
+      ],
+      "description": "Wide shot: A multitude of ships and boats in the background cheering and waving, foreground filled with billowing white steam hiding the wreckage.",
+      "shot_type": "wide",
+      "characters": [],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": null,
+          "text": "Frantic cheering rose from every vessel in sight.",
+          "type": "narration",
+          "bbox": [
+            950,
+            1250,
+            1700,
+            1400
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_24",
+        "beat_25",
+        "beat_26"
+      ],
+      "bbox": [
+        20,
+        1810,
+        1780,
+        2380
+      ],
+      "description": "Interior shot: A cramped, dimly lit room in an abandoned house at Halliford, the narrator looking out a cracked window at the black smoke outside, tense atmosphere, claustrophobic lighting.",
+      "shot_type": "medium",
+      "characters": [
+        "I",
+        "the curate"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "I",
+          "text": "Trapped in this island of daylight... where is she? Is she already mourning me?",
+          "type": "speech",
+          "bbox": [
+            200,
+            1850,
+            800,
+            2050
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "action",
+  "dominant_emotion": "tense",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

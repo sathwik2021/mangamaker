@@ -1,0 +1,163 @@
+{
+  "page_id": "08fa869b-4733-477c-ab39-593c3a30b27c",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        20,
+        20,
+        1780,
+        580
+      ],
+      "description": "Medium shot: Alice, sitting in a magical forest clearing, holding a mushroom, biting a piece from the edge, confused expression.",
+      "shot_type": "medium",
+      "characters": [
+        "Alice"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "Alice",
+          "text": "And now which is which?",
+          "type": "speech",
+          "bbox": [
+            100,
+            100,
+            600,
+            250
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_3",
+        "beat_4"
+      ],
+      "bbox": [
+        20,
+        600,
+        1780,
+        1180
+      ],
+      "description": "Close-up: Alice looking terrified, her chin pressed against her foot, frantically trying to swallow another morsel while shrinking rapidly.",
+      "shot_type": "close_up",
+      "characters": [
+        "Alice"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "Alice",
+          "text": "No time to be lost!",
+          "type": "shout",
+          "bbox": [
+            100,
+            700,
+            500,
+            850
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_5",
+        "beat_6"
+      ],
+      "bbox": [
+        20,
+        1200,
+        1780,
+        1780
+      ],
+      "description": "Wide shot: Alice standing in a sea of massive leaves, her head high up near the trees with a disproportionately long, serpentine neck.",
+      "shot_type": "wide",
+      "characters": [
+        "Alice"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "Alice",
+          "text": "My head's free at last! Wait... where are my shoulders?",
+          "type": "speech",
+          "bbox": [
+            100,
+            1300,
+            700,
+            1500
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_7",
+        "beat_8",
+        "beat_9",
+        "beat_10",
+        "beat_11",
+        "beat_12",
+        "beat_13"
+      ],
+      "bbox": [
+        20,
+        1800,
+        1780,
+        2380
+      ],
+      "description": "Medium shot: Alice's head at eye level with a large, angry pigeon flapping its wings directly in her face, background of leaves blurred.",
+      "shot_type": "medium",
+      "characters": [
+        "Alice",
+        "Pigeon"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "Pigeon",
+          "text": "Serpent! I've never seen a girl with a neck that long!",
+          "type": "shout",
+          "bbox": [
+            400,
+            1850,
+            1200,
+            2100
+          ]
+        },
+        {
+          "id": "bubble_5",
+          "character": "Alice",
+          "text": "I'm not a serpent!",
+          "type": "speech",
+          "bbox": [
+            100,
+            2150,
+            600,
+            2300
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "alarm",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4"
+  ]
+}

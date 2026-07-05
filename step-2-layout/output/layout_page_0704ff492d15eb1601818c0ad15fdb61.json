@@ -1,0 +1,246 @@
+{
+  "page_id": "0704ff492d15eb1601818c0ad15fdb61",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        50,
+        50,
+        1750,
+        620
+      ],
+      "description": "Wide shot: Arthur stands in the early morning light within the confines of a large, imposing building (possibly the asylum or a study). He looks relieved but weary, gesturing slightly outwards as he speaks. Background shows hints of architecture and shadows suggesting they have just returned from the night's activities. Soft, pre-dawn lighting.",
+      "shot_type": "wide",
+      "characters": [
+        "Arthur"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "Arthur",
+          "text": "Our night has been eminently successful. No harm has come to us such as I feared might be and yet we have ascertained how many boxes are missing. More than all do I rejoice that this, our first--and perhaps our most difficult and dangerous--step has been accomplished without the bringing thereinto our most sweet Madam Mina or troubling her waking or sleeping thoughts with sights and sounds and smells of horror which she might never forget.",
+          "type": "speech",
+          "bbox": [
+            150,
+            150,
+            1650,
+            570
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_3"
+      ],
+      "bbox": [
+        50,
+        640,
+        1750,
+        1080
+      ],
+      "description": "Medium shot: Arthur continues speaking, gesturing down slightly, perhaps remembering the rats. The background subtly shifts to imply the memory of the confrontation with the animals (maybe faint shadowy outlines of running rats). Expression is thoughtful and analytical.",
+      "shot_type": "medium",
+      "characters": [
+        "Arthur"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "Narrator",
+          "text": "One lesson, too, we have learned, if it be allowable to argue _a particulari_: that the brute beasts which are to the Count's command are yet themselves not amenable to his spiritual power; for look, these rats that would come to his call... though they come to him, they run pell-mell from the so little dogs of my friend Arthur.",
+          "type": "narration",
+          "bbox": [
+            150,
+            680,
+            1650,
+            1040
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_4",
+        "beat_5"
+      ],
+      "bbox": [
+        50,
+        1100,
+        890,
+        1540
+      ],
+      "description": "Medium close-up: Arthur stands resolute, one hand clenched, looking determined but focused on the future threat. Lighting is slightly stronger now, suggesting the sun is beginning to rise.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Arthur"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "Narrator",
+          "text": "We have other matters before us, other dangers, other fears; and that monster--he has not used his power over the brute world for the only or the last time to-night. So be it that he has gone elsewhere. Good! It has given us opportunity to cry 'check' in some ways in this chess game, which we play for the stake of human souls. And now let us go home.",
+          "type": "narration",
+          "bbox": [
+            100,
+            1140,
+            840,
+            1500
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_6",
+        "beat_7"
+      ],
+      "bbox": [
+        910,
+        1100,
+        1750,
+        1540
+      ],
+      "description": "Wide shot: View from a window or doorway showing the rising sun casting long shadows across a stone courtyard or pathway as they walk away from the previous location, heading toward home.",
+      "shot_type": "wide",
+      "characters": [],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "Narrator",
+          "text": "The dawn is close at hand, and we have reason to be content with our first night's work. It may be ordained that we have many nights and days to follow, if full of peril; but we must go on, and from no danger shall we shrink.",
+          "type": "narration",
+          "bbox": [
+            960,
+            1140,
+            1700,
+            1500
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_8",
+        "beat_9"
+      ],
+      "bbox": [
+        50,
+        1560,
+        1750,
+        1880
+      ],
+      "description": "Medium shot: Focus on the exterior or hallway of the building they are entering. The scene is dark and shadowed, contrasting with the daylight outside. A faint, high-pitched sound effect could be implied near the edges, drawing attention to Renfield's room.",
+      "shot_type": "medium",
+      "characters": [],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "Narrator",
+          "text": "The house was silent when we got back, save for some poor creature who was screaming away in one of the distant wards, and a low, moaning sound from Renfield's room. The poor wretch was doubtless torturing himself...",
+          "type": "narration",
+          "bbox": [
+            100,
+            1590,
+            1650,
+            1840
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_6",
+      "beat_ids": [
+        "beat_10",
+        "beat_11",
+        "beat_12"
+      ],
+      "bbox": [
+        50,
+        1900,
+        890,
+        2350
+      ],
+      "description": "Close-up: Arthur kneeling or leaning over Mina, who is asleep on a bed, shrouded in soft shadows. Arthur's expression is deeply concerned and tender, his face drawn with fatigue. Focus is tight on their faces and the proximity.",
+      "shot_type": "close_up",
+      "characters": [
+        "Arthur",
+        "Madam Mina"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_6",
+          "character": "Arthur",
+          "text": "I came tiptoe into our own room, and found Mina asleep... She looks paler than usual. I hope the meeting to-night has not upset her.",
+          "type": "speech",
+          "bbox": [
+            100,
+            1930,
+            840,
+            2310
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_7",
+      "beat_ids": [
+        "beat_13",
+        "beat_14",
+        "beat_15",
+        "beat_16",
+        "beat_17",
+        "beat_18",
+        "beat_19"
+      ],
+      "bbox": [
+        910,
+        1900,
+        1750,
+        2350
+      ],
+      "description": "Medium close-up: Arthur sitting quietly on a nearby sofa or chair, looking away from Mina (who is off-panel sleeping), his posture rigid with resolve. Strong internal monologue suggested by the length of the text.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Arthur"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_7",
+          "character": "Arthur",
+          "text": "I am truly thankful that she is to be left out of our future work... It is too great a strain for a woman to bear. I did not think so at first, but I know better now. Therefore I am glad that it is settled. Henceforth our work is to be a sealed book to her... I daresay it will be difficult to begin to keep silence after such confidence as ours; but I must be resolute... I rest on the sofa, so as not to disturb her.",
+          "type": "speech",
+          "bbox": [
+            960,
+            1930,
+            1700,
+            2310
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "Resolution and Weary Relief",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5",
+    "panel_6",
+    "panel_7"
+  ]
+}

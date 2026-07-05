@@ -1,0 +1,215 @@
+{
+  "page_id": "246c46f3da5feee8d9a1d7c1f078f76b",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2"
+      ],
+      "bbox": [
+        20,
+        20,
+        1780,
+        580
+      ],
+      "description": "Medium shot, Victorian study with dim gaslight. John sits at his desk sealing a letter. Van Helsing enters the room, hat in hand, looking concerned. High contrast, scholarly atmosphere.",
+      "shot_type": "medium",
+      "characters": [
+        "Westenra",
+        "Van Helsing",
+        "John"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "Van Helsing",
+          "text": "Can I help you, friend John? I am free, and if I may, my service is to you.",
+          "type": "speech",
+          "bbox": [
+            1000,
+            100,
+            1700,
+            300
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_3",
+        "beat_4",
+        "beat_5"
+      ],
+      "bbox": [
+        20,
+        600,
+        1780,
+        1180
+      ],
+      "description": "Medium shot. Van Helsing holds a stack of papers and a diary. John looks exhausted, leaning back in his chair. Nighttime, shadows cast across the room.",
+      "shot_type": "medium",
+      "characters": [
+        "Van Helsing",
+        "John"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "Van Helsing",
+          "text": "And now, friend John, I think we may to bed. We want rest. Alas!",
+          "type": "speech",
+          "bbox": [
+            50,
+            650,
+            800,
+            850
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_6",
+        "beat_7"
+      ],
+      "bbox": [
+        20,
+        1200,
+        890,
+        1780
+      ],
+      "description": "Wide shot, funeral chamber. Lucy lies in a bed surrounded by a wilderness of white flowers, looking peaceful but pale. Van Helsing and John stand in the background observing.",
+      "shot_type": "wide",
+      "characters": [
+        "Van Helsing",
+        "John",
+        "Lucy"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "null",
+          "text": "The undertaker had done his work well. The room was a small chapelle ardente.",
+          "type": "narration",
+          "bbox": [
+            50,
+            1250,
+            400,
+            1450
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_8",
+        "beat_9",
+        "beat_10",
+        "beat_11"
+      ],
+      "bbox": [
+        910,
+        1200,
+        1780,
+        1780
+      ],
+      "description": "Close-up shot. Van Helsing's hand places a gold crucifix over Lucy's mouth amidst garlic flowers. Focused, clinical lighting on the ritual action.",
+      "shot_type": "close_up",
+      "characters": [
+        "Van Helsing",
+        "Professor"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "Van Helsing",
+          "text": "Remain till I return.",
+          "type": "speech",
+          "bbox": [
+            1000,
+            1600,
+            1700,
+            1750
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_5",
+      "beat_ids": [
+        "beat_12",
+        "beat_13",
+        "beat_14",
+        "beat_15",
+        "beat_16"
+      ],
+      "bbox": [
+        20,
+        1800,
+        1780,
+        2380
+      ],
+      "description": "Medium close-up shot. John's bedroom, dimly lit. Van Helsing leans over the desk, speaking intensely to John who looks shocked and weary.",
+      "shot_type": "medium_close",
+      "characters": [
+        "Van Helsing",
+        "John"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_5",
+          "character": "Van Helsing",
+          "text": "To-morrow I want you to bring me a set of post-mortem knives.",
+          "type": "speech",
+          "bbox": [
+            50,
+            1850,
+            800,
+            2100
+          ]
+        },
+        {
+          "id": "bubble_6",
+          "character": "John",
+          "text": "Must we make an autopsy?",
+          "type": "speech",
+          "bbox": [
+            900,
+            1850,
+            1700,
+            2000
+          ]
+        },
+        {
+          "id": "bubble_7",
+          "character": "Van Helsing",
+          "text": "I want to operate, but not how you think. But tell no one.",
+          "type": "speech",
+          "bbox": [
+            900,
+            2050,
+            1700,
+            2350
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "tense",
+  "dominant_emotion": "Unease",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4",
+    "panel_5"
+  ]
+}

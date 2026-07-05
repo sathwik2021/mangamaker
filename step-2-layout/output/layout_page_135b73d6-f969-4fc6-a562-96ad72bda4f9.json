@@ -1,0 +1,153 @@
+{
+  "page_id": "135b73d6-f969-4fc6-a562-96ad72bda4f9",
+  "canvas": {
+    "width": 1800,
+    "height": 2400
+  },
+  "panels": [
+    {
+      "id": "panel_1",
+      "beat_ids": [
+        "beat_1",
+        "beat_2",
+        "beat_3"
+      ],
+      "bbox": [
+        10,
+        10,
+        1790,
+        580
+      ],
+      "description": "Wide shot: Two silhouettes (the narrator and the curate) creeping through a dark, desolate residential street in Sheen at night, approaching a small semi-detached villa.",
+      "shot_type": "wide",
+      "characters": [
+        "I",
+        "the curate"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_1",
+          "character": "narration",
+          "text": "The night was too dark to see into the side roads... In Sheen, my companion complained of faintness. We decided to try a house.",
+          "type": "narration",
+          "bbox": [
+            50,
+            50,
+            800,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_2",
+      "beat_ids": [
+        "beat_4",
+        "beat_5",
+        "beat_6",
+        "beat_7"
+      ],
+      "bbox": [
+        10,
+        590,
+        1790,
+        1170
+      ],
+      "description": "Medium shot: The narrator inside a pantry, holding a hatchet, looking at shelves filled with food. A sense of weary relief.",
+      "shot_type": "medium",
+      "characters": [
+        "I"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_2",
+          "character": "narration",
+          "text": "We found a store of food—bottled beer, beans, lettuce, and burgundy. Little did we know, this was to sustain us for a fortnight.",
+          "type": "narration",
+          "bbox": [
+            1000,
+            620,
+            1750,
+            850
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_3",
+      "beat_ids": [
+        "beat_12",
+        "beat_13",
+        "beat_14"
+      ],
+      "bbox": [
+        10,
+        1180,
+        1790,
+        1780
+      ],
+      "description": "Dramatic high-contrast shot: The interior of the kitchen illuminated by a sudden, blinding flash of vivid green light pouring through the window, casting deep, elongated shadows.",
+      "shot_type": "medium",
+      "characters": [
+        "I",
+        "the curate"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_3",
+          "character": "I",
+          "text": "It can't be midnight yet...",
+          "type": "speech",
+          "bbox": [
+            100,
+            1220,
+            600,
+            1350
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel_4",
+      "beat_ids": [
+        "beat_15",
+        "beat_16",
+        "beat_17"
+      ],
+      "bbox": [
+        10,
+        1790,
+        1790,
+        2390
+      ],
+      "description": "Dynamic action shot: The ceiling collapsing, plaster and masonry showering down on the narrator and curate, who are thrown against kitchen appliances in the chaos.",
+      "shot_type": "wide",
+      "characters": [
+        "I",
+        "the curate"
+      ],
+      "bubbles": [
+        {
+          "id": "bubble_4",
+          "character": "narration",
+          "text": "A concussion... a crash of masonry... I was thrown against the oven and everything went black.",
+          "type": "narration",
+          "bbox": [
+            100,
+            1820,
+            1000,
+            2000
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_style": "dynamic",
+  "dominant_emotion": "tense",
+  "reading_order": [
+    "panel_1",
+    "panel_2",
+    "panel_3",
+    "panel_4"
+  ]
+}
