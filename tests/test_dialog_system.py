@@ -9,7 +9,7 @@ import json
 from pathlib import Path
 
 # Add paths
-project_root = Path(__file__).parent
+project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root / "Step-1" / "code"))
 sys.path.insert(0, str(project_root / "step-2-layout"))
 sys.path.insert(0, str(project_root / "step-3"))

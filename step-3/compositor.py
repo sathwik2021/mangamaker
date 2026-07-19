@@ -400,29 +400,263 @@ def _ellipse_edge_point(
     return ex, ey
 
 
+# ── Bubble layout fitting and collision resolution (FIX A) ─────────────────────
+
+def fit_text_to_bubble(
+    text: str,
+    bbox: List[int],
+    max_font_size: int = 32,
+    min_font_size: int = 14,
+    padding: int = 12,
+) -> Tuple[List[str], int, bool]:
+    """
+    Returns (lines, font_size, overflow_flag) that fits within bbox.
+    """
+    x1, y1, x2, y2 = bbox
+    box_w = max(20, (x2 - x1) - 2 * padding)
+    box_h = max(20, (y2 - y1) - 2 * padding)
+
+    for font_size in range(max_font_size, min_font_size - 1, -2):
+        font = _load_font(font_size)
+        lines = _wrap_text(text, font, box_w)
+        line_height = font.size + LINE_SPACING
+        max_lines = max(1, box_h // line_height)
+        if len(lines) <= max_lines:
+            return lines, font_size, False
+
+    font = _load_font(min_font_size)
+    lines = _wrap_text(text, font, box_w)
+    line_height = font.size + LINE_SPACING
+    max_lines = max(1, box_h // line_height)
+    if len(lines) > max_lines:
+        lines = lines[:max_lines]
+        if lines:
+            last_line = lines[-1]
+            if len(last_line) > 3:
+                lines[-1] = last_line[: max(1, len(last_line) - 3)] + "..."
+            else:
+                lines[-1] = "..."
+    return lines, min_font_size, True
+
+
+def bboxes_overlap(box1: List[int], box2: List[int]) -> bool:
+    x1_1, y1_1, x2_1, y2_1 = box1
+    x1_2, y1_2, x2_2, y2_2 = box2
+    return not (x2_1 <= x1_2 or x2_2 <= x1_1 or y2_1 <= y1_2 or y2_2 <= y1_1)
+
+
+def _resolve_bbox_overlap(
+    bbox: List[int],
+    other: List[int],
+    min_x: int,
+    min_y: int,
+    max_x: int,
+    max_y: int,
+    margin: int = 8,
+) -> Tuple[List[int], bool]:
+    x1, y1, x2, y2 = bbox
+    ox1, oy1, ox2, oy2 = other
+    overlap_w = min(x2, ox2) - max(x1, ox1)
+    overlap_h = min(y2, oy2) - max(y1, oy1)
+    if overlap_w <= 0 or overlap_h <= 0:
+        return bbox, False
+
+    candidates = [
+        (0, overlap_h + margin),
+        (overlap_w + margin, 0),
+        (0, -(overlap_h + margin)),
+        (-(overlap_w + margin), 0),
+    ]
+
+    for dx, dy in candidates:
+        nx1, ny1, nx2, ny2 = x1 + dx, y1 + dy, x2 + dx, y2 + dy
+        if nx1 >= min_x and ny1 >= min_y and nx2 <= max_x and ny2 <= max_y:
+            return [nx1, ny1, nx2, ny2], True
+
+    return bbox, False
+
+
+def validate_bubble_layout(panel: Dict[str, Any]) -> List[str]:
+    warnings: List[str] = []
+    bubbles = [b for b in panel.get("bubbles", []) if len(b.get("bbox", [])) == 4]
+    for i in range(len(bubbles)):
+        for j in range(i + 1, len(bubbles)):
+            if bboxes_overlap(bubbles[i]["bbox"], bubbles[j]["bbox"]):
+                warnings.append(
+                    f"Panel {panel.get('id')} has overlapping bubbles "
+                    f"{bubbles[i].get('id')} and {bubbles[j].get('id')}"
+                )
+    return warnings
+
+
+def preprocess_and_fit_bubbles_in_panel(
+    panel: Dict[str, Any],
+    panel_bbox: List[int],
+    cfg: CompositorConfig,
+) -> None:
+    bubbles = panel.get("bubbles", [])
+    if not bubbles:
+        return
+
+    px1, py1, px2, py2 = panel_bbox
+    margin = 10
+    min_x, min_y = px1 + margin, py1 + margin
+    max_x, max_y = px2 - margin, py2 - margin
+
+    for idx, bubble in enumerate(bubbles):
+        text = bubble.get("text", "").strip()
+        if not text:
+            continue
+        
+        bbbox = [int(v) for v in bubble.get("bbox", [0, 0, 100, 100])]
+        btype = bubble.get("type", "speech")
+        
+        # Clamp any bubble bbox to the panel interior before fitting to avoid bleed
+        bbbox[0] = max(min_x, bbbox[0])
+        bbbox[1] = max(min_y, bbbox[1])
+        bbbox[2] = min(max_x, bbbox[2])
+        bbbox[3] = min(max_y, bbbox[3])
+        if bbbox[2] <= bbbox[0] or bbbox[3] <= bbbox[1]:
+            logger.warning(
+                "Bubble %s in panel %s has invalid bbox after clamping: %s",
+                bubble.get("id"), panel.get("id"), bbbox,
+            )
+            continue
+        
+        if btype == "shout":
+            max_size = cfg.font_size_shout
+        elif btype == "whisper":
+            max_size = cfg.font_size_whisper
+        elif btype in ["narration", "narration_box"]:
+            max_size = cfg.font_size_narration
+        else:
+            max_size = cfg.font_size_default
+
+        min_size = 12
+        
+        # 1. Fit text to current bbox
+        lines, font_size, overflow = fit_text_to_bubble(
+            text, bbbox,
+            max_font_size=max_size, min_font_size=min_size, padding=cfg.bubble_pad
+        )
+        
+        # 2. If overflowed, try to grow the bbox within panel bounds
+        if overflow:
+            font = _load_font(min_size)
+            max_avail_w = max(60, (max_x - min_x) - 2 * cfg.bubble_pad)
+            lines_at_min = _wrap_text(text, font, max_avail_w)
+            tw, th = _text_block_size(lines_at_min, font)
+            needed_w = min(max_x - min_x, tw + 2 * cfg.bubble_pad)
+            needed_h = min(max_y - min_y, th + 2 * cfg.bubble_pad)
+            
+            cx, cy = _center(bbbox)
+            new_x1 = max(min_x, cx - needed_w / 2)
+            new_x2 = min(max_x, cx + needed_w / 2)
+            new_y1 = max(min_y, cy - needed_h / 2)
+            new_y2 = min(max_y, cy + needed_h / 2)
+            
+            proposed_bbox = [int(new_x1), int(new_y1), int(new_x2), int(new_y2)]
+            
+            overlapping = any(
+                bboxes_overlap(proposed_bbox, bubbles[prev_idx].get("bbox", []))
+                for prev_idx in range(idx)
+                if bubbles[prev_idx].get("text", "").strip()
+            )
+            
+            if not overlapping:
+                bbbox = proposed_bbox
+                lines, font_size, overflow = fit_text_to_bubble(
+                    text, bbbox,
+                    max_font_size=max_size, min_font_size=min_size, padding=cfg.bubble_pad
+                )
+            
+            if overflow:
+                logger.warning(
+                    "Bubble %s in panel %s overflows even after growing. Truncating.",
+                    bubble.get("id"), panel.get("id")
+                )
+                if lines:
+                    last_line = lines[-1]
+                    if len(last_line) > 3:
+                        lines[-1] = last_line[:-3] + "..."
+                    else:
+                        lines[-1] = "..."
+        
+        bubble["bbox"] = bbbox
+        bubble["fitted_lines"] = lines
+        bubble["fitted_font_size"] = font_size
+
+    # 3. Collision check & nudging
+    for _ in range(4):
+        moved = False
+        for idx in range(len(bubbles)):
+            bubble = bubbles[idx]
+            if not bubble.get("text", "").strip():
+                continue
+            
+            bbbox = list(bubble.get("bbox", []))
+            if not bbbox:
+                continue
+            
+            for other_idx in range(len(bubbles)):
+                if other_idx == idx:
+                    continue
+                other_bubble = bubbles[other_idx]
+                other_bbox = other_bubble.get("bbox", [])
+                if not other_bbox or not other_bubble.get("text", "").strip():
+                    continue
+                
+                if bboxes_overlap(bbbox, other_bbox):
+                    new_bbox, shifted = _resolve_bbox_overlap(
+                        bbbox, other_bbox, min_x, min_y, max_x, max_y
+                    )
+                    if shifted:
+                        moved = True
+                        bbbox = new_bbox
+                    else:
+                        logger.warning(
+                            "Could not resolve collision for bubble %s in panel %s",
+                            bubble.get("id"), panel.get("id")
+                        )
+            bubble["bbox"] = bbbox
+        if not moved:
+            break
+
+
 # ── Bubble renderers ──────────────────────────────────────────────────────────
 
 def _draw_ellipse_bubble(
     draw: ImageDraw.ImageDraw,
-    bbox: List[int],
-    text: str,
-    bubble_type: str,
+    bubble: Dict[str, Any],
     panel_bbox: Optional[List[int]] = None,
     cfg: CompositorConfig = CompositorConfig(),
 ) -> None:
+    bbox = bubble.get("bbox", [0, 0, 100, 100])
+    text = bubble.get("text", "")
+    bubble_type = bubble.get("type", "speech")
+
     x1, y1, x2, y2 = bbox
     cx, cy = _center(bbox)
-    font   = _font_for_bubble(bubble_type)
 
-    bw       = x2 - x1 - cfg.bubble_pad * 2
-    bh       = y2 - y1 - cfg.bubble_pad * 2
-    lines, font = _fit_text(text, font, max(bw, 60), max(bh, 40))
-    tw, th   = _text_block_size(lines, font)
-
-    ebbox    = _expand_bbox(bbox, tw, th, cfg.bubble_pad)
-    ex1, ey1, ex2, ey2 = ebbox
-    cx, cy   = (ex1 + ex2) / 2.0, (ey1 + ey2) / 2.0
-    rx, ry   = (ex2 - ex1) / 2.0, (ey2 - ey1) / 2.0
+    if "fitted_lines" in bubble:
+        lines = bubble["fitted_lines"]
+        font = _load_font(bubble["fitted_font_size"])
+        tw, th = _text_block_size(lines, font)
+        
+        # Already pre-fit and scaled, use the layout bbox directly as the ellipse bounds:
+        ex1, ey1, ex2, ey2 = bbox
+        cx, cy   = (ex1 + ex2) / 2.0, (ey1 + ey2) / 2.0
+        rx, ry   = (ex2 - ex1) / 2.0, (ey2 - ey1) / 2.0
+    else:
+        font   = _font_for_bubble(bubble_type)
+        bw       = x2 - x1 - cfg.bubble_pad * 2
+        bh       = y2 - y1 - cfg.bubble_pad * 2
+        lines, font = _fit_text(text, font, max(bw, 60), max(bh, 40))
+        tw, th   = _text_block_size(lines, font)
+        ebbox    = _expand_bbox(bbox, tw, th, cfg.bubble_pad)
+        ex1, ey1, ex2, ey2 = ebbox
+        cx, cy   = (ex1 + ex2) / 2.0, (ey1 + ey2) / 2.0
+        rx, ry   = (ex2 - ex1) / 2.0, (ey2 - ey1) / 2.0
 
     # ── Tail ──────────────────────────────────────────────────────────────────
     if panel_bbox and bubble_type not in ["narration", "thought"]:
@@ -445,8 +679,6 @@ def _draw_ellipse_bubble(
     elif bubble_type == "thought":
         poly = _cloud_puff_poly(cx, cy, rx, ry, puffs=12)
         draw.polygon(poly, fill=cfg.bubble_fill, outline=cfg.bubble_stroke)
-        # Add a couple of "thought bubbles" trailing off if possible
-        # (This would need panel_bbox to avoid clipping, skipping for now)
     else:
         # Organic hand-drawn ellipse (two slightly offset strokes)
         poly = _jittered_ellipse_poly(cx, cy, rx, ry, steps=52, wobble=cfg.organic_wobble)
@@ -470,17 +702,24 @@ def _draw_ellipse_bubble(
 
 def _draw_narration_box(
     draw: ImageDraw.ImageDraw,
-    bbox: List[int],
-    text: str,
+    bubble: Dict[str, Any],
     cfg: CompositorConfig = CompositorConfig(),
 ) -> None:
+    bbox = bubble.get("bbox", [0, 0, 100, 100])
+    text = bubble.get("text", "")
     x1, y1, x2, y2 = bbox
-    font  = _load_font(cfg.font_size_narration)
-    lines, font = _fit_text(
-        text, font,
-        x2 - x1 - cfg.bubble_pad * 2,
-        y2 - y1 - cfg.bubble_pad * 2,
-    )
+
+    if "fitted_lines" in bubble:
+        lines = bubble["fitted_lines"]
+        font = _load_font(bubble["fitted_font_size"])
+    else:
+        font  = _load_font(cfg.font_size_narration)
+        lines, font = _fit_text(
+            text, font,
+            x2 - x1 - cfg.bubble_pad * 2,
+            y2 - y1 - cfg.bubble_pad * 2,
+        )
+
     draw.rectangle([x1, y1, x2, y2],
                    fill=(235, 235, 235),
                    outline=cfg.bubble_stroke,
@@ -713,7 +952,10 @@ def compose_page(
         is_bleed     = panel.get("bleed", False)
 
         if panel_img is None:
-            logger.debug("No image for panel %d — using placeholder", idx)
+            logger.warning(
+                "Missing panel image for page_id=%s panel_idx=%d; using placeholder panel art for composition",
+                page_id, idx,
+            )
 
         # Save CLEAN panel (without bubbles) before drawing text
         if cfg.save_panels and output_dir is not None:
@@ -732,6 +974,13 @@ def compose_page(
 
         _place_panel(canvas, panel_img, bbox, cfg, clip_polygon=clip_poly, bleed=is_bleed)
 
+        # ── Preprocess & fit speech bubbles (FIX A) ───────────────────────────
+        preprocess_and_fit_bubbles_in_panel(panel, bbox, cfg)
+
+        overlap_warnings = validate_bubble_layout(panel)
+        for warning in overlap_warnings:
+            logger.warning("%s", warning)
+
         # ── Draw speech bubbles ───────────────────────────────────────────────
         for bubble in bubbles:
             btype = bubble.get("type", "speech")
@@ -741,10 +990,10 @@ def compose_page(
             if not bbbox or len(bbbox) != 4 or not text:
                 continue
 
-            if btype == "narration":
-                _draw_narration_box(draw, bbbox, text, cfg)
+            if btype in {"narration", "narration_box"}:
+                _draw_narration_box(draw, bubble, cfg)
             else:
-                _draw_ellipse_bubble(draw, bbbox, text, btype, bbox, cfg)
+                _draw_ellipse_bubble(draw, bubble, bbox, cfg)
 
         if progress_callback:
             progress_callback(idx + 1, total_steps,

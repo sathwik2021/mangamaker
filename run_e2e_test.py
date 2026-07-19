@@ -20,11 +20,12 @@ from collections import defaultdict
 import threading
 import signal
 
+import re
 import numpy as np
 from PIL import Image, ImageFilter
 import torch
 from diffusers import StableDiffusionPipeline
-from peft import PeftModel
+# PeftModel import removed — LoRA is loaded via pipe.load_lora_weights(), not PeftModel
 import cv2
 from scipy import ndimage
 
@@ -73,6 +74,15 @@ CACHE_DIR      = TEST_OUT / "cache"
 METRICS_OUT    = TEST_OUT / "metrics"
 STEP1_DIR      = PROJECT_ROOT / "Step-1" / "code"
 
+# ── LoRA configuration (FIX 1) ─────────────────────────────────────────────────
+# Point MANGA_LORA_PATH at the output dir from step-3/train_lora.py.
+# If the path does not exist, load_sd_pipeline() hard-fails — never silently
+# falls back to stock SD1.5 (that is how the LoRA absence went unnoticed).
+# Default now uses 1.0 because it produces noticeably stronger manga-style
+# character renderings in the experimental comparisons.
+LORA_PATH  = os.getenv("MANGA_LORA_PATH", "./step-3/results/lora_output/final_lora")
+LORA_SCALE = float(os.getenv("MANGA_LORA_SCALE", "1.0"))
+
 sys.path.insert(0, str(STEP1_DIR))
 sys.path.insert(0, str(STEP2_DIR))
 sys.path.insert(0, str(STEP3_DIR))
@@ -80,7 +90,7 @@ sys.path.insert(0, str(STEP3_DIR))
 # ── Import pipeline modules ────────────────────────────────────────────────
 try:
     from model_client import generate, get_current_model
-    from layout_generator import convert_beats_to_layout
+    from layout_generator import convert_beats_to_layout, clean_json_response  # FIX 5
     from compositor import compose_page, CompositorConfig
     from text_extractor import TextExtractor
     from dialog_mapper import DialogMapper
@@ -141,6 +151,35 @@ class PipelineConfig:
         )
 
 CONFIG = PipelineConfig.from_env()
+
+
+def configure_pipeline(options: Dict[str, Any]) -> None:
+    """Override runtime pipeline configuration from request options."""
+    if not isinstance(options, dict):
+        return
+
+    if "guidance_scale" in options:
+        try:
+            CONFIG.sd_guidance_scale = float(options["guidance_scale"])
+            logger.info("Configured SD guidance_scale from options: %s", CONFIG.sd_guidance_scale)
+        except Exception as exc:
+            logger.warning(
+                "Could not parse guidance_scale option '%s': %s",
+                options["guidance_scale"], exc,
+            )
+
+    if "sd_guidance_scale" in options:
+        try:
+            CONFIG.sd_guidance_scale = float(options["sd_guidance_scale"])
+            logger.info("Configured SD guidance_scale from options: %s", CONFIG.sd_guidance_scale)
+        except Exception as exc:
+            logger.warning(
+                "Could not parse sd_guidance_scale option '%s': %s",
+                options["sd_guidance_scale"], exc,
+            )
+
+    # Preserve actual applied guidance scale for metadata
+    options["applied_guidance_scale"] = str(CONFIG.sd_guidance_scale)
 
 @dataclass
 class PipelineMetrics:
@@ -260,14 +299,74 @@ MOOD_STYLE_MAP = {
     "neutral": "balanced professional manga composition, consistent G-pen linework, clean precise inking",
 }
 
-def _smart_truncate(prompt: str, max_tokens: int = 75) -> str:
-    clauses = [c.strip() for c in prompt.split(",") if c.strip()]
-    res, count = [], 0
-    for c in clauses:
-        w = c.split()
-        if count + len(w) > max_tokens: break
-        res.append(c); count += len(w)
-    return ", ".join(res) if res else " ".join(prompt.split()[:max_tokens])
+def _smart_truncate(prompt: str, tokenizer=None, max_tokens: int = 75) -> str:
+    """
+    Truncate prompt to fit under CLIP's 77-token limit (75 content tokens +
+    2 special tokens), using the actual tokenizer when available.
+    """
+    if tokenizer is None:
+        logger.warning(
+            "_smart_truncate called without tokenizer — using word-count fallback, may overflow CLIP limit"
+        )
+        words = prompt.split()
+        return " ".join(words[:max_tokens])
+
+    tokenized = tokenizer(prompt, truncation=False)
+    token_ids = tokenized.get("input_ids", [])
+    if len(token_ids) <= max_tokens + 2:
+        return prompt
+
+    truncated_ids = token_ids[: max_tokens + 1]
+    truncated_text = tokenizer.decode(truncated_ids, skip_special_tokens=True)
+    return truncated_text.strip().rstrip(",")
+
+
+def _simplify_abstract_description(tags_body: str) -> str:
+    """Simplify and anchor abstract no-human prompts for better SD consistency."""
+    abstract_terms = [
+        "dreamworld",
+        "dream world",
+        "dreamlike",
+        "surreal",
+        "otherworldly",
+        "ethereal",
+        "abstract",
+        "mystical",
+        "psychedelic",
+        "gaudy",
+        "dazzling",
+        "murmurs",
+        "shattered",
+        "throbbing",
+        "painful",
+        "agony",
+        "disorientation",
+        "blurred",
+        "hazy",
+        "phantasmagoric",
+        "floating",
+        "twisted",
+        "fractured",
+        "shimmering",
+        "melting",
+        "liquid",
+    ]
+    for term in abstract_terms:
+        tags_body = re.sub(rf"\b{re.escape(term)}\b", "", tags_body, flags=re.IGNORECASE)
+
+    tags_body = re.sub(r"\s*,\s*", ", ", tags_body.strip())
+    tags_body = re.sub(r",{2,}", ",", tags_body)
+    tags_body = tags_body.strip(" ,")
+
+    if re.search(r"\bno humans\b|\bno human\b", tags_body, flags=re.IGNORECASE):
+        if not re.search(r"\b(background|landscape|sky|clouds|moon|stars|horizon|forest|city|street|mountain|river|water|stone|bridge|door|temple|altar|hall|room|mist|fog)\b", tags_body, flags=re.IGNORECASE):
+            if tags_body:
+                tags_body = f"{tags_body}, background, simple horizon, subtle foreground object"
+            else:
+                tags_body = "no humans, background, simple horizon, subtle foreground object"
+
+    return tags_body
+
 
 def _aspect_ratio_dims(bbox: List[int], max_dim: int) -> Tuple[int, int]:
     pw, ph = max(1, bbox[2] - bbox[0]), max(1, bbox[3] - bbox[1]); r = pw / ph
@@ -277,10 +376,27 @@ def _aspect_ratio_dims(bbox: List[int], max_dim: int) -> Tuple[int, int]:
     return max(64, min(max_dim, (w // 8) * 8)), max(64, min(max_dim, (h // 8) * 8))
 
 def build_prompt(panel: dict, **kwargs) -> str:
-    tags = panel.get("description", "manga scene"); mood = panel.get("mood", "neutral")
+    tags = panel.get("description", "manga scene")
+    mood = panel.get("mood", "neutral")
     style = MOOD_STYLE_MAP.get(mood, MOOD_STYLE_MAP["neutral"])
-    prompt = f"manga style, monochrome, {tags}, {style}, masterpiece, best quality"
-    return _smart_truncate(prompt, max_tokens=75)
+
+    anchor = "manga style, monochrome, screentone, masterpiece, best quality"
+
+    tags_body = tags
+    for dup in ("manga style, monochrome,", "manga style, monochrome"):
+        if tags_body.startswith(dup):
+            tags_body = tags_body[len(dup):].lstrip(", ")
+            break
+
+    if re.search(r"\b(no humans|no human|dreamworld|dreamlike|surreal|abstract)\b", tags_body, flags=re.IGNORECASE):
+        tags_body = _simplify_abstract_description(tags_body)
+
+    if tags_body:
+        full_prompt = f"{anchor}, {tags_body}, {style}"
+    else:
+        full_prompt = f"{anchor}, {style}"
+
+    return _smart_truncate(full_prompt, tokenizer=kwargs.get("tokenizer"), max_tokens=75)
 
 def build_negative_prompt(panel: dict) -> str:
     return "color, blurry, low quality, bad anatomy, text, watermark, multiple people"
@@ -291,13 +407,30 @@ def _save_prompt(idx: int, page_id: str, prompt: str, neg_prompt: str) -> None:
         f.write(f"POSITIVE:\n{prompt}\n\nNEGATIVE:\n{neg_prompt}\n")
 
 def step1_extract_beats(text: str, chunk_id: str = "chunk_001", max_retries: int = 3) -> dict:
+    # FIX 10: Strengthened grounding constraints to prevent pretraining-knowledge
+    # contamination. The LLM may have prior knowledge of popular novels (e.g. Lord
+    # of Mysteries) and blend memorized later-book content into extractions.
     prompt = f"""Extract manga narrative beats from the following text.
+
+CRITICAL GROUNDING RULES — you MUST follow ALL of these:
+1. Use ONLY information explicitly present in the provided text below.
+2. Do NOT add any dialogue, thoughts, words, names, objects, or events that are not
+   directly stated or clearly implied in the provided text.
+3. If the source text does not contain dialogue or internal thoughts/monologue for a beat,
+   do NOT invent any. Use an empty string for dialogue in that case.
+4. Do NOT draw on any prior knowledge you may have about these characters,
+   this story, or this author's other works. Treat the text as if you have
+   never encountered it before.
+5. Every "description" field must be traceable to a specific sentence or
+   phrase in the provided text.
+
 Return ONLY raw JSON in this exact format, with no markdown code blocks:
 {{
   "beats": [
     {{
       "id": "beat_1",
       "description": "Visual description of what happens",
+      "dialogue": "Exact quote of spoken dialogue or internal monologue/thoughts from the text, or empty string if none",
       "mood": "neutral"
     }}
   ]
@@ -306,25 +439,95 @@ Return ONLY raw JSON in this exact format, with no markdown code blocks:
 Text: {text}"""
     for attempt in range(max_retries):
         try:
-            res = generate(prompt); data = res if isinstance(res, dict) else json.loads(res.strip("`").strip("json").strip())
+            res = generate(prompt)
+            # FIX 5: clean_json_response() correctly strips ```json...``` fences by
+            # splitting on newlines. The old .strip("json") stripped individual
+            # characters j/s/o/n from string ends, corrupting valid responses.
+            data = res if isinstance(res, dict) else json.loads(clean_json_response(res))
             return data
         except Exception as e:
             if attempt == max_retries - 1: raise e
             time.sleep(2 ** attempt)
 
 def load_sd_pipeline() -> StableDiffusionPipeline:
+    # FIX 1: Hard-fail if LoRA weights are absent. Never silently fall back to
+    # stock SD1.5 — that is how the missing LoRA went unnoticed in production.
+    # FIX 0: Model ID corrected to community mirror (runwayml org deleted Aug 2024).
+    if not os.path.isdir(LORA_PATH):
+        raise FileNotFoundError(
+            f"LoRA weights not found at '{LORA_PATH}'. "
+            f"Set MANGA_LORA_PATH env var to the correct path, "
+            f"or train the LoRA first (see step-3/train_lora.py). "
+            f"Refusing to silently fall back to stock SD1.5."
+        )
     device = "cuda" if torch.cuda.is_available() else "cpu"; dtype = torch.float16 if device == "cuda" else torch.float32
-    pipe = StableDiffusionPipeline.from_pretrained("runwayml/stable-diffusion-v1-5", torch_dtype=dtype, safety_checker=None)
-    if device == "cuda": pipe.to(device)
-    else: pipe.enable_attention_slicing()
+    pipe = StableDiffusionPipeline.from_pretrained("stable-diffusion-v1-5/stable-diffusion-v1-5", torch_dtype=dtype, safety_checker=None)
+    if device == "cuda":
+        pipe.to(device)
+    else:
+        pipe.enable_attention_slicing()
+    pipe.load_lora_weights(LORA_PATH)
+    logger.info(
+        "Loaded LoRA from '%s' at scale %s, pipe_id=%s, device=%s",
+        LORA_PATH,
+        LORA_SCALE,
+        id(pipe),
+        device,
+    )
     return pipe
 
 def step3_generate_panels(layout: dict, pipe: StableDiffusionPipeline, metrics: PipelineMetrics) -> Path:
     page_id = layout.get("page_id", "page_1"); out_dir = PANELS_OUT / page_id; out_dir.mkdir(parents=True, exist_ok=True)
+    logger.info(
+        "SD GENERATE start page=%s panels=%d pipe_id=%s",
+        page_id,
+        len(layout.get("panels", [])),
+        id(pipe),
+    )
     for idx, panel in enumerate(layout.get("panels", [])):
-        prompt = build_prompt(panel); neg_prompt = build_negative_prompt(panel)
+        prompt = build_prompt(panel, tokenizer=pipe.tokenizer)
+        neg_prompt = build_negative_prompt(panel)
         bbox = panel.get("bbox", [0, 0, 512, 512]); w, h = _aspect_ratio_dims(bbox, CONFIG.sd_max_dim)
-        res = pipe(prompt, negative_prompt=neg_prompt, width=w, height=h, num_inference_steps=CONFIG.sd_steps)
+        device = getattr(pipe, 'device', None)
+        generator = None
+        try:
+            if device is not None:
+                seed = CONFIG.sd_seed_base + idx
+                generator = torch.Generator(device=device).manual_seed(seed)
+        except Exception:
+            generator = None
+
+        # FIX 1: pass LORA_SCALE via cross_attention_kwargs so the adapter
+        # is applied at the configured strength, not silently ignored.
+        # FIX 11: Actually pass guidance_scale from config. Previously this
+        # kwarg was missing, silently falling back to diffusers default (7.5).
+        # CONFIG.sd_guidance_scale (default 9.0, env-overridable via SD_GUIDANCE)
+        # is now respected. For SD1.5 compound prompts, 7-9 is the sweet spot;
+        # values ≥15 cause CFG over-drive / compositional binding failures.
+        logger.info(
+            "SD GENERATE page=%s panel=%s idx=%d prompt_len=%d width=%d height=%d "
+            "cross_attention_kwargs={'scale': %s} guidance_scale=%s seed=%s pipe_id=%s",
+            page_id,
+            panel.get("id"),
+            idx,
+            len(prompt.split()),
+            w,
+            h,
+            LORA_SCALE,
+            CONFIG.sd_guidance_scale,
+            seed if generator is not None else 'none',
+            id(pipe),
+        )
+        res = pipe(
+            prompt,
+            negative_prompt=neg_prompt,
+            width=w,
+            height=h,
+            num_inference_steps=CONFIG.sd_steps,
+            guidance_scale=CONFIG.sd_guidance_scale,
+            cross_attention_kwargs={"scale": LORA_SCALE},
+            generator=generator,
+        )
         img = res.images[0].resize((bbox[2]-bbox[0], bbox[3]-bbox[1]), Image.LANCZOS)
         if CONFIG.screentone_enabled: img = apply_screentone(img)
         img.save(out_dir / f"panel_{idx}.png")

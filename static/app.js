@@ -272,11 +272,30 @@ async function showResults() {
         
         const { results, files } = data;
         
-        // Display main image
-        if (results.final_page) {
-            const imagePath = `/results/${results.final_page}`;
-            el.resultImage.src = imagePath;
-            el.downloadBtn.href = imagePath;
+        // Display page(s) (FIX C)
+        el.imageDisplay.innerHTML = '';
+        el.imageDisplay.style.maxHeight = 'none';
+        el.imageDisplay.style.overflow = 'visible';
+        el.imageDisplay.style.flexDirection = 'column';
+        
+        if (results.pages && results.pages.length > 0) {
+            results.pages.forEach((pagePath, index) => {
+                const img = document.createElement('img');
+                img.className = 'result-image';
+                img.style.marginBottom = '20px';
+                img.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
+                img.src = `/results/${pagePath}`;
+                img.alt = `Generated Manga Page ${index + 1}`;
+                el.imageDisplay.appendChild(img);
+            });
+            el.downloadBtn.href = `/results/${results.pages[0]}`;
+        } else if (results.final_page) {
+            const img = document.createElement('img');
+            img.className = 'result-image';
+            img.src = `/results/${results.final_page}`;
+            img.alt = "Generated Manga Page";
+            el.imageDisplay.appendChild(img);
+            el.downloadBtn.href = `/results/${results.final_page}`;
         }
         
         // Display info
@@ -284,6 +303,26 @@ async function showResults() {
         el.generationTime.textContent = formatSeconds(elapsed);
         el.beatsCount.textContent = results.beats_count || '-';
         el.panelsCount.textContent = results.panels_count || '-';
+        
+        // FIX 8: Show warning banner if results.input_truncated is true
+        let truncationBanner = document.getElementById('truncationWarning');
+        if (truncationBanner) {
+            truncationBanner.remove();
+        }
+        if (results.input_truncated) {
+            truncationBanner = document.createElement('div');
+            truncationBanner.id = 'truncationWarning';
+            truncationBanner.className = 'warning-banner';
+            truncationBanner.style.backgroundColor = '#ffeeb5';
+            truncationBanner.style.color = '#856404';
+            truncationBanner.style.border = '1px solid #ffeeba';
+            truncationBanner.style.padding = '12px 16px';
+            truncationBanner.style.borderRadius = '8px';
+            truncationBanner.style.marginBottom = '20px';
+            truncationBanner.style.fontWeight = '500';
+            truncationBanner.textContent = `⚠️ Input was truncated from ${results.original_length} to 3000 characters to fit the model's processing limits.`;
+            el.resultsSection.insertBefore(truncationBanner, el.resultsSection.querySelector('.results-card'));
+        }
         
         // Display generated files
         displayGeneratedFiles(files);
@@ -317,10 +356,18 @@ function displayGeneratedFiles(files) {
         link.className = 'file-item';
         link.href = `/results/${file.path}`;
         link.target = '_blank';
-        link.innerHTML = `
-            <span class="file-icon">${icon}</span>
-            <span class="file-name">${fileName}</span>
-        `;
+        
+        // FIX 11: Safe DOM construction instead of innerHTML
+        const iconSpan = document.createElement('span');
+        iconSpan.className = 'file-icon';
+        iconSpan.textContent = icon;
+        
+        const nameSpan = document.createElement('span');
+        nameSpan.className = 'file-name';
+        nameSpan.textContent = fileName;
+        
+        link.appendChild(iconSpan);
+        link.appendChild(nameSpan);
         
         el.filesList.appendChild(link);
     });

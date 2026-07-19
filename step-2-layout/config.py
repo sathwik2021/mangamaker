@@ -11,6 +11,13 @@ except ImportError:
     pass
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+GEMINI_API_KEYS = [
+    key.strip()
+    for key in os.environ.get("GEMINI_API_KEYS", "").split(",")
+    if key.strip()
+]
+if not GEMINI_API_KEYS and GEMINI_API_KEY:
+    GEMINI_API_KEYS = [GEMINI_API_KEY]
 
 # Models in priority order (best first, fallback down the list)
 GEMINI_MODELS = [

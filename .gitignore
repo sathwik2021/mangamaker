@@ -1,6 +1,11 @@
-.env
+﻿.env
 __pycache__/
 *.pyc
 web_output/
 tests/test_output/
 step-2-layout/output/
+temp_output/
+.vscode/
+
+step-3/test_output/
+test_output/

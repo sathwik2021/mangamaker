@@ -9,6 +9,7 @@ Usage:
 
 import os
 import json
+import time
 import argparse
 from pathlib import Path
 from model_client import generate, get_current_model
@@ -44,6 +45,39 @@ def clean_json_response(text: str) -> str:
         lines = lines[:-1] if lines[-1].strip() == "```" else lines
         text = "\n".join(lines)
     return text.strip()
+
+
+def _append_layout_retry_reminder(prompt: str) -> str:
+    """Append a retry reminder when layout validation produces warnings."""
+    reminder = (
+        "\n\nWhen retrying, make sure:\n"
+        "1. Every beat is assigned to a panel.\n"
+        "2. Bubble text stays within the allotted bubble budget.\n"
+        "3. No beats are omitted or dropped.\n"
+        "4. The layout remains valid JSON and follows the required panel/bubble schema.\n"
+    )
+    return prompt + reminder
+
+
+def validate_bubble_budget(layout: dict) -> list:
+    warnings = []
+    for panel in layout.get("panels", []):
+        bubbles = panel.get("bubbles", [])
+        total_words = sum(len(b.get("text", "").split()) for b in bubbles)
+        total_chars = sum(len(b.get("text", "")) for b in bubbles)
+        if len(bubbles) > 2 or total_words > 25 or total_chars > 140:
+            warnings.append(
+                f"Panel {panel['id']}: {len(bubbles)} bubbles, "
+                f"{total_words} words, {total_chars} chars — exceeds budget, may overflow bubble rendering"
+            )
+    return warnings
+
+
+def _parse_beat_number(beat_id: str) -> int:
+    try:
+        return int(beat_id.split("_")[-1])
+    except Exception:
+        return -1
 
 
 def validate_layout(layout: dict, beats_json: dict) -> list:
@@ -90,6 +124,32 @@ def validate_layout(layout: dict, beats_json: dict) -> list:
     if missing:
         warnings.append(f"Beats not assigned to any panel: {missing}")
 
+    # check reading_order chronologically against beats
+    panel_by_id = {panel["id"]: panel for panel in panels}
+    reading_order = layout.get("reading_order", [])
+    if set(reading_order) != set(panel_by_id.keys()):
+        warnings.append(
+            "reading_order must contain every panel id exactly once in the intended narrative order"
+        )
+    else:
+        earliest_beats = []
+        for panel_id in reading_order:
+            panel = panel_by_id[panel_id]
+            beat_ids = panel.get("beat_ids", [])
+            beat_numbers = sorted(_parse_beat_number(b) for b in beat_ids if _parse_beat_number(b) >= 0)
+            earliest_beats.append(beat_numbers[0] if beat_numbers else float("inf"))
+
+        for earlier, later, prev_id, next_id in zip(earliest_beats, earliest_beats[1:], reading_order, reading_order[1:]):
+            if later < earlier:
+                warnings.append(
+                    "reading_order violates beat chronology: "
+                    f"{next_id} appears after {prev_id} but contains earlier beats"
+                )
+                break
+
+    # check bubble budget limits (FIX B)
+    warnings.extend(validate_bubble_budget(layout))
+
     return warnings
 
 
@@ -118,6 +178,12 @@ def convert_beats_to_layout(beats_json: dict, max_retries: int = 3) -> dict:
                 print(f"  ⚠️  Validation warnings:")
                 for w in warnings:
                     print(f"     - {w}")
+                if attempt < max_retries:
+                    print("  🔁 Retrying with stronger bubble budget guidance...")
+                    full_prompt = _append_layout_retry_reminder(full_prompt)
+                    continue
+                else:
+                    print("  ⚠️  Final attempt completed with warnings.")
             else:
                 print(f"  ✅ Layout valid.")
 
@@ -130,12 +196,14 @@ def convert_beats_to_layout(beats_json: dict, max_retries: int = 3) -> dict:
                     f"Failed to get valid JSON after {max_retries} attempts.\n"
                     f"Last raw response:\n{raw[:500]}"
                 )
+            time.sleep(2 ** attempt)
         except RuntimeError:
             raise
         except Exception as e:
             print(f"  ❌ Error on attempt {attempt}: {e}")
             if attempt == max_retries:
                 raise
+            time.sleep(2 ** attempt)
 
 
 # ─────────────────────────────────────────────────────────────

@@ -1,7 +1,4 @@
-#!/usr/bin/env python3
-"""Fix test_input.txt to have proper dialog formatting."""
-
-text = """"Painful!"
+"Painful!"
 
 "How painful!"
 
@@ -81,9 +78,4 @@ This... Zhou Mingrui immediately drew a gasp as many helpless and confused guess
 
 The revolver in ancient European style and the crimson moon that looked different from Earth's moon could only mean one thing!
 
-C-could I have transmigrated? Zhou Mingrui widened his mouth slightly."""
-
-with open("test_input.txt", "w", encoding="utf-8") as f:
-    f.write(text)
-
-print("✅ test_input.txt updated with properly formatted dialog & monologue")
+C-could I have transmigrated? Zhou Mingrui widened his mouth slightly.

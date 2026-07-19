@@ -279,6 +279,46 @@ class TextRenderer:
                             outline=style.stroke_color
                         )
     
+    def fit_text_to_bubble(
+        self,
+        text: str,
+        bbox: List[int],
+        max_font_size: int = 32,
+        min_font_size: int = 14,
+        padding: int = 12
+    ) -> Tuple[List[str], int, bool]:
+        """
+        Returns (lines, font_size, overflow_flag) that fits within bbox.
+        """
+        x1, y1, x2, y2 = bbox
+        box_w = max(20, (x2 - x1) - 2 * padding)
+        box_h = max(20, (y2 - y1) - 2 * padding)
+
+        for font_size in range(max_font_size, min_font_size - 1, -2):
+            font = self._load_font(font_size)
+            lines = self._wrap_text(text, font, box_w, max_lines=999)
+            tw = max((font.getbbox(line)[2] - font.getbbox(line)[0]) for line in lines) if lines else 0
+            line_height = font.size + 4
+            th = line_height * len(lines)
+            if tw <= box_w and th <= box_h:
+                return lines, font_size, False
+
+        font = self._load_font(min_font_size)
+        lines = self._wrap_text(text, font, box_w, max_lines=999)
+        line_height = font.size + 4
+        max_lines = max(1, box_h // line_height)
+        if len(lines) > max_lines:
+            lines = lines[:max_lines]
+            if lines:
+                last_line = lines[-1]
+                if len(last_line) > 3:
+                    lines[-1] = last_line[:max(1, len(last_line) - 3)] + "..."
+                else:
+                    lines[-1] = "..."
+        tw = max((font.getbbox(line)[2] - font.getbbox(line)[0]) for line in lines) if lines else 0
+        th = line_height * len(lines)
+        return lines, min_font_size, not (tw <= box_w and th <= box_h)
+
     def render_bubble(
         self,
         panel_image: Image.Image,
@@ -323,12 +363,20 @@ class TextRenderer:
         x2 = max(x1 + 20, min(x2, w))
         y2 = max(y1 + 20, min(y2, h))
         
-        # Load font
-        font = self._load_font(style.font_size)
+        # Fit text to bubble dynamically
+        lines, font_size, overflow = self.fit_text_to_bubble(
+            bubble_spec["text"], [x1, y1, x2, y2],
+            max_font_size=32, min_font_size=14, padding=12
+        )
+        font = self._load_font(font_size)
         
-        # Wrap text
-        max_width = x2 - x1 - 20
-        lines = self._wrap_text(bubble_spec["text"], font, max_width)
+        if overflow:
+            if lines:
+                last_line = lines[-1]
+                if len(last_line) > 3:
+                    lines[-1] = last_line[:-3] + "..."
+                else:
+                    lines[-1] = "..."
         
         if not lines:
             return panel_image
@@ -352,7 +400,7 @@ class TextRenderer:
         
         # Draw text
         text_y = y1 + 10
-        line_spacing = style.font_size + 4
+        line_spacing = font.size + 4
         
         for line in lines:
             draw.text(
@@ -370,7 +418,7 @@ class TextRenderer:
         self,
         panel_image: Image.Image,
         panel_layout: Dict[str, Any],
-        max_bubbles: int = 3
+        max_bubbles: Optional[int] = None
     ) -> Image.Image:
         """
         Render all bubbles in a panel.
@@ -378,7 +426,7 @@ class TextRenderer:
         Args:
             panel_image: PIL Image
             panel_layout: Panel dict with "bubbles" array
-            max_bubbles: Skip rendering if more than this (overcrowded)
+            max_bubbles: Optional cap on number of bubbles to render
         
         Returns:
             Panel image with all bubbles rendered
@@ -388,10 +436,10 @@ class TextRenderer:
         if not bubbles:
             return panel_image
         
-        if len(bubbles) > max_bubbles:
+        if max_bubbles is not None and len(bubbles) > max_bubbles:
             self.logger.warning(
                 f"Panel {panel_layout.get('id')} has {len(bubbles)} bubbles "
-                f"(max {max_bubbles}), skipping some"
+                f"(max {max_bubbles}), rendering first {max_bubbles}"
             )
             bubbles = bubbles[:max_bubbles]
         

@@ -6,8 +6,17 @@ from typing import Any, Dict, Optional
 
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
+from transformers.cache_utils import Cache
 
 import config
+
+# Compatibility shim for older model code that expects `past_key_values.seen_tokens`
+if not hasattr(Cache, "seen_tokens"):
+    @property
+    def seen_tokens(self) -> int:
+        return self.get_seq_length()
+
+    Cache.seen_tokens = seen_tokens
 
 logger = logging.getLogger(__name__)
 
@@ -171,7 +180,7 @@ class Extractor:
         else:
             self.model = AutoModelForCausalLM.from_pretrained(
                 config.MODEL_NAME,
-                device_map="auto",
+                device_map="cpu",
                 torch_dtype=torch.bfloat16,
                 trust_remote_code=True,
             )
@@ -195,12 +204,15 @@ class Extractor:
         ).to(self.model.device)
 
         with torch.no_grad():
+            attention_mask = torch.ones_like(input_ids, dtype=torch.long, device=self.model.device)
             output_ids = self.model.generate(
                 input_ids,
+                attention_mask=attention_mask,
                 max_new_tokens=config.MODEL_MAX_NEW_TOKENS,
                 temperature=config.MODEL_TEMPERATURE,
                 do_sample=True,
                 pad_token_id=self.tokenizer.eos_token_id,
+                use_cache=False,
             )
 
         # Decode only the newly generated tokens

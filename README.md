@@ -13,7 +13,7 @@ The AI Manga Generation Pipeline bridges the gap between unstructured literary t
 ## ✨ Features
 
 - **Narrative Beat Extraction** — Uses the Google Gemini API to parse unstructured prose into structured visual scenes (`[id, description, mood, intensity]` JSON dictionaries).
-- **Rule-Constrained Layout Generation** — Dynamically builds manga-compliant panel bounding boxes, shot types, speech bubble coordinates, and cinematic compositions using a 20-rule constraint system covering reading order, gutter spacing, and balloon placement.
+- **Rule-Constrained Layout Generation** — Dynamically builds manga-compliant panel bounding boxes, shot types, speech bubble coordinates, and cinematic compositions using a 14-rule constraint system covering reading order, gutter spacing, and balloon placement.
 - **LoRA-Fine-Tuned Image Synthesis** — Generates authentic monochrome manga imagery via a custom LoRA trained on the [Manga109 dataset (Hugging Face)](https://huggingface.co/datasets/manga109), fine-tuned at 15,500 steps on a Kaggle T4 GPU environment.
 - **Intelligent Panel Compositing** — Performs aspect-ratio-aware cropping, adaptive screentone rendering, speech bubble drawing, and full-page assembly at 1800 × 2400 px using OpenCV and Pillow.
 - **Responsive Web Interface** — Flask-based single-page application with real-time progress tracking via SSE, job status polling, and one-click PNG download.

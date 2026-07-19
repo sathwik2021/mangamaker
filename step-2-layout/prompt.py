@@ -214,7 +214,7 @@ COMPOSITION RULES:
   - Foreground Elements: Add blurred objects in the extreme foreground to create depth.
 
 ═══════════════════════════════════════════════════════════════════════════════
-## RULE 8 — SHOT TYPES
+## RULE 9 — SHOT TYPES
 ═══════════════════════════════════════════════════════════════════════════════
 
   Shot             Framing                              Min panel area
@@ -237,7 +237,7 @@ SELECTION MATRIX:
   narration  │ medium         │ medium         │ medium_close   │ close_up
 
 ═══════════════════════════════════════════════════════════════════════════════
-Rule 9 — SPEECH BUBBLES
+Rule 10 — SPEECH BUBBLES
 ═══════════════════════════════════════════════════════════════════════════════
 
 Bubble types:
@@ -251,6 +251,16 @@ MANDATORY GENERATION RULE:
   Every dialogue beat ('type': 'dialogue') or narration beat ('type': 'narration') 
   in the input MUST result in at least one bubble in the corresponding panel's 
   'bubbles' list. Omitting bubbles for dialogue beats is a critical failure.
+
+  DIALOGUE GROUNDING (CRITICAL — DO NOT VIOLATE):
+  - Bubble "text" MUST contain ONLY words and phrases that appear in the input
+    beats JSON or can be directly paraphrased from it.
+  - Do NOT invent, add, or hallucinate any dialogue words, names, objects, or
+    concepts that are not present in the input beats.
+  - If a beat has no explicit dialogue, use a SHORT action-appropriate
+    interjection (e.g., "...!", "Huh?", "!!") or omit the bubble entirely.
+  - Do NOT draw on prior knowledge of the source material, characters, or plot
+    to fill in dialogue. Treat the input as the ONLY source of truth.
 
 PLACEMENT RULES:
   - Bubble bbox must be FULLY inside its panel bbox with ≥ 10 px margin
@@ -284,7 +294,29 @@ BUBBLE SIZING (approximate):
   bubble_height ≈ clamp(line_count × 36 + 24,  60, panel_height − 40)
 
 ═══════════════════════════════════════════════════════════════════════════════
-Rule 10 — IMAGE DESCRIPTION TAGS (STRICT LO-RA OPTIMIZATION)
+Rule 11 — BUBBLE BUDGET PER PANEL
+═══════════════════════════════════════════════════════════════════════════════
+
+Each panel may contain a MAXIMUM of 2 speech/thought bubbles, and the
+COMBINED word count across all bubbles in one panel must not exceed 25 words.
+
+If a beat's dialogue would exceed this budget for the panel it's assigned to:
+- Split the dialogue across ADDITIONAL panels (increase total panel count for
+  the page), OR
+- Condense the dialogue to its essential meaning while preserving intent —
+  do NOT paraphrase in a way that changes the original wording's meaning,
+  only trim filler (e.g. "Why would I suddenly have such an excruciating
+  headache in the middle of the night?" may stay whole if it's the panel's
+  only bubble, but must not share a panel with 2 more full sentences).
+
+Prioritize splitting into more panels over aggressive trimming. Manga pacing
+favors more panels with less text per panel over dense panels — this also
+improves reading rhythm.
+
+Never produce a panel where combined bubble text exceeds ~140 characters.
+
+═══════════════════════════════════════════════════════════════════════════════
+Rule 12 — IMAGE DESCRIPTION TAGS (STRICT LO-RA OPTIMIZATION)
 ═══════════════════════════════════════════════════════════════════════════════
 
 TO OPTIMIZE FOR THE SD 1.5 LO-RA, THE "description" FIELD MUST BE A CONCISE, 
@@ -292,8 +324,8 @@ COMMA-SEPARATED LIST OF TAGS (BOORU-STYLE). DO NOT USE FULL SENTENCES OR PROSE.
 
 MANDATORY TAG STRUCTURE (ORDER MATTERS):
   1. Trigger Words: "manga style, monochrome" (ALWAYS START WITH THESE)
-  2. Subject: "1boy" or "1girl", "solo" (if applicable), name, specific features 
-     (e.g., "black hair, brown eyes, pajamas")
+  2. Subject: "1person", "solo" (if applicable), name, specific features (or "no humans, background" or "{n} people")
+     (e.g., "1person, solo, black hair, brown eyes, pajamas")
   3. Visual Anchors: Incorporate all specific visual markers from the beat 
      description (e.g., "crimson moon", "brass revolver", "grotesque head wound",
      "classical wall lamp", "messy study desk").
@@ -304,7 +336,7 @@ MANDATORY TAG STRUCTURE (ORDER MATTERS):
   8. Quality: "masterpiece, best quality, highly detailed"
 
 EXAMPLE DESCRIPTION:
-  "manga style, monochrome, 1boy, solo, Zhou Mingrui, black hair, brown eyes, 
+  "manga style, monochrome, 1person, solo, Zhou Mingrui, black hair, brown eyes, 
    crimson moon in background, brass revolver on table, looking up in awe, 
    wide eyes, extreme wide shot, dutch angle, window frame, heavy shadows, 
    screentone, masterpiece, best quality"
@@ -313,7 +345,7 @@ DO NOT write "He is looking at the moon." — WRITE "looking at moon".
 DO NOT write "The lighting is dark." — WRITE "heavy shadows, low key lighting".
 
 ═══════════════════════════════════════════════════════════════════════════════
-## RULE 11 — PANEL CONTINUITY
+## RULE 13 — PANEL CONTINUITY
 ═══════════════════════════════════════════════════════════════════════════════
 
 CHARACTER CONSISTENCY (STRICT):
@@ -331,7 +363,7 @@ TRANSITION TYPES — label each panel-to-panel gap as one of:
   scene-to-scene   | aspect-to-aspect | non-sequitur
 
 ═══════════════════════════════════════════════════════════════════════════════
-## RULE 12 — CINEMATIC & LIGHTING DETAILS (MANDATORY)
+## RULE 14 — CINEMATIC & LIGHTING DETAILS (MANDATORY)
 ═══════════════════════════════════════════════════════════════════════════════
 
 Every description MUST specify:
@@ -346,7 +378,7 @@ For high-intensity panels add:
   - Screentone density note ("80 % screentone on BG")
 
 ═══════════════════════════════════════════════════════════════════════════════
-Rule 13 — METADATA
+Rule 15 — METADATA
 ═══════════════════════════════════════════════════════════════════════════════
 
 Include a "metadata" block in the output:
@@ -373,6 +405,7 @@ regenerate the layout internally and re-check before outputting.
   ✓ MANDATORY: Every dialogue/narration beat has at least one corresponding bubble.
   ✓ All bubble bboxes are fully inside their parent panel bbox (≥ 10 px margin).
   ✓ reading_order matches spatial top→bottom, left→right order of panel centroids.
+  ✓ reading_order preserves narrative chronology: panel beat sequences must be non-decreasing in the order list.
   ✓ Every panel ID appears exactly once in reading_order.
   ✓ Every panel description contains character tokens for all listed characters.
   ✓ High-intensity (≥ 7) panels are large enough (≥ 25 % canvas area).
@@ -442,7 +475,15 @@ Convert the following story beats JSON into a manga page layout JSON.
 Follow ALL rules from the system prompt exactly.
 Apply dynamic/slanted panels if max beat intensity ≥ 7.
 Apply bleed to the dominant panel if max beat intensity ≥ 8.
+
+CRITICAL REMINDER — DIALOGUE GROUNDING:
+All bubble "text" values MUST use ONLY words from the input beats below.
+Do NOT add words, names, or concepts not present in the input.
+If a beat lacks explicit dialogue, use "..." or omit the bubble.
+
 Return ONLY valid JSON — no markdown, no explanation, no code fences.
+
+Critical: preserve narrative chronology in reading_order. If spatial flow conflicts with story sequence, prefer beat order and mark the layout accordingly.
 
 INPUT:
 {beats_json}

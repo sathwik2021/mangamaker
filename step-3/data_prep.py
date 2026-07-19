@@ -57,16 +57,17 @@ def _infer_mood(page_id: str) -> str:
     """
     Fallback mood inference from manga title heuristics.
     Override with real beat data when available.
+    Returns one of: tense, action, calm, emotional, neutral
     """
     title = page_id.lower()
     if any(k in title for k in ["fight", "battle", "gun", "war", "kung"]):
         return "action"
     if any(k in title for k in ["love", "hina", "kiss", "romance", "heart"]):
-        return "romantic"
+        return "emotional"  # Mapped from romantic
     if any(k in title for k in ["ghost", "horror", "dark", "demon", "youma"]):
         return "tense"
     if any(k in title for k in ["comedy", "funny", "gag", "lunch", "daily"]):
-        return "lighthearted"
+        return "calm"  # Mapped from lighthearted
     return "neutral"
 
 
@@ -86,6 +87,28 @@ def _bubble_count(panel_bbox: List[int], texts: List[Dict]) -> int:
     return count
 
 
+def _character_count(panel_bbox: List[int], bodies: List[Dict], faces: List[Dict]) -> int:
+    """FIX 3b: Count character body and face bboxes whose centre falls inside
+    panel_bbox. Deduplicates by character_id so a character is not double-counted.
+    Returns 0 gracefully if no character annotations fall inside the panel.
+    """
+    char_ids = set()
+    px1, py1, px2, py2 = panel_bbox
+
+    for items in (bodies, faces):
+        for item in items:
+            bb = item.get("bbox", [])
+            if len(bb) != 4:
+                continue
+            bx1, by1, bx2, by2 = bb
+            cx, cy = (bx1 + bx2) / 2, (by1 + by2) / 2
+            if px1 <= cx <= px2 and py1 <= cy <= py2:
+                cid = item.get("character_id")
+                if cid:
+                    char_ids.add(cid)
+    return len(char_ids)
+
+
 def _generate_caption(
     panel_bbox: List[int],
     page_id: str,
@@ -94,12 +117,19 @@ def _generate_caption(
     texts: List[Dict],
     panel_idx: int,
     total_panels: int,
+    bodies: Optional[List[Dict]] = None,
+    faces: Optional[List[Dict]] = None,
 ) -> str:
     x1, y1, x2, y2 = panel_bbox
     pw, ph    = x2 - x1, y2 - y1
     shot      = _infer_shot_type(pw, ph, page_w, page_h)
     mood      = _infer_mood(page_id)
     n_bubbles = _bubble_count(panel_bbox, texts)
+    # FIX 3b: anchor subject count so the LoRA learns figure cardinality
+    n_chars   = _character_count(panel_bbox, bodies or [], faces or [])
+    subject_str = {0: "no humans, background", 1: "1person, solo"}.get(
+        n_chars, f"{n_chars} people"
+    )
 
     shot_desc = {
         "wide":         "wide establishing shot",
@@ -110,9 +140,9 @@ def _generate_caption(
 
     mood_desc = {
         "action":       "dynamic action scene",
-        "romantic":     "romantic moment",
+        "emotional":    "emotional moment",
         "tense":        "tense dramatic moment",
-        "lighthearted": "lighthearted comedic scene",
+        "calm":         "calm scene",
         "neutral":      "scene",
     }.get(mood, "scene")
 
@@ -130,10 +160,11 @@ def _generate_caption(
         elif frac > 0.75:
             position_str = ", closing panel"
 
+    # FIX 3: Start with trigger words; FIX 3b: inject subject count
     caption = (
-        f"manga panel, {shot_desc}, {mood_desc}{bubble_str}{position_str}, "
-        f"black and white ink, screentone shading, detailed linework, "
-        f"manga style, high quality"
+        f"manga style, monochrome, {subject_str}, {shot_desc}, "
+        f"{mood_desc}{bubble_str}{position_str}, "
+        f"screentone, hatching, fine ink lines, masterpiece, best quality"
     )
     return caption
 
@@ -155,6 +186,8 @@ def _process_annotation(
     page_h   = annot.get("height", 1170)
     panels   = annot.get("panels", [])
     texts    = annot.get("texts",  [])
+    bodies   = annot.get("bodies", [])
+    faces    = annot.get("faces", [])
 
     # Find matching image
     # Manga109 structure: images/<MangaTitle>/<NNN>.jpg
@@ -233,6 +266,8 @@ def _process_annotation(
         caption = _generate_caption(
             [x1, y1, x2, y2], page_id, actual_w, actual_h,
             texts, idx, len(panels),
+            bodies=bodies,
+            faces=faces,
         )
         cap_out.write_text(caption, encoding="utf-8")
 
