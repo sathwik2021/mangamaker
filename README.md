@@ -135,7 +135,7 @@ Raw Text
 [Step 1] Beat Extraction       ← Gemini API → structured Beat JSON
    │
    ▼
-[Step 2] Layout Generation     ← Gemini API (20-rule system) → panel bounding boxes + Layout JSON
+[Step 2] Layout Generation     ← Gemini API (14-rule system) → panel bounding boxes + Layout JSON
    │
    ▼
 [Step 3] Image Generation      ← SD 1.5 + Manga109 LoRA → panel PNGs
@@ -152,7 +152,7 @@ Raw Text
 | `app.py` | Flask web application — job queuing, routing, SSE progress events |
 | `/static` & `/templates` | Frontend SPA — HTML, CSS, JavaScript |
 | `/Step-1/code/` | Beat Extraction Module — NLP logic converting prose into `[id, description, mood]` JSON |
-| `/step-2-layout/` | Layout Generation Module — 20-rule constraint system for panel bounding boxes |
+| `/step-2-layout/` | Layout Generation Module — 14-rule constraint system for panel bounding boxes |
 | `/step-3/` | Image Generation & Compositing Module — SD 1.5 + LoRA inference, screentone rendering, page assembly |
 | `/tests/` | Test/debug scripts, including `run_e2e_test.py` (exports `step1_extract_beats`, used by `app.py`) |
 | `/docs/` | Planning documents (implementation plan, pipeline specification) |
@@ -295,5 +295,5 @@ CLIP's text encoder has a hard 77-token input limit. Long, tag-heavy prompts (co
 
 ### Known Limitations
 - CLIP's 77-token limit truncates long style-tag prompts, potentially reducing generation fidelity for complex scenes.
-- No automated tests for the layout generation's 20-rule constraint system.
+- No automated tests for the layout generation's 14-rule constraint system.
 - Base Stable Diffusion 1.5 model source changed from `runwayml/stable-diffusion-v1-5` (deprecated) to the community-maintained mirror; pipeline updated accordingly.

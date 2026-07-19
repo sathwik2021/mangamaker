@@ -197,7 +197,7 @@ IMPORTANT: The "most important panel" (highest intensity beat) must appear at
 top-right or be the largest panel. It must NOT be buried at bottom-left.
 
 ═══════════════════════════════════════════════════════════════════════════════
-## RULE 8 — CINEMATIC COMPOSITION & LIGHTING (MANDATORY)
+## RULE 7 — CINEMATIC COMPOSITION & LIGHTING (MANDATORY)
 ═══════════════════════════════════════════════════════════════════════════════
 
 For every panel, you MUST specify a professional lighting scheme. Avoid "flat" lighting.
@@ -214,7 +214,7 @@ COMPOSITION RULES:
   - Foreground Elements: Add blurred objects in the extreme foreground to create depth.
 
 ═══════════════════════════════════════════════════════════════════════════════
-## RULE 9 — SHOT TYPES
+## RULE 8 — SHOT TYPES
 ═══════════════════════════════════════════════════════════════════════════════
 
   Shot             Framing                              Min panel area
@@ -237,7 +237,7 @@ SELECTION MATRIX:
   narration  │ medium         │ medium         │ medium_close   │ close_up
 
 ═══════════════════════════════════════════════════════════════════════════════
-Rule 10 — SPEECH BUBBLES
+Rule 9 — SPEECH BUBBLES
 ═══════════════════════════════════════════════════════════════════════════════
 
 Bubble types:
@@ -294,7 +294,7 @@ BUBBLE SIZING (approximate):
   bubble_height ≈ clamp(line_count × 36 + 24,  60, panel_height − 40)
 
 ═══════════════════════════════════════════════════════════════════════════════
-Rule 11 — BUBBLE BUDGET PER PANEL
+Rule 10 — BUBBLE BUDGET PER PANEL
 ═══════════════════════════════════════════════════════════════════════════════
 
 Each panel may contain a MAXIMUM of 2 speech/thought bubbles, and the
@@ -316,7 +316,7 @@ improves reading rhythm.
 Never produce a panel where combined bubble text exceeds ~140 characters.
 
 ═══════════════════════════════════════════════════════════════════════════════
-Rule 12 — IMAGE DESCRIPTION TAGS (STRICT LO-RA OPTIMIZATION)
+Rule 11 — IMAGE DESCRIPTION TAGS (STRICT LO-RA OPTIMIZATION)
 ═══════════════════════════════════════════════════════════════════════════════
 
 TO OPTIMIZE FOR THE SD 1.5 LO-RA, THE "description" FIELD MUST BE A CONCISE, 
@@ -345,8 +345,8 @@ DO NOT write "He is looking at the moon." — WRITE "looking at moon".
 DO NOT write "The lighting is dark." — WRITE "heavy shadows, low key lighting".
 
 ═══════════════════════════════════════════════════════════════════════════════
-## RULE 13 — PANEL CONTINUITY
-═══════════════════════════════════════════════════════════════════════════════
+## RULE 12 — PANEL CONTINUITY
+═══════════════════════════════════════════════════════════════════════════════════════
 
 CHARACTER CONSISTENCY (STRICT):
   - Describe every character with identical physical tokens in EVERY panel.
@@ -363,7 +363,7 @@ TRANSITION TYPES — label each panel-to-panel gap as one of:
   scene-to-scene   | aspect-to-aspect | non-sequitur
 
 ═══════════════════════════════════════════════════════════════════════════════
-## RULE 14 — CINEMATIC & LIGHTING DETAILS (MANDATORY)
+## RULE 13 — CINEMATIC & LIGHTING DETAILS (MANDATORY)
 ═══════════════════════════════════════════════════════════════════════════════
 
 Every description MUST specify:
@@ -378,8 +378,8 @@ For high-intensity panels add:
   - Screentone density note ("80 % screentone on BG")
 
 ═══════════════════════════════════════════════════════════════════════════════
-Rule 15 — METADATA
-═══════════════════════════════════════════════════════════════════════════════
+Rule 14 — METADATA
+═══════════════════════════════════════════════════════════════════════════════════════
 
 Include a "metadata" block in the output:
   - total_intensity : sum of all beat intensities on the page
